@@ -1,5 +1,5 @@
 {
-	"name": "@roo-code/build",
+	"name": "@maximo-syntax/build",
 	"description": "ESBuild utilities for Roo Code.",
 	"private": true,
 	"type": "module",
@@ -16,8 +16,8 @@
 		"zod": "^3.25.61"
 	},
 	"devDependencies": {
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@maximo-syntax/config-eslint": "workspace:^",
+		"@maximo-syntax/config-typescript": "workspace:^",
 		"@types/node": "20.x",
 		"vitest": "^3.2.3"
 	}

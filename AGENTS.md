@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Kilo Code is an open source AI coding agent for VS Code that generates code from natural language, automates tasks, and supports 500+ AI models.
+Maximo Syntax is an AI coding agent for VS Code that generates code from natural language, automates tasks, and supports multiple AI models with native Maximo AI integration.
 
 ## Project Structure
 
@@ -22,7 +22,7 @@ Key source directories:
 
 ## Agent Runtime Architecture
 
-The `@kilocode/agent-runtime` package enables running Kilo Code agents as isolated Node.js processes without VS Code.
+The `@maximo-syntax/agent-runtime` package enables running Maximo Syntax agents as isolated Node.js processes without VS Code.
 
 ### How It Works
 
@@ -33,7 +33,7 @@ The `@kilocode/agent-runtime` package enables running Kilo Code agents as isolat
 └─────────────────────┘                 └─────────────────────┘
 ```
 
-1. **ExtensionHost**: Hosts the Kilo Code extension with a complete VS Code API mock
+1. **ExtensionHost**: Hosts the Maximo Syntax extension with a complete VS Code API mock
 2. **MessageBridge**: Bidirectional IPC communication (request/response with timeout)
 3. **ExtensionService**: Orchestrates host and bridge lifecycle
 
@@ -44,7 +44,7 @@ Agents are forked processes configured via the `AGENT_CONFIG` environment variab
 ```typescript
 import { fork } from "child_process"
 
-const agent = fork(require.resolve("@kilocode/agent-runtime/process"), [], {
+const agent = fork(require.resolve("@maximo-syntax/agent-runtime/process"), [], {
 	env: {
 		AGENT_CONFIG: JSON.stringify({
 			workspace: "/path/to/project",
@@ -110,11 +110,11 @@ pnpm check-types      # TypeScript type checking
 
 ## Skills
 
-- **Translation**: `.kilocode/skills/translation/SKILL.md` - Translation and localization guidelines
+- **Translation**: `.maximo-syntax/skills/translation/SKILL.md` - Translation and localization guidelines
 
 ## Workflows
 
-- **Add Missing Translations**: `.kilocode/workflows/add-missing-translations.md` - Run `/add-missing-translations` to find and fix missing translations
+- **Add Missing Translations**: `.maximo-syntax/workflows/add-missing-translations.md` - Run `/add-missing-translations` to find and fix missing translations
 
 ## Changesets
 
@@ -128,14 +128,14 @@ Format (in `.changeset/<random-name>.md`):
 
 ```md
 ---
-"kilo-code": patch
+"maximo-syntax": patch
 ---
 
 Brief description of the change
 ```
 
 - Use `patch` for fixes, `minor` for features, `major` for breaking changes
-- For CLI changes, use `"@kilocode/cli": patch` instead
+- For CLI changes, use `"@maximo-syntax/cli": patch` instead
 
 Keep changesets concise and feature-oriented as they appear directly in release notes.
 
@@ -145,48 +145,48 @@ Keep changesets concise and feature-oriented as they appear directly in release 
 
 ## Fork Merge Process
 
-Kilo Code is a fork of [Roo Code](https://github.com/RooVetGit/Roo-Code). We periodically merge upstream changes using scripts in `scripts/kilocode/`.
+Maximo Syntax is a fork of [Kilo Code](https://github.com/Kilo-Org/kilocode). We periodically merge upstream changes using scripts in `scripts/maximo-syntax/`.
 
-## kilocode_change Markers
+## maximosyntax_change Markers
 
-To minimize merge conflicts when syncing with upstream, mark Kilo Code-specific changes in shared code with `kilocode_change` comments.
+To minimize merge conflicts when syncing with upstream, mark Maximo Syntax-specific changes in shared code with `maximosyntax_change` comments.
 
 **Single line:**
 
 ```typescript
-const value = 42 // kilocode_change
+const value = 42 // maximosyntax_change
 ```
 
 **Multi-line:**
 
 ```typescript
-// kilocode_change start
+// maximosyntax_change start
 const foo = 1
 const bar = 2
-// kilocode_change end
+// maximosyntax_change end
 ```
 
 **New files:**
 
 ```typescript
-// kilocode_change - new file
+// maximosyntax_change - new file
 ```
 
 ### When markers are NOT needed
 
-Code in these directories is Kilo Code-specific and doesn't need markers:
+Code in these directories is Maximo Syntax-specific and doesn't need markers:
 
 - `cli/` - CLI package
 - `jetbrains/` - JetBrains plugin
 - `agent-manager/` directories
-- Any path containing `kilocode` in filename or directory name
+- Any path containing `maximo-syntax` in filename or directory name
 - `src/services/autocomplete/ - Autocomplete service
 
 ### When markers ARE needed
 
-All modifications to core extension code (files that exist in upstream Roo Code) require markers:
+All modifications to core extension code (files that exist in upstream Kilo Code) require markers:
 
-- `src/` (except Kilo-specific subdirectories listed above)
+- `src/` (except Maximo-specific subdirectories listed above)
 - `webview-ui/`
 - `packages/` (shared packages)
 

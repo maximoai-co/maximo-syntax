@@ -1,5 +1,5 @@
 {
-	"name": "@kilocode/agent-runtime",
+	"name": "@maximo-syntax/agent-runtime",
 	"version": "0.0.1",
 	"description": "Core agent runtime for Kilo Code - enables running agents without CLI",
 	"type": "module",
@@ -26,27 +26,27 @@
 		"test:watch": "vitest"
 	},
 	"dependencies": {
-		"@kilocode/core-schemas": "workspace:^",
-		"@roo-code/types": "workspace:^",
+		"@maximo-syntax/core-schemas": "workspace:^",
+		"@maximo-syntax/types": "workspace:^",
 		"node-machine-id": "^1.1.12"
 	},
 	"devDependencies": {
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@maximo-syntax/config-eslint": "workspace:^",
+		"@maximo-syntax/config-typescript": "workspace:^",
 		"@types/node": "~25.0.3",
 		"rimraf": "^6.1.2",
 		"typescript": "^5.9.3",
 		"vitest": "^4.0.16"
 	},
 	"peerDependencies": {
-		"@roo-code/cloud": "workspace:^",
-		"@roo-code/telemetry": "workspace:^"
+		"@maximo-syntax/cloud": "workspace:^",
+		"@maximo-syntax/telemetry": "workspace:^"
 	},
 	"peerDependenciesMeta": {
-		"@roo-code/cloud": {
+		"@maximo-syntax/cloud": {
 			"optional": true
 		},
-		"@roo-code/telemetry": {
+		"@maximo-syntax/telemetry": {
 			"optional": true
 		}
 	},

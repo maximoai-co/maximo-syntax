@@ -1,11 +1,11 @@
 {
-	"name": "@roo-code/vscode-webview",
+	"name": "@maximo-syntax/vscode-webview",
 	"private": true,
 	"type": "module",
 	"scripts": {
 		"lint": "eslint src --ext=ts,tsx --max-warnings=0",
 		"check-types": "tsc",
-		"pretest": "turbo run kilo-code#bundle --cwd ..",
+		"pretest": "turbo run maximo-syntax#bundle --cwd ..",
 		"test": "vitest run",
 		"format": "prettier --write src",
 		"dev": "vite",

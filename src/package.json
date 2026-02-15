@@ -1,8 +1,8 @@
 {
-	"name": "kilo-code",
+	"name": "maximo-syntax",
 	"displayName": "%extension.displayName%",
 	"description": "%extension.description%",
-	"publisher": "kilocode",
+	"publisher": "maximoai",
 	"version": "5.7.0",
 	"icon": "assets/icons/logo-outline-black.png",
 	"galleryBanner": {
@@ -17,13 +17,13 @@
 		"workspace"
 	],
 	"author": {
-		"name": "Kilo Code"
+		"name": "Maximo AI"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Kilo-Org/kilocode"
+		"url": "https://github.com/maximoai-co/maximo-syntax"
 	},
-	"homepage": "https://kilo.ai",
+	"homepage": "https://maximoai.co/syntax",
 	"categories": [
 		"AI",
 		"Chat",
@@ -33,7 +33,8 @@
 		"Testing"
 	],
 	"keywords": [
-		"kilo",
+		"maximo",
+		"syntax",
 		"claude",
 		"dev",
 		"mcp",
@@ -45,8 +46,8 @@
 		"sonnet",
 		"ai",
 		"llama",
-		"Kilo Code",
-		"kilocode"
+		"Maximo Syntax",
+		"maximoai"
 	],
 	"activationEvents": [
 		"onLanguage",

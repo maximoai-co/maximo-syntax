@@ -1,5 +1,5 @@
 {
-	"name": "@kilo-code/jetbrains-host",
+	"name": "@maximo-syntax/jetbrains-host",
 	"license": "Apache-2.0",
 	"type": "module",
 	"scripts": {
@@ -68,7 +68,7 @@
 		"yazl": "^2.4.3"
 	},
 	"devDependencies": {
-		"@roo-code/config-eslint": "file:../../packages/config-eslint",
+		"@maximo-syntax/config-eslint": "file:../../packages/config-eslint",
 		"@playwright/test": "^1.56.1",
 		"patch-package": "^8.0.0",
 		"@types/cookie": "^0.3.3",

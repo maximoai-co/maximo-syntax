@@ -1,5 +1,5 @@
 {
-	"name": "@kilocode/core-schemas",
+	"name": "@maximo-syntax/core-schemas",
 	"version": "0.0.2",
 	"type": "module",
 	"main": "./dist/index.cjs",
@@ -24,12 +24,12 @@
 		"zod": "^4.3.5"
 	},
 	"peerDependencies": {
-		"@roo-code/types": "workspace:^"
+		"@maximo-syntax/types": "workspace:^"
 	},
 	"devDependencies": {
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
-		"@roo-code/types": "workspace:^",
+		"@maximo-syntax/config-eslint": "workspace:^",
+		"@maximo-syntax/config-typescript": "workspace:^",
+		"@maximo-syntax/types": "workspace:^",
 		"@types/node": "20.x",
 		"globals": "^16.3.0",
 		"tsup": "^8.3.5",
