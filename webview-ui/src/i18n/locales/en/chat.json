@@ -27,7 +27,7 @@
 		"shareSuccessOrganization": "Organization link copied to clipboard",
 		"shareSuccessPublic": "Public link copied to clipboard",
 		"openInCloud": "Open task in Maximo Syntax Cloud",
-		"openInCloudIntro": "Keep monitoring or interacting with Kilo from anywhere. Scan, click or copy to open.",
+		"openInCloudIntro": "Keep monitoring or interacting with Maximo from anywhere. Scan, click or copy to open.",
 		"openApiHistory": "Open API History",
 		"openUiHistory": "Open UI History"
 	},
@@ -120,7 +120,7 @@
 		},
 		"modelAgnostic": {
 			"title": "Bring your own model, no markup or lock-in",
-			"description": "Use your own provider key or even run local inference — Kilo doesn't charge for it"
+			"description": "Use your own provider key or even run local inference — Maximo doesn't charge for it"
 		}
 	},
 	"selectMode": "Select mode for interaction",
@@ -277,7 +277,7 @@
 	"response": "Response",
 	"arguments": "Arguments",
 	"text": {
-		"rooSaid": "Kilo said"
+		"rooSaid": "Maximo said"
 	},
 	"feedback": {
 		"youSaid": "You said"
@@ -319,7 +319,7 @@
 		"copyToClipboard": "Copy basic error info",
 		"copied": "Copied!",
 		"diagnostics": "Get detailed error info",
-		"proxyProvider": "You seem to be using a proxy-based provider. Make sure to check its logs and to ensure it's not rewriting Kilo's requests."
+		"proxyProvider": "You seem to be using a proxy-based provider. Make sure to check its logs and to ensure it's not rewriting Maximo's requests."
 	},
 	"diffError": {
 		"title": "Edit Unsuccessful"
@@ -368,7 +368,7 @@
 			"tryButton": "Try Cloud Agents"
 		},
 		"careers": "Also, <careersLink>we're hiring!</careersLink>",
-		"socialLinks": "Join us on <xLink>X</xLink>, <discordLink>Discord</discordLink>, or <redditLink>r/KiloCode</redditLink> 🚀"
+		"socialLinks": "Join us on <xLink>X</xLink>, <discordLink>Discord</discordLink>, or <redditLink>r/MaximoSyntax</redditLink> 🚀"
 	},
 	"reasoning": {
 		"thinking": "Thinking",
@@ -445,7 +445,7 @@
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Auto-Approved Cost Limit Reached",
-			"description": "Kilo has reached the auto-approved cost limit of ${{count}}. Would you like to reset the cost and proceed with the task?",
+			"description": "Maximo has reached the auto-approved cost limit of ${{count}}. Would you like to reset the cost and proceed with the task?",
 			"button": "Reset and Continue"
 		}
 	},

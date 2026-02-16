@@ -279,9 +279,10 @@ export class AgentManagerProvider implements vscode.Disposable {
 			},
 		)
 
+		// maximosyntax_change: use Maximo logo
 		this.panel.iconPath = {
-			light: vscode.Uri.joinPath(this.context.extensionUri, "assets", "icons", "kilo-light.svg"),
-			dark: vscode.Uri.joinPath(this.context.extensionUri, "assets", "icons", "kilo-dark.svg"),
+			light: vscode.Uri.joinPath(this.context.extensionUri, "assets", "icons", "maximo.png"),
+			dark: vscode.Uri.joinPath(this.context.extensionUri, "assets", "icons", "maximo-dark.png"),
 		}
 
 		this.panel.webview.html =

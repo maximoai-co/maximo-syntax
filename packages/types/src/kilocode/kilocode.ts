@@ -124,7 +124,7 @@ function getGlobalKilocodeBackendUrl(): string {
 /**
  * Gets the app/web URL for the current environment.
  * In development: http://localhost:3000
- * In production: https://kilo.ai
+ * In production: https://maximoai.co
  */
 export function getAppUrl(path: string = ""): string {
 	return new URL(path, getGlobalKilocodeBackendUrl()).toString()
@@ -145,13 +145,13 @@ export function getApiUrl(path: string = ""): string {
 	}
 
 	// In production, use the api subdomain
-	return new URL(path, "https://api.kilo.ai").toString()
+	return new URL(path, "https://api.maximoai.co").toString()
 }
 
 /**
  * Gets the extension config URL, which uses a legacy subdomain structure.
  * In development: http://localhost:3000/extension-config.json
- * In production: https://api.kilo.ai/extension-config.json
+ * In production: https://api.maximoai.co/extension-config.json
  */
 export function getExtensionConfigUrl(): string {
 	try {
@@ -159,7 +159,7 @@ export function getExtensionConfigUrl(): string {
 		if (backend !== DEFAULT_KILOCODE_BACKEND_URL) {
 			return getAppUrl("/extension-config.json")
 		} else {
-			return "https://api.kilo.ai/extension-config.json"
+			return "https://api.maximoai.co/extension-config.json"
 		}
 	} catch (error) {
 		console.warn("Failed to build extension config URL:", error)

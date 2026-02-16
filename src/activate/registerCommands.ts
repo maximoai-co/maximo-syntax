@@ -342,9 +342,10 @@ export const openClineInNewTab = async ({ context, outputChannel }: Omit<Registe
 	// Save as tab type panel.
 	setPanel(newPanel, "tab")
 
+	// maximosyntax_change - use Maximo icons
 	newPanel.iconPath = {
-		light: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "kilo.png"),
-		dark: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "kilo-dark.png"),
+		light: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "maximo.png"),
+		dark: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "maximo-dark.png"),
 	}
 
 	await tabProvider.resolveWebviewView(newPanel)
