@@ -299,8 +299,8 @@
 				"command": "maximo-syntax.open",
 				"title": "%views.activitybar.title%",
 				"icon": {
-					"light": "assets/icons/kilo-light.svg",
-					"dark": "assets/icons/kilo-dark.svg"
+					"light": "assets/icons/maximo.png",
+					"dark": "assets/icons/maximo-dark.png"
 				}
 			}
 		],
@@ -630,7 +630,7 @@
 			}
 		},
 		"icons": {
-			"kilo-logo": {
+			"maximo-logo": {
 				"description": "Maximo Syntax logo",
 				"default": {
 					"fontPath": "assets/icons/kilo-icon-font.woff2",

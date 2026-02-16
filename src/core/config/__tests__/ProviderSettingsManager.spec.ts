@@ -57,21 +57,21 @@ describe("ProviderSettingsManager", () => {
 	})
 
 	describe("initialize", () => {
-		// kilocode_change start: test updated to expect kilocode default profile for new users
-		it("should initialize kilocode default profile when secrets.get returns null", async () => {
+		// maximosyntax_change: test updated to expect maximo-ai default profile for new users
+		it("should initialize maximo-ai default profile when secrets.get returns null", async () => {
 			// Mock readConfig to return null
 			mockSecrets.get.mockResolvedValueOnce(null)
 
 			await providerSettingsManager.initialize()
 
-			// Should write to storage with default kilocode profile for new users
+			// Should write to storage with default maximo-ai profile for new users
 			expect(mockSecrets.store).toHaveBeenCalled()
 			const calls = mockSecrets.store.mock.calls
 			const storedConfig = JSON.parse(calls[calls.length - 1][1])
-			expect(storedConfig.apiConfigs.default.apiProvider).toBe("kilocode")
-			expect(storedConfig.apiConfigs.default.kilocodeModel).toBe("minimax/minimax-m2.1:free")
+			expect(storedConfig.apiConfigs.default.apiProvider).toBe("maximo-ai")
+			expect(storedConfig.apiConfigs.default.maximoAiModel).toBe("maximo-pandora-3.5-syntax-fast")
 		})
-		// kilocode_change end
+		// maximosyntax_change end
 
 		it("should not initialize config if it exists and migrations are complete", async () => {
 			mockSecrets.get.mockResolvedValue(

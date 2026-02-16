@@ -129,7 +129,7 @@
 	},
 	"autocomplete": {
 		"statusBar": {
-			"enabled": "$(kilo-logo) Autocomplete",
+			"enabled": "$(maximo-logo) Autocomplete",
 			"snoozed": "pozastaveno",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {

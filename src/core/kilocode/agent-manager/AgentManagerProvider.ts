@@ -1666,8 +1666,8 @@ export class AgentManagerProvider implements vscode.Disposable {
 			const state = await this.provider.getState()
 			const { apiConfiguration } = state
 
-			// Determine the provider - default to "kilocode" if not set
-			const providerName = apiConfiguration.apiProvider || "kilocode"
+			// Determine the provider - default to "maximo-ai" if not set
+			const providerName = apiConfiguration.apiProvider || "maximo-ai"
 
 			// Check if this provider supports model fetching via router
 			if (!isRouterName(providerName)) {

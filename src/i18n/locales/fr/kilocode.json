@@ -99,7 +99,7 @@
 	},
 	"autocomplete": {
 		"statusBar": {
-			"enabled": "$(kilo-logo) Autocomplete",
+			"enabled": "$(maximo-logo) Autocomplete",
 			"snoozed": "en pause",
 			"warning": "$(warning) Autocomplete",
 			"tooltip": {
