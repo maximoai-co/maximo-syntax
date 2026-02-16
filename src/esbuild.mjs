@@ -6,7 +6,7 @@ import { createRequire } from "module"
 import process from "node:process"
 import * as console from "node:console"
 
-import { copyPaths, copyWasms, copyLocales, setupLocaleWatcher } from "@roo-code/build"
+import { copyPaths, copyWasms, copyLocales, setupLocaleWatcher } from "@maximo-syntax/build"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -204,7 +204,8 @@ async function main() {
 	}
 	// kilocode_change end
 
-	const [extensionCtx, workerCtx, agentRuntimeCtx] = await Promise.all([ // kilocode_change
+	const [extensionCtx, workerCtx, agentRuntimeCtx] = await Promise.all([
+		// kilocode_change
 		esbuild.context(extensionConfig),
 		esbuild.context(workerConfig),
 		esbuild.context(agentRuntimeProcessConfig), // kilocode_change
