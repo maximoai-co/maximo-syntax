@@ -1,4 +1,4 @@
-import type { ToolName, ToolProtocol } from "@roo-code/types"
+import type { ToolName, ToolProtocol } from "@maximo-syntax/types"
 
 import { Task } from "../task/Task"
 import type {

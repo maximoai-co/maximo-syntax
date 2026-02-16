@@ -3,7 +3,7 @@
 import axios from "axios"
 import { object, z } from "zod"
 
-import { type ModelInfo } from "@roo-code/types"
+import { type ModelInfo } from "@maximo-syntax/types"
 
 import { DEFAULT_HEADERS } from "../constants"
 

@@ -7,7 +7,7 @@ import {
 } from "../services/autocomplete/classic-auto-complete/AutocompleteInlineCompletionProvider.js"
 import { HoleFiller } from "../services/autocomplete/classic-auto-complete/HoleFiller.js"
 import { FimPromptBuilder } from "../services/autocomplete/classic-auto-complete/FillInTheMiddle.js"
-import type { AutocompleteServiceSettings } from "@roo-code/types"
+import type { AutocompleteServiceSettings } from "@maximo-syntax/types"
 import {
 	AutocompleteSnippetType,
 	type AutocompleteCodeSnippet,
@@ -130,7 +130,9 @@ export function createProviderForTesting(
 	costTrackingCallback: CostTrackingCallback = () => {},
 	getSettings: () => AutocompleteServiceSettings | null = () => null,
 ): AutocompleteInlineCompletionProvider {
-	const instance = Object.create(AutocompleteInlineCompletionProvider.prototype) as AutocompleteInlineCompletionProvider
+	const instance = Object.create(
+		AutocompleteInlineCompletionProvider.prototype,
+	) as AutocompleteInlineCompletionProvider
 	// Initialize private fields using Object.assign to bypass TypeScript private access
 	Object.assign(instance, {
 		suggestionsHistory: [],

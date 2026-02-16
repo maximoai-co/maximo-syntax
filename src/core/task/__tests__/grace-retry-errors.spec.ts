@@ -4,15 +4,15 @@ import * as os from "os"
 import * as path from "path"
 import * as vscode from "vscode"
 
-import type { GlobalState, ProviderSettings } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import type { GlobalState, ProviderSettings } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { Task } from "../Task"
 import { ClineProvider } from "../../webview/ClineProvider"
 import { ContextProxy } from "../../config/ContextProxy"
 
-// Mock @roo-code/core
-vi.mock("@roo-code/core", () => ({
+// Mock @maximo-syntax/core
+vi.mock("@maximo-syntax/core", () => ({
 	customToolRegistry: {
 		getTools: vi.fn().mockReturnValue([]),
 		hasTool: vi.fn().mockReturnValue(false),

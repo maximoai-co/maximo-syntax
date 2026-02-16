@@ -1,5 +1,5 @@
 import { promises as fs } from "fs"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import type { ILogger } from "../types/ILogger.js"
 import type { SessionClient } from "./SessionClient.js"
 import type { SessionPersistenceManager } from "../utils/SessionPersistenceManager.js"

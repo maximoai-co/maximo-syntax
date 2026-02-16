@@ -1,6 +1,6 @@
 // kilocode_change - new file
 import { Anthropic } from "@anthropic-ai/sdk"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 /**
  * Custom error class for duplicate tool_use IDs.

@@ -2,7 +2,7 @@
 
 import { GoogleGenAI } from "@google/genai"
 
-import { type ModelInfo, geminiDefaultModelId, geminiModels } from "@roo-code/types"
+import { type ModelInfo, geminiDefaultModelId, geminiModels } from "@maximo-syntax/types"
 
 const DEFAULT_CONTEXT_WINDOW = 1_048_576
 

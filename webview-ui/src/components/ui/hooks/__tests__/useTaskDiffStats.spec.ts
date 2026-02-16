@@ -2,7 +2,7 @@
 // npx vitest src/components/ui/hooks/__tests__/useTaskDiffStats.spec.ts
 
 import { renderHook } from "@testing-library/react"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { useTaskDiffStats } from "../kilocode/useTaskDiffStats"
 
 describe("useTaskDiffStats", () => {

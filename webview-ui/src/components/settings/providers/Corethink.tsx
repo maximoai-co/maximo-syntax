@@ -1,5 +1,5 @@
 import { useCallback } from "react"
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 
 import { inputEventTransform } from "../transforms"

@@ -23,8 +23,8 @@ import {
 	isInteractiveAsk,
 	isResumableAsk,
 	isNonBlockingAsk,
-} from "@roo-code/types"
-import { debugLog } from "@roo-code/core/cli"
+} from "@maximo-syntax/types"
+import { debugLog } from "@maximo-syntax/core/cli"
 
 import { FOLLOWUP_TIMEOUT_SECONDS } from "@/types/index.js"
 

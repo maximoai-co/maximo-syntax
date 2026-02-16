@@ -6,7 +6,7 @@ import {
 	internationalZAiDefaultModelId,
 	mainlandZAiModels,
 	mainlandZAiDefaultModelId,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 import { RouterModels } from "@roo/api"
 import { getModelsByProvider, getOptionsForProvider } from "../useProviderModels"
 

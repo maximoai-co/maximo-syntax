@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react"
 import BrowserSessionRow from "../BrowserSessionRow"
-import { ClineMessage } from "@roo-code/types"
+import { ClineMessage } from "@maximo-syntax/types"
 import { TooltipProvider } from "@src/components/ui/tooltip"
 
 // Mock dependencies

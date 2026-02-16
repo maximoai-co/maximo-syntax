@@ -1,6 +1,6 @@
 /**
  * Tests for static provider model implementations
- * Tests the new functionality where models are imported from @roo-code/types
+ * Tests the new functionality where models are imported from @maximo-syntax/types
  */
 
 import { describe, it, expect } from "vitest"

@@ -1,6 +1,6 @@
 // kilocode_change - new file
 import axios from "axios"
-import { ModelInfo } from "@roo-code/types"
+import { ModelInfo } from "@maximo-syntax/types"
 import type { ModelRecord } from "../../../shared/api"
 
 // Cache for mapping model IDs to providers

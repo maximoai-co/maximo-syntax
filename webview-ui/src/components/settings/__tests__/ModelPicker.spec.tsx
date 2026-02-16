@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import {
 	ModelInfo,
 	openRouterDefaultModelId, // kilocode_change
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { ModelPicker } from "../ModelPicker"
 

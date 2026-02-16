@@ -8,7 +8,7 @@ import { VSCodeButtonLink } from "@src/components/common/VSCodeButtonLink"
 
 import { inputEventTransform } from "../transforms"
 
-import { type ProviderSettings, type OrganizationAllowList, syntheticDefaultModelId } from "@roo-code/types"
+import { type ProviderSettings, type OrganizationAllowList, syntheticDefaultModelId } from "@maximo-syntax/types"
 import type { RouterModels } from "@roo/api"
 import { ModelPicker } from "../ModelPicker"
 

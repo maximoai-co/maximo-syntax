@@ -5,7 +5,7 @@ import { VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 import type {
 	OrganizationAllowList, // kilocode_change
 	ProviderSettings,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { VSCodeButtonLink } from "@src/components/common/VSCodeButtonLink"
@@ -13,7 +13,7 @@ import { VSCodeButtonLink } from "@src/components/common/VSCodeButtonLink"
 import { inputEventTransform } from "../transforms"
 
 // kilocode_change start
-import { geminiDefaultModelId } from "@roo-code/types"
+import { geminiDefaultModelId } from "@maximo-syntax/types"
 import type { RouterModels } from "@roo/api"
 import { ModelPicker } from "../ModelPicker"
 // kilocode_change end

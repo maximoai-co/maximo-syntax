@@ -1,4 +1,4 @@
-import { ModelInfo } from "@roo-code/types"
+import { ModelInfo } from "@maximo-syntax/types"
 import { z } from "zod"
 
 export const ModelSettingsSchema = z.object({

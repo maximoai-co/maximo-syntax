@@ -1,17 +1,17 @@
 /**
  * CLI Types
  *
- * Re-exports types from @kilocode/core-schemas for runtime validation
+ * Re-exports types from @maximo-syntax/core-schemas for runtime validation
  * and backward compatibility with existing code.
  */
 
-import type { ModeConfig } from "@roo-code/types"
+import type { ModeConfig } from "@maximo-syntax/types"
 
 // Re-export schemas from core-schemas
-export { welcomeMessageOptionsSchema, cliMessageSchema, cliOptionsSchema } from "@kilocode/core-schemas"
+export { welcomeMessageOptionsSchema, cliMessageSchema, cliOptionsSchema } from "@maximo-syntax/core-schemas"
 
 // Re-export schema-inferred types for simpler cases
-export type { WelcomeMessageOptions, CliMessage } from "@kilocode/core-schemas"
+export type { WelcomeMessageOptions, CliMessage } from "@maximo-syntax/core-schemas"
 
 // CLIOptions interface with proper typing for ModeConfig
 // (The schema uses z.unknown() but we want proper types at compile time)

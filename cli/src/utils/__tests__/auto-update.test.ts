@@ -17,7 +17,7 @@ describe("auto-update", () => {
 	describe("getAutoUpdateStatus", () => {
 		it("should return outdated status when newer version exists", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "2.0.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -25,14 +25,14 @@ describe("auto-update", () => {
 
 			expect(result.isOutdated).toBe(true)
 			expect(result.latestVersion).toBe("2.0.0")
-			expect(result.name).toBe("@kilocode/cli")
-			expect(packageJson).toHaveBeenCalledWith("@kilocode/cli")
+			expect(result.name).toBe("@maximo-syntax/cli")
+			expect(packageJson).toHaveBeenCalledWith("@maximo-syntax/cli")
 		})
 
 		it("should return not outdated when current version is latest", async () => {
 			const currentVersion = Package.version
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: currentVersion,
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -55,7 +55,7 @@ describe("auto-update", () => {
 
 		it("should run version check multiple times", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "2.0.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -71,7 +71,7 @@ describe("auto-update", () => {
 	describe("generateUpdateAvailableMessage", () => {
 		it("should generate correct update message", () => {
 			const status = {
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				isOutdated: true,
 				currentVersion: "1.0.0",
 				latestVersion: "2.0.0",
@@ -83,12 +83,12 @@ describe("auto-update", () => {
 			expect(message.content).toContain("A new version of Kilo CLI is available!")
 			expect(message.content).toContain("v1.0.0")
 			expect(message.content).toContain("v2.0.0")
-			expect(message.content).toContain("npm install -g @kilocode/cli")
+			expect(message.content).toContain("npm install -g @maximo-syntax/cli")
 		})
 
 		it("should include package name in install command", () => {
 			const status = {
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				isOutdated: true,
 				currentVersion: "1.0.0",
 				latestVersion: "2.0.0",
@@ -96,14 +96,14 @@ describe("auto-update", () => {
 
 			const message = generateUpdateAvailableMessage(status)
 
-			expect(message.content).toContain("@kilocode/cli")
+			expect(message.content).toContain("@maximo-syntax/cli")
 		})
 	})
 
 	describe("regression test for bad3bbef89 - version check independent of nosplash", () => {
 		it("should run version check by default", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "2.0.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -116,7 +116,7 @@ describe("auto-update", () => {
 			const ciMode = true
 
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "2.0.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -131,7 +131,7 @@ describe("auto-update", () => {
 	describe("version comparison", () => {
 		it("should detect patch updates", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "1.0.1",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -141,7 +141,7 @@ describe("auto-update", () => {
 
 		it("should detect minor updates", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "1.1.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -151,7 +151,7 @@ describe("auto-update", () => {
 
 		it("should detect major updates", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "2.0.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 
@@ -161,7 +161,7 @@ describe("auto-update", () => {
 
 		it("should not flag as outdated when current version is newer", async () => {
 			vi.mocked(packageJson).mockResolvedValue({
-				name: "@kilocode/cli",
+				name: "@maximo-syntax/cli",
 				version: "0.9.0",
 			} as Awaited<ReturnType<typeof packageJson>>)
 

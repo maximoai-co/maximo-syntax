@@ -6,7 +6,7 @@ import {
 	type ExtensionState,
 	openRouterDefaultModelId, // kilocode_change
 	DEFAULT_CHECKPOINT_TIMEOUT_SECONDS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { ExtensionStateContextProvider, useExtensionState, mergeExtensionState } from "../ExtensionStateContext"
 

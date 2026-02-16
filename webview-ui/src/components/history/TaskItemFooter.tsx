@@ -1,5 +1,5 @@
 import React from "react"
-import type { HistoryItem } from "@roo-code/types"
+import type { HistoryItem } from "@maximo-syntax/types"
 import { formatTimeAgo } from "@/utils/format"
 import { formatCost } from "@/utils/costFormatting"
 import { CopyButton } from "./CopyButton"

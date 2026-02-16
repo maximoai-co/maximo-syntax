@@ -9,7 +9,7 @@ import type {
 	InstallMarketplaceItemOptions,
 	McpParameter,
 	SkillMarketplaceItem,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 // kilocode_change end
 import { GlobalFileNames } from "../../shared/globalFileNames"
 import { ensureSettingsDirectoryExists } from "../../utils/globalContext"

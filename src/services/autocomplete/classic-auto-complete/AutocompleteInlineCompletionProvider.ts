@@ -20,7 +20,7 @@ import { ContextRetrievalService } from "../continuedev/core/autocomplete/contex
 import { VsCodeIde } from "../continuedev/core/vscode-test-harness/src/VSCodeIde"
 import { RecentlyVisitedRangesService } from "../continuedev/core/vscode-test-harness/src/autocomplete/RecentlyVisitedRangesService"
 import { RecentlyEditedTracker } from "../continuedev/core/vscode-test-harness/src/autocomplete/recentlyEdited"
-import type { AutocompleteServiceSettings } from "@roo-code/types"
+import type { AutocompleteServiceSettings } from "@maximo-syntax/types"
 import { postprocessAutocompleteSuggestion } from "./uselessSuggestionFilter"
 import { shouldSkipAutocomplete } from "./contextualSkip"
 import { RooIgnoreController } from "../../../core/ignore/RooIgnoreController"

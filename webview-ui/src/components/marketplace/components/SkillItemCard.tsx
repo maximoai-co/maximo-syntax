@@ -1,7 +1,7 @@
 // kilocode_change new file
 
 import React, { useState, useEffect } from "react"
-import { SkillMarketplaceItem } from "@roo-code/types"
+import { SkillMarketplaceItem } from "@maximo-syntax/types"
 import { vscode } from "@/utils/vscode"
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { Button } from "@/components/ui/button"

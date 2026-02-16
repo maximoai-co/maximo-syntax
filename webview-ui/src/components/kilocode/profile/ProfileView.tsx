@@ -15,7 +15,7 @@ import { Tab, TabContent, TabHeader } from "@src/components/common/Tab"
 import { Button } from "@src/components/ui"
 import KiloCodeAuth from "../common/KiloCodeAuth"
 import { OrganizationSelector } from "../common/OrganizationSelector"
-import { getAppUrl, TelemetryEventName } from "@roo-code/types"
+import { getAppUrl, TelemetryEventName } from "@maximo-syntax/types"
 import { telemetryClient } from "@/utils/TelemetryClient"
 
 interface ProfileViewProps {

@@ -2,7 +2,7 @@
 // npx vitest run src/shared/__tests__/getApiMetrics-context-indicator.spec.ts
 // Regression tests for context indicator placeholder message handling
 
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 import { getApiMetrics } from "../getApiMetrics"
 

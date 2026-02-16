@@ -3,7 +3,7 @@ import { X_KILOCODE_VERSION } from "../../../../../../shared/kilocode/headers"
 import { Package } from "../../../../../../shared/package"
 import OpenRouter from "./OpenRouter"
 import { IFimProvider } from "../../../../../../api/providers/kilocode/IFimProvider"
-import { getKiloUrlFromToken } from "@roo-code/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 
 /**
  * Extended CompletionOptions to include KiloCode-specific per-request metadata

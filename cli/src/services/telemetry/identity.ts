@@ -6,9 +6,9 @@
 import * as fs from "fs-extra"
 import * as path from "path"
 import * as crypto from "crypto"
-import { KiloCodePaths } from "@kilocode/agent-runtime"
+import { KiloCodePaths } from "@maximo-syntax/agent-runtime"
 import { logs } from "../logs.js"
-import { getApiUrl } from "@roo-code/types"
+import { getApiUrl } from "@maximo-syntax/types"
 import { machineIdSync } from "node-machine-id"
 
 /**

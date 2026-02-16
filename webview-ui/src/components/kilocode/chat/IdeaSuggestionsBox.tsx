@@ -1,7 +1,7 @@
 import { useMemo } from "react"
 import { telemetryClient } from "@/utils/TelemetryClient"
 import { vscode } from "@/utils/vscode"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { useTranslation } from "react-i18next"
 import { useTaskHistory } from "@/kilocode/hooks/useTaskHistory"
 import { useExtensionState } from "@/context/ExtensionStateContext"

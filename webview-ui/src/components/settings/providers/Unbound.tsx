@@ -7,7 +7,7 @@ import {
 	type OrganizationAllowList,
 	type RouterModels,
 	unboundDefaultModelId,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { VSCodeButtonLink } from "@src/components/common/VSCodeButtonLink"

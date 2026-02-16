@@ -13,8 +13,8 @@ import {
 	type ProviderName,
 	type ProfileType, // kilocode_change - autocomplete profile type system
 	isProviderName,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { Mode, modes } from "../../shared/modes"
 import { migrateMorphApiKey } from "./kilocode/migrateMorphApiKey"

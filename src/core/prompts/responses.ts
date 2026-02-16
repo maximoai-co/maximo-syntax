@@ -5,7 +5,7 @@ import * as fs from "fs" // kilocode_change
 import { RooIgnoreController, LOCK_TEXT_SYMBOL } from "../ignore/RooIgnoreController"
 import { RooProtectedController } from "../protect/RooProtectedController"
 import * as vscode from "vscode"
-import { ToolProtocol, isNativeProtocol, TOOL_PROTOCOL } from "@roo-code/types"
+import { ToolProtocol, isNativeProtocol, TOOL_PROTOCOL } from "@maximo-syntax/types"
 import { Package } from "../../shared/package"
 
 export const formatResponse = {

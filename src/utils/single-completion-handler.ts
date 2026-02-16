@@ -1,4 +1,4 @@
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import { buildApiHandler, SingleCompletionHandler, ApiHandler } from "../api" //kilocode_change
 import { ApiStreamUsageChunk } from "../api/transform/stream" // kilocode_change
 

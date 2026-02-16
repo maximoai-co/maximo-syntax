@@ -3,7 +3,7 @@ import { useExtensionState } from "@/context/ExtensionStateContext"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 import { vscode } from "@/utils/vscode"
 import { telemetryClient } from "@/utils/TelemetryClient"
-import { OPENROUTER_DEFAULT_PROVIDER_NAME, TelemetryEventName } from "@roo-code/types"
+import { OPENROUTER_DEFAULT_PROVIDER_NAME, TelemetryEventName } from "@maximo-syntax/types"
 import { useProviderModels } from "./hooks/useProviderModels"
 import { getModelIdKey } from "./hooks/useSelectedModel"
 

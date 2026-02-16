@@ -1,7 +1,7 @@
 /**
  * Keyboard Types
  *
- * Re-exports types from @kilocode/core-schemas for runtime validation
+ * Re-exports types from @maximo-syntax/core-schemas for runtime validation
  * and backward compatibility with existing code.
  */
 
@@ -16,4 +16,4 @@ export {
 	type ReadlineKey,
 	type KeyboardProviderConfig,
 	type KeypressHandler,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"

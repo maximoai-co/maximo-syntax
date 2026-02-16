@@ -1,5 +1,5 @@
 /**
- * @kilocode/agent-runtime
+ * @maximo-syntax/agent-runtime
  *
  * Core agent runtime for Kilo Code - enables running agents without CLI.
  * This package provides the essential components for running the Kilo Code extension

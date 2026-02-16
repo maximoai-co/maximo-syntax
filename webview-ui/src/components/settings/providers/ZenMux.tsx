@@ -4,7 +4,7 @@ import { Trans } from "react-i18next"
 import { Checkbox } from "vscrui"
 import { VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 
-import { type ProviderSettings, type OrganizationAllowList, zenmuxDefaultModelId } from "@roo-code/types"
+import { type ProviderSettings, type OrganizationAllowList, zenmuxDefaultModelId } from "@maximo-syntax/types"
 
 import type { RouterModels } from "@roo/api"
 

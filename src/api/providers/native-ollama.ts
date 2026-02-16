@@ -6,7 +6,7 @@ import {
 	openAiModelInfoSaneDefaults,
 	DEEP_SEEK_DEFAULT_TEMPERATURE,
 	ollamaDefaultModelInfo,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 import { ApiStream } from "../transform/stream"
 import { BaseProvider } from "./base-provider"
 import type { ApiHandlerOptions } from "../../shared/api"

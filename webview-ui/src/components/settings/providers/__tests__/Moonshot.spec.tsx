@@ -1,7 +1,7 @@
 // kilocode_change - new file
 import { render, screen } from "@testing-library/react"
 
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 
 import { Moonshot } from "../Moonshot"
 

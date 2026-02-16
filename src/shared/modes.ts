@@ -8,7 +8,7 @@ import {
 	type PromptComponent,
 	DEFAULT_MODES,
 	DEFAULT_MODE_SLUG,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { addCustomInstructions } from "../core/prompts/sections/custom-instructions"
 

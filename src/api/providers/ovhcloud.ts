@@ -1,5 +1,5 @@
 // kilocode_change - file added
-import { ovhCloudAiEndpointsDefaultModelId, ovhCloudAiEndpointsDefaultModelInfo } from "@roo-code/types"
+import { ovhCloudAiEndpointsDefaultModelId, ovhCloudAiEndpointsDefaultModelInfo } from "@maximo-syntax/types"
 import type { ApiHandlerOptions } from "../../shared/api"
 
 import { RouterProvider } from "./router-provider"

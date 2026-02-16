@@ -1,14 +1,14 @@
 import { useCallback } from "react"
 import { VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 import { Button } from "@src/components/ui"
-import { type ProviderSettings, type OrganizationAllowList } from "@roo-code/types"
+import { type ProviderSettings, type OrganizationAllowList } from "@maximo-syntax/types"
 import type { RouterModels } from "@roo/api"
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { inputEventTransform } from "../../../settings/transforms"
 import { ModelPicker } from "../../../settings/ModelPicker"
 import { vscode } from "@src/utils/vscode"
 import { OrganizationSelector } from "../../common/OrganizationSelector"
-import { getAppUrl } from "@roo-code/types"
+import { getAppUrl } from "@maximo-syntax/types"
 import { useKiloIdentity } from "@src/utils/kilocode/useKiloIdentity"
 
 type KiloCodeProps = {

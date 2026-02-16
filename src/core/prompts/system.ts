@@ -9,9 +9,9 @@ import {
 	getEffectiveProtocol,
 	isNativeProtocol,
 	Experiments, // kilocode_change
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
-import { customToolRegistry, formatXml } from "@roo-code/core"
+import { customToolRegistry, formatXml } from "@maximo-syntax/core"
 
 import { Mode, modes, defaultModeSlug, getModeBySlug, getGroupName, getModeSelection } from "../../shared/modes"
 import { DiffStrategy } from "../../shared/tools"

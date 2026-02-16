@@ -1,7 +1,7 @@
 // npx vitest run api/providers/__tests__/roo.spec.ts
 
 import { Anthropic } from "@anthropic-ai/sdk"
-import { rooDefaultModelId } from "@roo-code/types"
+import { rooDefaultModelId } from "@maximo-syntax/types"
 
 import { ApiHandlerOptions } from "../../../shared/api"
 
@@ -61,7 +61,7 @@ const mockGetSessionTokenFn = vitest.fn()
 const mockHasInstanceFn = vitest.fn()
 const mockOnFn = vitest.fn()
 
-vitest.mock("@roo-code/cloud", () => ({
+vitest.mock("@maximo-syntax/cloud", () => ({
 	CloudService: {
 		hasInstance: () => mockHasInstanceFn(),
 		get instance() {
@@ -131,7 +131,7 @@ vitest.mock("../../providers/fetchers/modelCache", () => ({
 
 // Import after mocks are set up
 import { RooHandler } from "../roo"
-import { CloudService } from "@roo-code/cloud"
+import { CloudService } from "@maximo-syntax/cloud"
 
 describe("RooHandler", () => {
 	let handler: RooHandler

@@ -7,7 +7,7 @@ import {
 	resolveTaskHistoryRequestAtom,
 	type TaskHistoryData,
 } from "../taskHistory.js"
-import type { HistoryItem } from "@roo-code/types"
+import type { HistoryItem } from "@maximo-syntax/types"
 
 /**
  * Creates a minimal mock HistoryItem for testing

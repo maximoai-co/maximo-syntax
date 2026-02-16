@@ -1,4 +1,4 @@
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { DEFAULT_CONFIG, LOG_SOURCES } from "../config.js"
 import type { IExtensionMessenger } from "../types/IExtensionMessenger.js"
 import type { ILogger } from "../types/ILogger.js"

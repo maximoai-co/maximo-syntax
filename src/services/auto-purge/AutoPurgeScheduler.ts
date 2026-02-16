@@ -1,7 +1,7 @@
 import * as vscode from "vscode"
 import { AutoPurgeService } from "./AutoPurgeService"
-import { type AutoPurgeSettings, type HistoryItem, TelemetryEventName } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { type AutoPurgeSettings, type HistoryItem, TelemetryEventName } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 /**
  * Scheduler for automatic task purging operations

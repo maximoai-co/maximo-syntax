@@ -1,10 +1,10 @@
 import { serializeError } from "serialize-error"
 import { Anthropic } from "@anthropic-ai/sdk"
 
-import type { ToolName, ClineAsk, ToolProgressStatus } from "@roo-code/types"
-import { ConsecutiveMistakeError } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
-import { customToolRegistry } from "@roo-code/core"
+import type { ToolName, ClineAsk, ToolProgressStatus } from "@maximo-syntax/types"
+import { ConsecutiveMistakeError } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { customToolRegistry } from "@maximo-syntax/core"
 
 import { t } from "../../i18n"
 
@@ -18,7 +18,7 @@ import { Task } from "../task/Task"
 import { fetchInstructionsTool } from "../tools/FetchInstructionsTool"
 import { listFilesTool } from "../tools/ListFilesTool"
 import { readFileTool } from "../tools/ReadFileTool"
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 import { writeToFileTool } from "../tools/WriteToFileTool"
 import { applyDiffTool } from "../tools/MultiApplyDiffTool"
 import { searchAndReplaceTool } from "../tools/SearchAndReplaceTool"

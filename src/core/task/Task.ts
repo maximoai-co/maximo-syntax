@@ -54,9 +54,9 @@ import {
 	MIN_CHECKPOINT_TIMEOUT_SECONDS,
 	TOOL_PROTOCOL,
 	ConsecutiveMistakeError,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
-import { CloudService, BridgeOrchestrator } from "@roo-code/cloud"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { CloudService, BridgeOrchestrator } from "@maximo-syntax/cloud"
 import { resolveToolProtocol, detectToolProtocolFromHistory } from "../../utils/resolveToolProtocol"
 
 // api
@@ -152,7 +152,7 @@ import {
 	isPaymentRequiredError,
 	isUnauthorizedError,
 } from "../../shared/kilocode/errorUtils"
-import { getAppUrl } from "@roo-code/types"
+import { getAppUrl } from "@maximo-syntax/types"
 import { getKilocodeDefaultModel } from "../../api/providers/kilocode/getKilocodeDefaultModel" // kilocode_change
 import { addOrMergeUserContent } from "./kilocode"
 import { AutoApprovalHandler, checkAutoApproval } from "../auto-approval"

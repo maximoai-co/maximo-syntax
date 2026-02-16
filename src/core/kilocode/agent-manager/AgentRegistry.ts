@@ -1,5 +1,5 @@
 import { AgentSession, AgentStatus, AgentManagerState, PendingSession, ParallelModeInfo } from "./types"
-import { DEFAULT_MODE_SLUG } from "@roo-code/types"
+import { DEFAULT_MODE_SLUG } from "@maximo-syntax/types"
 
 export interface CreateSessionOptions {
 	parallelMode?: boolean

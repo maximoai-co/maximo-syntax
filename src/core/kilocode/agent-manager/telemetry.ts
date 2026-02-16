@@ -1,6 +1,6 @@
 import * as path from "node:path"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName } from "@maximo-syntax/types"
 
 export function getPlatformDiagnostics(): { platform: "darwin" | "win32" | "linux" | "other"; shell?: string } {
 	const platform =

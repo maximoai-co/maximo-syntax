@@ -11,7 +11,7 @@ import {
 	existsSync,
 } from "fs"
 import * as path from "path"
-import { KiloCodePaths, safeStringify } from "@kilocode/agent-runtime"
+import { KiloCodePaths, safeStringify } from "@maximo-syntax/agent-runtime"
 
 export type LogLevel = "info" | "debug" | "error" | "warn"
 

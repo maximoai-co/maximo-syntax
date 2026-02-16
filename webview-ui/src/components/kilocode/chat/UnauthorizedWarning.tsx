@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback } from "react"
-import { ClineMessage } from "@roo-code/types"
+import { ClineMessage } from "@maximo-syntax/types"
 import { vscode } from "@src/utils/vscode"
 import { Button } from "@src/components/ui"
 import { useTranslation } from "react-i18next"

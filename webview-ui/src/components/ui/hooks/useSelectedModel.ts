@@ -46,7 +46,7 @@ import {
 	isDynamicProvider,
 	getProviderDefaultModelId,
 	NATIVE_TOOL_DEFAULTS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { useRouterModels } from "./useRouterModels"
 import { useOpenRouterModelProviders } from "./useOpenRouterModelProviders"
@@ -588,7 +588,7 @@ function getSelectedModel({
 		// case "human-relay":
 		// case "fake-ai":
 		default: {
-			provider satisfies "anthropic" | "fake-ai" | "human-relay" | "kilocode" | "apertis"
+			provider satisfies "anthropic" | "fake-ai" | "human-relay" | "kilocode" | "apertis" | "maximo-ai" // maximosyntax_change
 			const id = apiConfiguration.apiModelId ?? defaultModelId
 			const baseInfo = anthropicModels[id as keyof typeof anthropicModels]
 

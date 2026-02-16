@@ -16,8 +16,8 @@ import { CheckpointDiff, CheckpointResult, CheckpointEventMap } from "./types"
 import { getExcludePatterns } from "./excludes"
 
 // kilocode_change start
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { stringifyError } from "../../shared/kilocode/errorUtils"
 function reportError(callsite: string, error: unknown) {
 	TelemetryService.instance.captureEvent(TelemetryEventName.CHECKPOINT_FAILURE, {

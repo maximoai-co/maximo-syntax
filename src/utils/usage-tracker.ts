@@ -1,6 +1,6 @@
 // kilocode_change - new file
 import type { ExtensionContext, Memento } from "vscode"
-import { UsageResultByDuration, UsageEvent, UsageResult, UsageType, UsageWindow } from "@roo-code/types"
+import { UsageResultByDuration, UsageEvent, UsageResult, UsageType, UsageWindow } from "@maximo-syntax/types"
 import { ContextProxy } from "../core/config/ContextProxy"
 
 const USAGE_STORAGE_KEY = "kilocode.virtualQuotaFallbackProvider.usage.v1"

@@ -41,7 +41,7 @@ import {
 	type ProfileType, // kilocode_change - autocomplete profile type system
 	DEFAULT_CHECKPOINT_TIMEOUT_SECONDS,
 	ImageGenerationProvider,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { vscode } from "@src/utils/vscode"
 import { cn } from "@src/lib/utils"

@@ -1,4 +1,4 @@
-import { KiloCodePaths } from "@kilocode/agent-runtime"
+import { KiloCodePaths } from "@maximo-syntax/agent-runtime"
 import type { ExtensionService } from "./extension.js"
 import type { IPathProvider } from "../../../src/shared/kilocode/cli-sessions/types/IPathProvider"
 import type { IExtensionMessenger } from "../../../src/shared/kilocode/cli-sessions/types/IExtensionMessenger"

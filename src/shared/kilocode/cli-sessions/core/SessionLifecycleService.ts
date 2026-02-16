@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from "fs"
 import path from "path"
-import type { ClineMessage, HistoryItem } from "@roo-code/types"
+import type { ClineMessage, HistoryItem } from "@maximo-syntax/types"
 import type { IPathProvider } from "../types/IPathProvider.js"
 import type { ILogger } from "../types/ILogger.js"
 import type { IExtensionMessenger } from "../types/IExtensionMessenger.js"

@@ -6,7 +6,7 @@ import * as path from "path"
 import { MarketplaceManager } from "../MarketplaceManager"
 
 // Mock CloudService
-vi.mock("@roo-code/cloud", () => ({
+vi.mock("@maximo-syntax/cloud", () => ({
 	getRooCodeApiUrl: () => "https://test.api.com",
 	CloudService: {
 		hasInstance: vi.fn(),

@@ -1,7 +1,7 @@
 // kilocode_change - new file
 import { z } from "zod"
 
-import type { ModelInfo } from "@roo-code/types"
+import type { ModelInfo } from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions } from "../../../shared/api"
 import { DEFAULT_HEADERS } from "../constants"

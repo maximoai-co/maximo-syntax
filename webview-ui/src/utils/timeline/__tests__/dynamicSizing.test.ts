@@ -1,5 +1,5 @@
 import { calculateTaskTimelineSizes } from "../calculateTaskTimelineSizes"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 describe("calculateTaskTimelineSizes", () => {
 	const createTestMessage = (

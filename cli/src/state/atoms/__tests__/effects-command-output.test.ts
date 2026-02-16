@@ -9,7 +9,7 @@ import { messageHandlerEffectAtom, pendingOutputUpdatesAtom } from "../effects.j
 import { extensionServiceAtom } from "../service.js"
 import { chatMessagesAtom } from "../extension.js"
 import type { ExtensionMessage } from "../../../types/messages.js"
-import type { CommandExecutionStatus } from "@roo-code/types"
+import type { CommandExecutionStatus } from "@maximo-syntax/types"
 import type { ExtensionService } from "../../../services/extension.js"
 
 describe("Command Execution Status - CLI-Only Workaround", () => {

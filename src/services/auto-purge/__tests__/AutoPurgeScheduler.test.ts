@@ -2,12 +2,12 @@ import { describe, it, expect, vi, beforeEach, afterEach } from "vitest"
 import * as vscode from "vscode"
 
 import { AutoPurgeScheduler } from "../AutoPurgeScheduler"
-import { type AutoPurgeSettings, type HistoryItem, TelemetryEventName } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { type AutoPurgeSettings, type HistoryItem, TelemetryEventName } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 // Mock dependencies
 vi.mock("vscode")
-vi.mock("@roo-code/telemetry")
+vi.mock("@maximo-syntax/telemetry")
 
 const mockVscode = vi.mocked(vscode)
 const mockTelemetryService = vi.mocked(TelemetryService)

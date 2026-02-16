@@ -2,7 +2,7 @@
 import { useCallback } from "react"
 import { VSCodeTextField, VSCodeDropdown, VSCodeOption } from "@vscode/webview-ui-toolkit/react"
 
-import { type ProviderSettings, nanoGptDefaultModelId, nanoGptModelListSchema } from "@roo-code/types"
+import { type ProviderSettings, nanoGptDefaultModelId, nanoGptModelListSchema } from "@maximo-syntax/types"
 import type { RouterModels } from "@roo/api"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"

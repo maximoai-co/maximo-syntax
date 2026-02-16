@@ -19,7 +19,7 @@ import {
 	apertisDefaultModelInfo,
 	APERTIS_DEFAULT_BASE_URL,
 	APERTIS_RESPONSES_API_MODELS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 // Mock fetch globally
 global.fetch = vi.fn()

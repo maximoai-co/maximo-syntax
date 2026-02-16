@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import { ClipboardCopy } from "lucide-react"
 
 import { StandardTooltip } from "../../../components/ui"
-import type { SuggestionItem } from "@roo-code/types"
+import type { SuggestionItem } from "@maximo-syntax/types"
 
 interface FollowUpSuggestionsProps {
 	suggestions: SuggestionItem[]

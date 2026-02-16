@@ -1,4 +1,4 @@
-import type { ProviderName, ReasoningEffortExtended } from "@roo-code/types"
+import type { ProviderName, ReasoningEffortExtended } from "@maximo-syntax/types"
 
 export const supportedProviders = [
 	"anthropic",

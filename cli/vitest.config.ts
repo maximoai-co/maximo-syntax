@@ -38,7 +38,7 @@ export default defineConfig({
 			optimizer: {
 				web: {
 					// Don't try to optimize workspace packages
-					exclude: ["@kilocode/agent-runtime", "@kilocode/core-schemas"],
+					exclude: ["@maximo-syntax/agent-runtime", "@maximo-syntax/core-schemas"],
 				},
 			},
 		},
@@ -49,7 +49,7 @@ export default defineConfig({
 		conditions: ["import", "module", "default"],
 		alias: {
 			// Resolve agent-runtime from source during tests (avoids needing dist/ to exist)
-			"@kilocode/agent-runtime": path.resolve(__dirname, "../packages/agent-runtime/src"),
+			"@maximo-syntax/agent-runtime": path.resolve(__dirname, "../packages/agent-runtime/src"),
 		},
 	},
 })

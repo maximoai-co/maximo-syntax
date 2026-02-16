@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest"
 import type OpenAI from "openai"
-import type { ModeConfig, ModelInfo } from "@roo-code/types"
+import type { ModeConfig, ModelInfo } from "@maximo-syntax/types"
 import {
 	filterNativeToolsForMode,
 	filterMcpToolsForMode,

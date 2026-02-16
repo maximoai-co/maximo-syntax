@@ -54,6 +54,7 @@ export const PROVIDER_LABELS: Record<ProviderName, string> = {
 	baseten: "BaseTen",
 	apertis: "Apertis", // kilocode_change
 	corethink: "Corethink",
+	"maximo-ai": "Maximo AI",
 }
 
 /**

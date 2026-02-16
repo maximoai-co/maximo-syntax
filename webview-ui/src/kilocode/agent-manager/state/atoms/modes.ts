@@ -1,5 +1,5 @@
 import { atom } from "jotai"
-import { DEFAULT_MODE_SLUG } from "@roo-code/types"
+import { DEFAULT_MODE_SLUG } from "@maximo-syntax/types"
 
 const STORAGE_KEY = "agentManager.selectedModeSlug"
 

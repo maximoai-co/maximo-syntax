@@ -1,7 +1,7 @@
 import React, { useMemo } from "react"
 import { useAtomValue } from "jotai"
 import { useTranslation } from "react-i18next"
-import { DEFAULT_MODE_SLUG } from "@roo-code/types"
+import { DEFAULT_MODE_SLUG } from "@maximo-syntax/types"
 import { availableModesAtom } from "../state/atoms/modes"
 import { sessionsMapAtom } from "../state/atoms/sessions"
 import { SelectDropdown } from "../../../components/ui/select-dropdown"

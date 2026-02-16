@@ -5,8 +5,8 @@ import * as os from "node:os"
 import pWaitFor from "p-wait-for"
 import { execa } from "execa"
 
-import { type ToolUsage, TaskCommandName, RooCodeEventName, IpcMessageType } from "@roo-code/types"
-import { IpcClient } from "@roo-code/ipc"
+import { type ToolUsage, TaskCommandName, RooCodeEventName, IpcMessageType } from "@maximo-syntax/types"
+import { IpcClient } from "@maximo-syntax/ipc"
 
 import { updateTask, createTaskMetrics, updateTaskMetrics, createToolError } from "../db/index.js"
 import { EVALS_REPO_PATH } from "../exercises/index.js"
@@ -38,7 +38,7 @@ export const runTaskWithCli = async ({ run, task, publish, logger, jobToken }: R
 
 	const cliArgs = [
 		"--filter",
-		"@roo-code/cli",
+		"@maximo-syntax/cli",
 		"start",
 		"--yes",
 		"--exit-on-complete",

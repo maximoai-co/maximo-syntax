@@ -5,7 +5,7 @@
 
 import { atom } from "jotai"
 import type { ExtensionMessage, ExtensionChatMessage, RouterModels } from "../../types/messages.js"
-import type { HistoryItem, CommandExecutionStatus } from "@roo-code/types"
+import type { HistoryItem, CommandExecutionStatus } from "@maximo-syntax/types"
 import { extensionServiceAtom, setServiceReadyAtom, setServiceErrorAtom, setIsInitializingAtom } from "./service.js"
 import {
 	updateExtensionStateAtom,

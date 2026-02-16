@@ -1,4 +1,4 @@
-import { type CorethinkModelId, corethinkDefaultModelId, corethinkModels } from "@roo-code/types"
+import { type CorethinkModelId, corethinkDefaultModelId, corethinkModels } from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions } from "../../shared/api"
 import { BaseOpenAiCompatibleProvider } from "./base-openai-compatible-provider"

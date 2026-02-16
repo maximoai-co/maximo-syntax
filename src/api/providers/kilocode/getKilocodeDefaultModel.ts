@@ -1,6 +1,6 @@
-import { openRouterDefaultModelId } from "@roo-code/types"
-import { getKiloUrlFromToken } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { openRouterDefaultModelId } from "@maximo-syntax/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { z } from "zod"
 import { DEFAULT_HEADERS } from "../constants"
 

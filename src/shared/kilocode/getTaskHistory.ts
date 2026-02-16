@@ -1,5 +1,5 @@
 import { Fzf } from "fzf"
-import { HistoryItem, TaskHistoryRequestPayload, TaskHistoryResponsePayload } from "@roo-code/types"
+import { HistoryItem, TaskHistoryRequestPayload, TaskHistoryResponsePayload } from "@maximo-syntax/types"
 import { highlightFzfMatch } from "../../../webview-ui/src/utils/highlight" // weird hack, but apparently it works
 
 const PAGE_SIZE = 10

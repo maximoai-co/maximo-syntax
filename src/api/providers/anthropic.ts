@@ -11,8 +11,8 @@ import {
 	ANTHROPIC_DEFAULT_MAX_TOKENS,
 	ApiProviderError,
 	TOOL_PROTOCOL,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import type { ApiHandlerOptions } from "../../shared/api"
 

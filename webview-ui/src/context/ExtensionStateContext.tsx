@@ -20,7 +20,7 @@ import {
 	RouterModels,
 	ORGANIZATION_ALLOW_ALL,
 	DEFAULT_CHECKPOINT_TIMEOUT_SECONDS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { findLastIndex } from "@roo/array"
 
@@ -661,7 +661,8 @@ export const ExtensionStateContextProvider: React.FC<{ children: React.ReactNode
 				}
 			})
 		},
-		setAutocompleteServiceSettings: (value) => setState((prevState) => ({ ...prevState, ghostServiceSettings: value })),
+		setAutocompleteServiceSettings: (value) =>
+			setState((prevState) => ({ ...prevState, ghostServiceSettings: value })),
 		setCommitMessageApiConfigId: (value) =>
 			setState((prevState) => ({ ...prevState, commitMessageApiConfigId: value })),
 		setShowAutoApproveMenu: (value) => setState((prevState) => ({ ...prevState, showAutoApproveMenu: value })),

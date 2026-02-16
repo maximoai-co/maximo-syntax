@@ -1112,6 +1112,7 @@ export const PROVIDER_DEFAULT_MODELS: Record<ProviderName, string> = {
 	baseten: "zai-org/GLM-4.6",
 	apertis: "claude-sonnet-4-20250514", // kilocode_change
 	corethink: "corethink",
+	"maximo-ai": "maximo-pandora-3-syntax-fast",
 }
 
 /**

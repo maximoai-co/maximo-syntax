@@ -1,5 +1,5 @@
-import { ToolProtocol, TOOL_PROTOCOL } from "@roo-code/types"
-import type { ProviderSettings } from "@roo-code/types"
+import { ToolProtocol, TOOL_PROTOCOL } from "@maximo-syntax/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import type { Anthropic } from "@anthropic-ai/sdk"
 import { findLast, findLastIndex } from "../shared/array"
 

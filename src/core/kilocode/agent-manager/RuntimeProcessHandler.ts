@@ -1,5 +1,5 @@
 /**
- * RuntimeProcessHandler - Spawns agent processes using @kilocode/agent-runtime
+ * RuntimeProcessHandler - Spawns agent processes using @maximo-syntax/agent-runtime
  *
  * This handler uses Node.js fork() to spawn agent-runtime processes instead of
  * the CLI. Communication is via Node.js IPC (process.send/process.on('message'))
@@ -23,7 +23,7 @@ import type {
 	ErrorStreamEvent,
 	CompleteStreamEvent,
 } from "./CliOutputParser"
-import type { ClineMessage, ModeConfig, ProviderSettings } from "@roo-code/types"
+import type { ClineMessage, ModeConfig, ProviderSettings } from "@maximo-syntax/types"
 import { Package } from "../../../shared/package"
 
 /**
@@ -191,7 +191,7 @@ export class RuntimeProcessHandler {
 
 		// Development: Try require.resolve for workspace dependency
 		try {
-			const entryPath = require.resolve("@kilocode/agent-runtime/process")
+			const entryPath = require.resolve("@maximo-syntax/agent-runtime/process")
 			return entryPath
 		} catch {
 			// Fallback: use relative path from monorepo root (development only)

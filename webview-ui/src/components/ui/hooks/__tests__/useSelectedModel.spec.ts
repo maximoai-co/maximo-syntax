@@ -12,7 +12,7 @@ import {
 	litellmDefaultModelInfo,
 	openAiModelInfoSaneDefaults,
 	moonshotModels,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { useSelectedModel } from "../useSelectedModel"
 import { useRouterModels } from "../useRouterModels"

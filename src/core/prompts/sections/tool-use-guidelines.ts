@@ -1,5 +1,5 @@
-import { ToolProtocol, TOOL_PROTOCOL } from "@roo-code/types"
-import { isNativeProtocol } from "@roo-code/types"
+import { ToolProtocol, TOOL_PROTOCOL } from "@maximo-syntax/types"
+import { isNativeProtocol } from "@maximo-syntax/types"
 
 import { experiments, EXPERIMENT_IDS } from "../../../shared/experiments"
 

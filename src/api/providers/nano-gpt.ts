@@ -2,7 +2,7 @@
 import OpenAI from "openai"
 import { Anthropic } from "@anthropic-ai/sdk"
 
-import { nanoGptDefaultModelId, nanoGptDefaultModelInfo } from "@roo-code/types"
+import { nanoGptDefaultModelId, nanoGptDefaultModelInfo } from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions, ModelRecord } from "../../shared/api"
 import type { ApiHandlerCreateMessageMetadata } from "../index"

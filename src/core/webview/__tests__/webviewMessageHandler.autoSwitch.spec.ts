@@ -54,7 +54,7 @@ vi.mock("../kiloWebviewMessgeHandlerHelpers", () => ({
 	fetchAndRefreshOrganizationModesOnStartup: vi.fn(),
 }))
 
-vi.mock("@roo-code/cloud", () => ({
+vi.mock("@maximo-syntax/cloud", () => ({
 	CloudService: {
 		instance: {
 			logout: vi.fn(),
@@ -68,7 +68,7 @@ import type { ClineProvider } from "../ClineProvider"
 import { getModels, flushModels } from "../../../api/providers/fetchers/modelCache"
 import { showSystemNotification } from "../../../integrations/notifications"
 import { refreshOrganizationModes } from "../kiloWebviewMessgeHandlerHelpers"
-import { CloudService } from "@roo-code/cloud"
+import { CloudService } from "@maximo-syntax/cloud"
 
 describe("webviewMessageHandler - Automatic Organization Switching", () => {
 	let mockProvider: ClineProvider

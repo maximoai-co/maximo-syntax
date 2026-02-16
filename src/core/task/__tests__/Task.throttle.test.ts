@@ -1,4 +1,4 @@
-import { RooCodeEventName, ProviderSettings, TokenUsage, ToolUsage } from "@roo-code/types"
+import { RooCodeEventName, ProviderSettings, TokenUsage, ToolUsage } from "@maximo-syntax/types"
 
 import { Task } from "../Task"
 import { ClineProvider } from "../../webview/ClineProvider"
@@ -25,7 +25,7 @@ vi.mock("../../../api", () => ({
 }))
 
 // Mock TelemetryService
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureTaskCreated: vi.fn(),

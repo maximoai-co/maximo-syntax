@@ -1,5 +1,5 @@
 // kilocode_change new file
-import { modelIdKeysByProvider, ProviderName } from "@roo-code/types"
+import { modelIdKeysByProvider, ProviderName } from "@maximo-syntax/types"
 import { ApiHandler, buildApiHandler, FimHandler } from "../../api"
 import { ProviderSettingsManager } from "../../core/config/ProviderSettingsManager"
 import { OpenRouterHandler } from "../../api/providers"

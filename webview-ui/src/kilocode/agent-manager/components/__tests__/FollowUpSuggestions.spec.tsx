@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from "vitest"
 import { render, screen, fireEvent } from "@testing-library/react"
 import { TooltipProvider } from "@radix-ui/react-tooltip"
 import { FollowUpSuggestions } from "../FollowUpSuggestions"
-import type { SuggestionItem } from "@roo-code/types"
+import type { SuggestionItem } from "@maximo-syntax/types"
 
 // Mock react-i18next
 vi.mock("react-i18next", () => ({

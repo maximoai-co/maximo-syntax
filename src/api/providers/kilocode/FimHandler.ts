@@ -1,5 +1,5 @@
 // kilocode_change - new file
-import type { ModelInfo } from "@roo-code/types"
+import type { ModelInfo } from "@maximo-syntax/types"
 import type { CompletionUsage } from "../openrouter"
 
 /**

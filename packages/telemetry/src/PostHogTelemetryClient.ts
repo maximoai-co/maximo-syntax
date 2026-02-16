@@ -1,7 +1,7 @@
 import { PostHog } from "posthog-node"
 import * as vscode from "vscode"
 
-import { getKiloUrlFromToken, type TelemetryEvent, TelemetryEventName } from "@roo-code/types"
+import { getKiloUrlFromToken, type TelemetryEvent, TelemetryEventName } from "@maximo-syntax/types"
 
 import { BaseTelemetryClient } from "./BaseTelemetryClient"
 

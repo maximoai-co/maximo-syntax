@@ -1,6 +1,6 @@
 import OpenAI from "openai"
 
-import { type ModelInfo, type ModelRecord, NATIVE_TOOL_DEFAULTS } from "@roo-code/types"
+import { type ModelInfo, type ModelRecord, NATIVE_TOOL_DEFAULTS } from "@maximo-syntax/types"
 
 import { ApiHandlerOptions, RouterName } from "../../shared/api"
 

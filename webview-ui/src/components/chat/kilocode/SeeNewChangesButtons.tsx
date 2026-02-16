@@ -1,5 +1,5 @@
 import { vscode } from "@/utils/vscode"
-import { CommitRange } from "@roo-code/types"
+import { CommitRange } from "@maximo-syntax/types"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 import { useCallback, useState } from "react"
 import { useTranslation } from "react-i18next"

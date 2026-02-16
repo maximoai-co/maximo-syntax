@@ -1,5 +1,5 @@
 import { getSharedToolUseSection } from "../tool-use"
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 
 describe("getSharedToolUseSection", () => {
 	describe("XML protocol", () => {

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest"
 import { createStore } from "jotai"
-import type { TodoItem } from "@roo-code/types"
+import type { TodoItem } from "@maximo-syntax/types"
 import { sessionTodosAtomFamily, updateSessionTodosAtom, computeTodoStats, sessionTodoStatsAtomFamily } from "../todos"
 
 describe("todos atom", () => {

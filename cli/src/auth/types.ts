@@ -1,26 +1,26 @@
 /**
  * Authentication Types
  *
- * Re-exports types from @kilocode/core-schemas for runtime validation
+ * Re-exports types from @maximo-syntax/core-schemas for runtime validation
  * and backward compatibility with existing code.
  */
 
 import type { ProviderConfig } from "../config/types.js"
 
 // Re-export Kilocode schemas from core-schemas
-export { kilocodeOrganizationSchema, kilocodeProfileDataSchema } from "@kilocode/core-schemas"
+export { kilocodeOrganizationSchema, kilocodeProfileDataSchema } from "@maximo-syntax/core-schemas"
 
 // Re-export Kilocode types from core-schemas
-export type { KilocodeOrganization, KilocodeProfileData } from "@kilocode/core-schemas"
+export type { KilocodeOrganization, KilocodeProfileData } from "@maximo-syntax/core-schemas"
 
-// Device auth (from @roo-code/types via core-schemas)
+// Device auth (from @maximo-syntax/types via core-schemas)
 export {
 	DeviceAuthInitiateResponseSchema,
 	DeviceAuthPollResponseSchema,
 	type DeviceAuthInitiateResponse,
 	type DeviceAuthPollResponse,
 	type DeviceAuthState,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"
 
 /**
  * Result of a successful authentication flow

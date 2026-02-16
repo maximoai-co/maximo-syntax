@@ -1,10 +1,10 @@
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { getCheckpointService } from ".."
 import { DIFF_VIEW_URI_SCHEME } from "../../../integrations/editor/DiffViewProvider"
 import { Task } from "../../task/Task"
 import { t } from "../../../i18n"
 import * as vscode from "vscode"
-import { CommitRange } from "@roo-code/types"
+import { CommitRange } from "@maximo-syntax/types"
 
 function findLast<T>(array: Array<T>, predicate: (value: T, index: number, obj: T[]) => boolean): number {
 	let index = array.length - 1

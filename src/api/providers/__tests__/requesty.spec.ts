@@ -3,7 +3,7 @@
 import { Anthropic } from "@anthropic-ai/sdk"
 import OpenAI from "openai"
 
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 
 import { RequestyHandler } from "../requesty"
 import { ApiHandlerOptions } from "../../../shared/api"

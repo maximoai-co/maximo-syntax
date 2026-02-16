@@ -1,5 +1,5 @@
 import { useMemo } from "react"
-import type { ModelInfo } from "@roo-code/types"
+import type { ModelInfo } from "@maximo-syntax/types"
 
 // Result containing preferred and rest model IDs
 export interface GroupedModelIds {

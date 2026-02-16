@@ -3,7 +3,7 @@ import OpenAI from "openai"
 
 import { NanoGptHandler } from "../nano-gpt"
 import type { ApiHandlerOptions } from "../../../shared/api"
-import { nanoGptDefaultModelId, nanoGptDefaultModelInfo } from "@roo-code/types"
+import { nanoGptDefaultModelId, nanoGptDefaultModelInfo } from "@maximo-syntax/types"
 
 // Helper to create a mock model result with all required fields
 function createMockModelResult(overrides?: Record<string, any>) {

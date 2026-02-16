@@ -33,7 +33,7 @@ importers:
       '@dotenvx/dotenvx':
         specifier: ^1.34.0
         version: 1.44.2
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:packages/config-typescript
       '@types/glob':
@@ -93,13 +93,13 @@ importers:
       '@inkjs/ui':
         specifier: ^2.0.0
         version: 2.0.0(ink@6.6.0(@types/react@18.3.23)(react@19.2.3))
-      '@roo-code/core':
+      '@maximo-syntax/core':
         specifier: workspace:^
         version: link:../../packages/core
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../../packages/types
-      '@roo-code/vscode-shim':
+      '@maximo-syntax/vscode-shim':
         specifier: workspace:^
         version: link:../../packages/vscode-shim
       '@trpc/client':
@@ -130,10 +130,10 @@ importers:
         specifier: ^5.0.0
         version: 5.0.9(@types/react@18.3.23)(react@19.2.3)(use-sync-external-store@1.6.0(react@19.2.3))
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../../packages/config-typescript
       '@types/node':
@@ -231,18 +231,18 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
     devDependencies:
+      '@maximo-syntax/config-eslint':
+        specifier: workspace:^
+        version: link:../../packages/config-eslint
+      '@maximo-syntax/config-typescript':
+        specifier: workspace:^
+        version: link:../../packages/config-typescript
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../../packages/types
       '@playwright/test':
         specifier: ^1.56.1
         version: 1.57.0
-      '@roo-code/config-eslint':
-        specifier: workspace:^
-        version: link:../../packages/config-eslint
-      '@roo-code/config-typescript':
-        specifier: workspace:^
-        version: link:../../packages/config-typescript
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../../packages/types
       '@types/node':
         specifier: ^20.x
         version: 20.17.57
@@ -261,12 +261,12 @@ importers:
 
   apps/storybook:
     dependencies:
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../../packages/types
       '@radix-ui/react-slot':
         specifier: ^1.1.2
         version: 1.2.3(@types/react@18.3.23)(react@18.3.1)
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../../packages/types
       '@vscode/codicons':
         specifier: ^0.0.36
         version: 0.0.36
@@ -364,13 +364,13 @@ importers:
 
   apps/vscode-e2e:
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../../packages/config-typescript
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../../packages/types
       '@types/mocha':
@@ -403,7 +403,7 @@ importers:
 
   apps/vscode-nightly:
     devDependencies:
-      '@roo-code/build':
+      '@maximo-syntax/build':
         specifier: workspace:^
         version: link:../../packages/build
 
@@ -412,6 +412,12 @@ importers:
       '@hookform/resolvers':
         specifier: ^5.1.1
         version: 5.1.1(react-hook-form@7.57.0(react@18.3.1))
+      '@maximo-syntax/evals':
+        specifier: workspace:^
+        version: link:../../packages/evals
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../../packages/types
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.7
         version: 1.1.13(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -451,12 +457,6 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.2.8
         version: 1.2.8(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@roo-code/evals':
-        specifier: workspace:^
-        version: link:../../packages/evals
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../../packages/types
       '@tanstack/react-query':
         specifier: ^5.69.0
         version: 5.76.1(react@18.3.1)
@@ -518,10 +518,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../../packages/config-typescript
       '@tailwindcss/postcss':
@@ -548,18 +548,18 @@ importers:
 
   apps/web-roo-code:
     dependencies:
+      '@maximo-syntax/evals':
+        specifier: workspace:^
+        version: link:../../packages/evals
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../../packages/types
       '@radix-ui/react-dialog':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slot':
         specifier: ^1.2.3
         version: 1.2.3(@types/react@18.3.23)(react@18.3.1)
-      '@roo-code/evals':
-        specifier: workspace:^
-        version: link:../../packages/evals
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../../packages/types
       '@tanstack/react-query':
         specifier: ^5.79.0
         version: 5.80.2(react@18.3.1)
@@ -633,10 +633,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../../packages/config-typescript
       '@tailwindcss/typography':
@@ -687,15 +687,24 @@ importers:
       '@inquirer/prompts':
         specifier: ^8.2.0
         version: 8.2.0(@types/node@25.0.9)
-      '@kilocode/agent-runtime':
-        specifier: workspace:^
-        version: link:../packages/agent-runtime
-      '@kilocode/core-schemas':
-        specifier: workspace:^
-        version: link:../packages/core-schemas
       '@lmstudio/sdk':
         specifier: ^1.5.0
         version: 1.5.0
+      '@maximo-syntax/agent-runtime':
+        specifier: workspace:^
+        version: link:../packages/agent-runtime
+      '@maximo-syntax/cloud':
+        specifier: workspace:^
+        version: link:../packages/cloud
+      '@maximo-syntax/core-schemas':
+        specifier: workspace:^
+        version: link:../packages/core-schemas
+      '@maximo-syntax/telemetry':
+        specifier: workspace:^
+        version: link:../packages/telemetry
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../packages/types
       '@mistralai/mistralai':
         specifier: ^1.11.0
         version: 1.11.0
@@ -705,15 +714,6 @@ importers:
       '@qdrant/js-client-rest':
         specifier: ^1.16.2
         version: 1.16.2(typescript@5.9.3)
-      '@roo-code/cloud':
-        specifier: workspace:^
-        version: link:../packages/cloud
-      '@roo-code/telemetry':
-        specifier: workspace:^
-        version: link:../packages/telemetry
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../packages/types
       '@vscode/codicons':
         specifier: ^0.0.44
         version: 0.0.44
@@ -982,10 +982,10 @@ importers:
       '@lydell/node-pty':
         specifier: 1.2.0-beta.3
         version: 1.2.0-beta.3
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../packages/config-typescript
       '@types/fs-extra':
@@ -1193,12 +1193,12 @@ importers:
         specifier: ^2.4.3
         version: 2.5.1
     devDependencies:
+      '@maximo-syntax/config-eslint':
+        specifier: file:../../packages/config-eslint
+        version: link:../../packages/config-eslint
       '@playwright/test':
         specifier: ^1.56.1
         version: 1.57.0
-      '@roo-code/config-eslint':
-        specifier: file:../../packages/config-eslint
-        version: link:../../packages/config-eslint
       '@types/cookie':
         specifier: ^0.3.3
         version: 0.3.3
@@ -1502,26 +1502,26 @@ importers:
 
   packages/agent-runtime:
     dependencies:
-      '@kilocode/core-schemas':
-        specifier: workspace:^
-        version: link:../core-schemas
-      '@roo-code/cloud':
+      '@maximo-syntax/cloud':
         specifier: workspace:^
         version: link:../cloud
-      '@roo-code/telemetry':
+      '@maximo-syntax/core-schemas':
+        specifier: workspace:^
+        version: link:../core-schemas
+      '@maximo-syntax/telemetry':
         specifier: workspace:^
         version: link:../telemetry
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       node-machine-id:
         specifier: ^1.1.12
         version: 1.1.12
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1543,10 +1543,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1558,7 +1558,7 @@ importers:
 
   packages/cloud:
     dependencies:
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       ioredis:
@@ -1577,10 +1577,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1633,7 +1633,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       esbuild:
@@ -1649,10 +1649,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1668,13 +1668,13 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       '@types/node':
@@ -1692,10 +1692,10 @@ importers:
 
   packages/evals:
     dependencies:
-      '@roo-code/ipc':
+      '@maximo-syntax/ipc':
         specifier: workspace:^
         version: link:../ipc
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       cmd-ts:
@@ -1732,10 +1732,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1756,17 +1756,17 @@ importers:
 
   packages/ipc:
     dependencies:
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       node-ipc:
         specifier: ^12.0.0
         version: 12.0.0
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1781,7 +1781,7 @@ importers:
 
   packages/telemetry:
     dependencies:
-      '@roo-code/types':
+      '@maximo-syntax/types':
         specifier: workspace:^
         version: link:../types
       posthog-node:
@@ -1791,10 +1791,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1813,10 +1813,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1834,10 +1834,10 @@ importers:
 
   packages/vscode-shim:
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../config-typescript
       '@types/node':
@@ -1870,15 +1870,30 @@ importers:
       '@google/genai':
         specifier: ^1.29.1
         version: 1.29.1(@modelcontextprotocol/sdk@1.25.2(hono@4.11.4)(zod@3.25.76))
-      '@kilocode/core-schemas':
-        specifier: workspace:^
-        version: link:../packages/core-schemas
       '@lancedb/lancedb':
         specifier: ^0.21.2
         version: 0.21.3(apache-arrow@18.1.0)
       '@lmstudio/sdk':
         specifier: ^1.1.1
         version: 1.2.0
+      '@maximo-syntax/cloud':
+        specifier: workspace:^
+        version: link:../packages/cloud
+      '@maximo-syntax/core':
+        specifier: workspace:^
+        version: link:../packages/core
+      '@maximo-syntax/core-schemas':
+        specifier: workspace:^
+        version: link:../packages/core-schemas
+      '@maximo-syntax/ipc':
+        specifier: workspace:^
+        version: link:../packages/ipc
+      '@maximo-syntax/telemetry':
+        specifier: workspace:^
+        version: link:../packages/telemetry
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../packages/types
       '@mistralai/mistralai':
         specifier: ^1.9.18
         version: 1.9.18(zod@3.25.76)
@@ -1888,21 +1903,6 @@ importers:
       '@qdrant/js-client-rest':
         specifier: ^1.14.0
         version: 1.14.0(typescript@5.9.3)
-      '@roo-code/cloud':
-        specifier: workspace:^
-        version: link:../packages/cloud
-      '@roo-code/core':
-        specifier: workspace:^
-        version: link:../packages/core
-      '@roo-code/ipc':
-        specifier: workspace:^
-        version: link:../packages/ipc
-      '@roo-code/telemetry':
-        specifier: workspace:^
-        version: link:../packages/telemetry
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../packages/types
       '@sap-ai-sdk/foundation-models':
         specifier: ^2.2.0
         version: 2.5.0
@@ -2156,18 +2156,18 @@ importers:
       '@ai-sdk/openai-compatible':
         specifier: ^1.0.0
         version: 1.0.31(zod@3.25.76)
+      '@maximo-syntax/build':
+        specifier: workspace:^
+        version: link:../packages/build
+      '@maximo-syntax/config-eslint':
+        specifier: workspace:^
+        version: link:../packages/config-eslint
+      '@maximo-syntax/config-typescript':
+        specifier: workspace:^
+        version: link:../packages/config-typescript
       '@openrouter/ai-sdk-provider':
         specifier: ^2.0.4
         version: 2.1.1(ai@6.0.57(zod@3.25.76))(zod@3.25.76)
-      '@roo-code/build':
-        specifier: workspace:^
-        version: link:../packages/build
-      '@roo-code/config-eslint':
-        specifier: workspace:^
-        version: link:../packages/config-eslint
-      '@roo-code/config-typescript':
-        specifier: workspace:^
-        version: link:../packages/config-typescript
       '@types/clone-deep':
         specifier: ^4.0.4
         version: 4.0.4
@@ -2294,6 +2294,9 @@ importers:
 
   webview-ui:
     dependencies:
+      '@maximo-syntax/types':
+        specifier: workspace:^
+        version: link:../packages/types
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.6
         version: 1.1.13(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2339,9 +2342,6 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.1.8
         version: 1.2.6(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@roo-code/types':
-        specifier: workspace:^
-        version: link:../packages/types
       '@tailwindcss/vite':
         specifier: ^4.0.0
         version: 4.1.6(vite@6.3.6(@types/node@20.17.57)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.46.0)(tsx@4.21.0)(yaml@2.8.2))
@@ -2517,10 +2517,10 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@roo-code/config-eslint':
+      '@maximo-syntax/config-eslint':
         specifier: workspace:^
         version: link:../packages/config-eslint
-      '@roo-code/config-typescript':
+      '@maximo-syntax/config-typescript':
         specifier: workspace:^
         version: link:../packages/config-typescript
       '@storybook/addon-essentials':

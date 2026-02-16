@@ -1,4 +1,4 @@
-import { browserActions } from "@roo-code/types"
+import { browserActions } from "@maximo-syntax/types"
 
 describe("Browser Action Screenshot", () => {
 	describe("browserActions array", () => {

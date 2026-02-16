@@ -1,4 +1,4 @@
-import type { HistoryItem } from "@roo-code/types"
+import type { HistoryItem } from "@maximo-syntax/types"
 import type { WebviewMessage } from "../../../WebviewMessage"
 export type { HistoryItem, WebviewMessage }
 

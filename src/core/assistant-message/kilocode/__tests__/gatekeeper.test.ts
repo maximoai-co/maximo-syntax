@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest"
 import { evaluateGatekeeperApproval } from "../gatekeeper"
 import type { Task } from "../../../task/Task"
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import { execSync } from "child_process"
 import { existsSync } from "fs"
 

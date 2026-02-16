@@ -10,8 +10,8 @@ import {
 	type PurgeOptions,
 	type HistoryItem,
 	TelemetryEventName,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { getTaskDirectoryPath } from "../../utils/storage"
 import { fileExistsAtPath } from "../../utils/fs"
 

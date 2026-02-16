@@ -1,4 +1,4 @@
-import { DEEP_SEEK_DEFAULT_TEMPERATURE, chutesDefaultModelId, chutesDefaultModelInfo } from "@roo-code/types"
+import { DEEP_SEEK_DEFAULT_TEMPERATURE, chutesDefaultModelId, chutesDefaultModelInfo } from "@maximo-syntax/types"
 import { Anthropic } from "@anthropic-ai/sdk"
 import OpenAI from "openai"
 
@@ -102,10 +102,13 @@ export class ChutesHandler extends RouterProvider implements SingleCompletionHan
 		const model = await this.fetchModel()
 
 		if (model.id.includes("DeepSeek-R1")) {
-			const stream = await this.client.chat.completions.create({
-				...this.getCompletionParams(systemPrompt, messages, metadata),
-				messages: convertToR1Format([{ role: "user", content: systemPrompt }, ...messages]),
-			}, this.getRequestOptions())
+			const stream = await this.client.chat.completions.create(
+				{
+					...this.getCompletionParams(systemPrompt, messages, metadata),
+					messages: convertToR1Format([{ role: "user", content: systemPrompt }, ...messages]),
+				},
+				this.getRequestOptions(),
+			)
 
 			const matcher = new XmlMatcher(
 				"think",

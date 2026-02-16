@@ -1,6 +1,6 @@
 // npx vitest run __tests__/delegation-events.spec.ts
 
-import { RooCodeEventName, rooCodeEventsSchema, taskEventSchema } from "@roo-code/types"
+import { RooCodeEventName, rooCodeEventsSchema, taskEventSchema } from "@maximo-syntax/types"
 
 describe("delegation event schemas", () => {
 	test("rooCodeEventsSchema validates tuples", () => {

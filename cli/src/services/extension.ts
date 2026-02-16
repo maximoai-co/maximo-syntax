@@ -1,7 +1,7 @@
 /**
  * Extension Service for CLI
  *
- * This module provides CLI-typed wrappers around @kilocode/agent-runtime components.
+ * This module provides CLI-typed wrappers around @maximo-syntax/agent-runtime components.
  * Uses composition to bridge runtime's generic types to CLI's specific types.
  *
  * Type handling: agent-runtime uses generic types (index signatures) while CLI
@@ -21,11 +21,11 @@ import {
 	type WebviewMessage as RuntimeWebviewMessage,
 	type ExtensionMessage as RuntimeExtensionMessage,
 	type ExtensionState as RuntimeExtensionState,
-} from "@kilocode/agent-runtime"
+} from "@maximo-syntax/agent-runtime"
 import { logs } from "./logs.js"
 import { TelemetryService } from "./telemetry/TelemetryService.js"
 import type { ExtensionMessage, WebviewMessage, ExtensionState, ModeConfig } from "../types/messages.js"
-import type { IdentityInfo } from "@kilocode/agent-runtime"
+import type { IdentityInfo } from "@maximo-syntax/agent-runtime"
 import { EventEmitter } from "events"
 
 // Configure agent-runtime to use CLI's logger
@@ -313,7 +313,7 @@ export class MessageBridge {
 
 // Re-export IPCChannel as-is
 export { RuntimeIPCChannel as IPCChannel }
-export type { IPCMessage, IPCOptions } from "@kilocode/agent-runtime"
+export type { IPCMessage, IPCOptions } from "@maximo-syntax/agent-runtime"
 
 // Factory functions with CLI types
 export function createExtensionService(options: ExtensionServiceOptions = {}): ExtensionService {
@@ -334,4 +334,4 @@ export function createVSCodeAPIMock(extensionRootPath: string, workspacePath: st
 }
 
 // Re-export types
-export type { IdentityInfo, ExtensionContext } from "@kilocode/agent-runtime"
+export type { IdentityInfo, ExtensionContext } from "@maximo-syntax/agent-runtime"

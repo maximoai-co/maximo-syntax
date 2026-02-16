@@ -1,5 +1,5 @@
 import { useTaskHistory } from "@/kilocode/hooks/useTaskHistory"
-import { ClineMessage } from "@roo-code/types"
+import { ClineMessage } from "@maximo-syntax/types"
 import { useCallback, useEffect, useMemo, useState } from "react"
 
 interface UsePromptHistoryProps {

@@ -1,7 +1,7 @@
 import { ChatCompletionChunk } from "openai/resources/index.mjs"
 import { t } from "../../../i18n"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName } from "@maximo-syntax/types"
 
 export function throwMaxCompletionTokensReachedError() {
 	TelemetryService.instance.captureEvent(TelemetryEventName.MAX_COMPLETION_TOKENS_REACHED_ERROR)

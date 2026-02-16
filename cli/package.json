@@ -1,12 +1,12 @@
 {
-	"name": "@kilocode/cli",
+	"name": "@maximo-syntax/cli",
 	"version": "0.26.1",
-	"description": "Terminal User Interface for Kilo Code",
+	"description": "Terminal User Interface for Maximo Syntax",
 	"type": "module",
 	"main": "dist/index.js",
 	"bin": {
-		"kilocode": "dist/index.js",
-		"kilo": "dist/index.js"
+		"maximo": "dist/index.js",
+		"syntax": "dist/index.js"
 	},
 	"scripts": {
 		"build": "node esbuild.config.mjs",
@@ -40,15 +40,15 @@
 		"@aws-sdk/credential-providers": "^3.966.0",
 		"@google/genai": "^1.35.0",
 		"@inquirer/prompts": "^8.2.0",
-		"@kilocode/agent-runtime": "workspace:^",
-		"@kilocode/core-schemas": "workspace:^",
+		"@maximo-syntax/agent-runtime": "workspace:^",
+		"@maximo-syntax/core-schemas": "workspace:^",
 		"@lmstudio/sdk": "^1.5.0",
 		"@mistralai/mistralai": "^1.11.0",
 		"@modelcontextprotocol/sdk": "^1.25.2",
 		"@qdrant/js-client-rest": "^1.16.2",
-		"@roo-code/cloud": "workspace:^",
-		"@roo-code/telemetry": "workspace:^",
-		"@roo-code/types": "workspace:^",
+		"@maximo-syntax/cloud": "workspace:^",
+		"@maximo-syntax/telemetry": "workspace:^",
+		"@maximo-syntax/types": "workspace:^",
 		"@vscode/codicons": "^0.0.44",
 		"@vscode/ripgrep": "^1.17.0",
 		"ajv": "^8.17.1",
@@ -145,8 +145,8 @@
 	"devDependencies": {
 		"@eslint/js": "^9.39.2",
 		"@lydell/node-pty": "1.2.0-beta.3",
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@maximo-syntax/config-eslint": "workspace:^",
+		"@maximo-syntax/config-typescript": "workspace:^",
 		"@types/fs-extra": "^11.0.4",
 		"@types/marked-terminal": "^6.1.1",
 		"@types/node": "~25.0.3",

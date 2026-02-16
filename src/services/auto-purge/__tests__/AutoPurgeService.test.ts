@@ -3,13 +3,13 @@ import * as fs from "fs/promises"
 import getFolderSize from "get-folder-size"
 
 import { AutoPurgeService } from "../AutoPurgeService"
-import { TaskType, type HistoryItem, type AutoPurgeSettings, TelemetryEventName } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TaskType, type HistoryItem, type AutoPurgeSettings, TelemetryEventName } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 // Mock dependencies
 vi.mock("fs/promises")
 vi.mock("get-folder-size")
-vi.mock("@roo-code/telemetry")
+vi.mock("@maximo-syntax/telemetry")
 vi.mock("../../../utils/storage")
 vi.mock("../../../utils/fs")
 

@@ -1,4 +1,4 @@
-import { ToolName } from "@roo-code/types"
+import { ToolName } from "@maximo-syntax/types"
 import { ToolUse } from "../../../shared/tools"
 
 /**

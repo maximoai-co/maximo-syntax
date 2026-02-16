@@ -1,6 +1,6 @@
-// pnpm --filter @roo-code/core test src/custom-tools/__tests__/format-xml.spec.ts
+// pnpm --filter @maximo-syntax/core test src/custom-tools/__tests__/format-xml.spec.ts
 
-import { type SerializedCustomToolDefinition, parametersSchema as z, defineCustomTool } from "@roo-code/types"
+import { type SerializedCustomToolDefinition, parametersSchema as z, defineCustomTool } from "@maximo-syntax/types"
 
 import { serializeCustomTool, serializeCustomTools } from "../serialize.js"
 import { formatXml } from "../format-xml.js"

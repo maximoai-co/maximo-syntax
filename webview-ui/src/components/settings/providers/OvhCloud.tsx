@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react"
 import { VSCodeCheckbox, VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 
-import { OrganizationAllowList, ovhCloudAiEndpointsDefaultModelId, type ProviderSettings } from "@roo-code/types"
+import { OrganizationAllowList, ovhCloudAiEndpointsDefaultModelId, type ProviderSettings } from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { VSCodeButtonLink } from "@src/components/common/VSCodeButtonLink"

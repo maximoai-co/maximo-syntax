@@ -1,4 +1,4 @@
-import { reasoningEffortsExtended } from "@roo-code/types"
+import { reasoningEffortsExtended } from "@maximo-syntax/types"
 
 export const DEFAULT_FLAGS = {
 	mode: "code",

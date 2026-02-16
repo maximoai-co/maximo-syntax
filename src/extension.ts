@@ -12,10 +12,10 @@ try {
 	console.warn("Failed to load environment variables:", e)
 }
 
-import type { CloudUserInfo, AuthState } from "@roo-code/types"
-import { CloudService, BridgeOrchestrator } from "@roo-code/cloud"
-import { TelemetryService, PostHogTelemetryClient, DebugTelemetryClient } from "@roo-code/telemetry" // kilocode_change: added DebugTelemetryClient
-import { customToolRegistry } from "@roo-code/core"
+import type { CloudUserInfo, AuthState } from "@maximo-syntax/types"
+import { CloudService, BridgeOrchestrator } from "@maximo-syntax/cloud"
+import { TelemetryService, PostHogTelemetryClient, DebugTelemetryClient } from "@maximo-syntax/telemetry" // kilocode_change: added DebugTelemetryClient
+import { customToolRegistry } from "@maximo-syntax/core"
 
 import "./utils/path" // Necessary to have access to String.prototype.toPosix.
 import { createOutputChannelLogger, createDualLogger } from "./utils/outputChannelLogger"
@@ -537,7 +537,7 @@ export async function activate(context: vscode.ExtensionContext) {
 			{ path: context.extensionPath, pattern: "**/*.ts" },
 			{ path: path.join(context.extensionPath, "../packages/types"), pattern: "**/*.ts" },
 			{ path: path.join(context.extensionPath, "../packages/telemetry"), pattern: "**/*.ts" },
-			{ path: path.join(context.extensionPath, "node_modules/@roo-code/cloud"), pattern: "**/*" },
+			{ path: path.join(context.extensionPath, "node_modules/@maximo-syntax/cloud"), pattern: "**/*" },
 		]
 
 		console.log(

@@ -1,4 +1,4 @@
-import { GlobalState, ClineMessage } from "@roo-code/types"
+import { GlobalState, ClineMessage } from "@maximo-syntax/types"
 
 import { AutoApprovalHandler } from "../AutoApprovalHandler"
 

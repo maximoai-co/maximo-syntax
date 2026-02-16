@@ -1,4 +1,4 @@
-import { getApiUrl } from "@roo-code/types"
+import { getApiUrl } from "@maximo-syntax/types"
 
 type HttpMethod = "GET" | "POST"
 

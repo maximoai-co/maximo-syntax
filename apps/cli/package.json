@@ -1,7 +1,7 @@
 {
-	"name": "@maximo-syntax/cli",
+	"name": "@maximo-syntax/cli-app",
 	"version": "0.0.45",
-	"description": "Roo Code CLI - Run the Roo Code agent from the command line",
+	"description": "Maximo Syntax CLI App - Run the Maximo Syntax agent from the command line",
 	"private": true,
 	"type": "module",
 	"main": "dist/index.js",

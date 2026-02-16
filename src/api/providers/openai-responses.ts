@@ -8,7 +8,7 @@ import {
 	openAiModelInfoSaneDefaults,
 	NATIVE_TOOL_DEFAULTS,
 	OPENAI_AZURE_AI_INFERENCE_PATH,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions } from "../../shared/api"
 

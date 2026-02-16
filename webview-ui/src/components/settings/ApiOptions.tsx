@@ -50,7 +50,7 @@ import {
 	deepInfraDefaultModelId,
 	minimaxDefaultModelId,
 	nanoGptDefaultModelId, //kilocode_change
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { vscode } from "@src/utils/vscode"
 import { validateApiConfigurationExcludingModelErrors, getModelValidationError } from "@src/utils/validate"

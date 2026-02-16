@@ -1,4 +1,4 @@
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 export interface TaskTimelineMessageTypeConfig {
 	color: string

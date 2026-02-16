@@ -17,8 +17,8 @@ import { scannerExtensions } from "../shared/supported-extensions"
 import { VectorStoreSearchResult } from "../interfaces/vector-store"
 import { ClineProvider } from "../../../core/webview/ClineProvider"
 import { RooIgnoreController } from "../../../core/ignore/RooIgnoreController"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { shouldIgnoreFile } from "./ignore-list"
 
 interface ManagedIndexerConfig {

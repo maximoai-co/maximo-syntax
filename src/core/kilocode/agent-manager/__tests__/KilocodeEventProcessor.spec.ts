@@ -3,7 +3,7 @@ import type { KilocodeStreamEvent } from "../CliOutputParser"
 import { KilocodeEventProcessor } from "../KilocodeEventProcessor"
 import { RuntimeProcessHandler } from "../RuntimeProcessHandler"
 import { AgentRegistry } from "../AgentRegistry"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 function createDeps() {
 	const processHandler = {

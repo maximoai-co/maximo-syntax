@@ -5,7 +5,7 @@ import {
 	OPENROUTER_DEFAULT_PROVIDER_NAME,
 	getAppUrl,
 	TelemetryEventName,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectSeparator } from "@src/components/ui"

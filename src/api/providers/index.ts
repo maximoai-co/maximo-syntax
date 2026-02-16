@@ -50,3 +50,6 @@ export { DeepInfraHandler } from "./deepinfra"
 export { MiniMaxHandler } from "./minimax"
 export { BasetenHandler } from "./baseten"
 export { CorethinkHandler } from "./corethink"
+// maximosyntax_change start
+export { MaximoAiHandler } from "./maximo-ai"
+// maximosyntax_change end

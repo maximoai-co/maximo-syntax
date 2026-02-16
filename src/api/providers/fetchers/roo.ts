@@ -1,4 +1,4 @@
-import { RooModelsResponseSchema, type ModelInfo, type ModelRecord } from "@roo-code/types"
+import { RooModelsResponseSchema, type ModelInfo, type ModelRecord } from "@maximo-syntax/types"
 
 import { parseApiPrice } from "../../../shared/cost"
 

@@ -2,7 +2,7 @@
 import axios from "axios"
 import { z } from "zod"
 
-import { isModelParameter, type ModelInfo } from "@roo-code/types"
+import { isModelParameter, type ModelInfo } from "@maximo-syntax/types"
 
 // Synthetic /openai/v1/models item schema (based on models.json)
 const syntheticModelSchema = z.object({

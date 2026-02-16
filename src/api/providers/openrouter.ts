@@ -10,8 +10,8 @@ import {
 	OPENROUTER_DEFAULT_PROVIDER_NAME,
 	OPEN_ROUTER_PROMPT_CACHING_MODELS,
 	DEEP_SEEK_DEFAULT_TEMPERATURE,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { NativeToolCallParser } from "../../core/assistant-message/NativeToolCallParser"
 
@@ -24,7 +24,7 @@ import {
 } from "../transform/openai-format"
 import { normalizeMistralToolCallId } from "../transform/mistral-format"
 import { resolveToolProtocol } from "../../utils/resolveToolProtocol"
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 import { ApiStreamChunk } from "../transform/stream"
 import { convertToR1Format } from "../transform/r1-format"
 import { addAnthropicCacheBreakpoints } from "../transform/caching/kilocode" // kilocode_change: own implementation that supports tool results
@@ -48,7 +48,7 @@ type OpenRouterProviderParams = {
 	zdr?: boolean
 }
 
-import { safeJsonParse } from "@roo-code/core" // kilocode_change
+import { safeJsonParse } from "@maximo-syntax/core" // kilocode_change
 import { isAnyRecognizedKiloCodeError } from "../../shared/kilocode/errorUtils"
 import { OpenAIError } from "openai"
 // kilocode_change end

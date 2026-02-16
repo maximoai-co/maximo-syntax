@@ -1,10 +1,10 @@
 // kilocode_change - new file
 import OpenAI from "openai"
 import type Anthropic from "@anthropic-ai/sdk"
-import type { ModelInfo } from "@roo-code/types"
-import { zenmuxDefaultModelId, zenmuxDefaultModelInfo } from "@roo-code/types"
-import { ApiProviderError } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import type { ModelInfo } from "@maximo-syntax/types"
+import { zenmuxDefaultModelId, zenmuxDefaultModelInfo } from "@maximo-syntax/types"
+import { ApiProviderError } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { ApiHandlerOptions, ModelRecord } from "../../shared/api"
 
@@ -24,7 +24,7 @@ import { ChatCompletionTool } from "openai/resources"
 import { convertToOpenAiMessages } from "../transform/openai-format"
 import { convertToR1Format } from "../transform/r1-format"
 import { resolveToolProtocol } from "../../utils/resolveToolProtocol"
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 import { ApiStreamChunk } from "../transform/stream"
 import { NativeToolCallParser } from "../../core/assistant-message/NativeToolCallParser"
 import { KiloCodeChunkSchema } from "./kilocode/chunk-schema"

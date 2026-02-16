@@ -5,9 +5,9 @@ import { AutocompleteModel } from "./AutocompleteModel"
 import { AutocompleteStatusBar } from "./AutocompleteStatusBar"
 import { AutocompleteCodeActionProvider } from "./AutocompleteCodeActionProvider"
 import { AutocompleteInlineCompletionProvider } from "./classic-auto-complete/AutocompleteInlineCompletionProvider"
-import { AutocompleteServiceSettings, TelemetryEventName } from "@roo-code/types"
+import { AutocompleteServiceSettings, TelemetryEventName } from "@maximo-syntax/types"
 import { ContextProxy } from "../../core/config/ContextProxy"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { ClineProvider } from "../../core/webview/ClineProvider"
 import { AutocompleteTelemetry } from "./classic-auto-complete/AutocompleteTelemetry"
 
@@ -36,7 +36,9 @@ export class AutocompleteServiceManager {
 
 	constructor(context: vscode.ExtensionContext, cline: ClineProvider) {
 		if (AutocompleteServiceManager._instance) {
-			throw new Error("AutocompleteServiceManager is a singleton. Use AutocompleteServiceManager.getInstance() instead.")
+			throw new Error(
+				"AutocompleteServiceManager is a singleton. Use AutocompleteServiceManager.getInstance() instead.",
+			)
 		}
 
 		this.context = context

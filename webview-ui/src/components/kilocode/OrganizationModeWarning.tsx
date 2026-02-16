@@ -2,7 +2,7 @@ import { Trans } from "react-i18next"
 import { VSCodeLink } from "@vscode/webview-ui-toolkit/react"
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { useExtensionState } from "@/context/ExtensionStateContext"
-import { getAppUrl } from "@roo-code/types"
+import { getAppUrl } from "@maximo-syntax/types"
 
 export function OrganizationModeWarning() {
 	const { t } = useAppTranslation()

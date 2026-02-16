@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import { useAtomValue, useSetAtom } from "jotai"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { updateSessionMessagesAtom } from "../atoms/messages"
 import { updateSessionTodosAtom } from "../atoms/todos"
 import { updateBranchesAtom } from "../atoms/branches"

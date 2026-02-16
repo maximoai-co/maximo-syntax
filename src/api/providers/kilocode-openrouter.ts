@@ -4,8 +4,12 @@ import { OpenRouterHandler } from "./openrouter"
 import type { CompletionUsage } from "./openrouter"
 import { getModelParams } from "../transform/model-params"
 import { getModels } from "./fetchers/modelCache"
-import { DEEP_SEEK_DEFAULT_TEMPERATURE, openRouterDefaultModelId, openRouterDefaultModelInfo } from "@roo-code/types"
-import { getKiloUrlFromToken } from "@roo-code/types"
+import {
+	DEEP_SEEK_DEFAULT_TEMPERATURE,
+	openRouterDefaultModelId,
+	openRouterDefaultModelInfo,
+} from "@maximo-syntax/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 import type { ApiHandlerCreateMessageMetadata } from ".."
 import { getModelEndpoints } from "./fetchers/modelEndpointCache"
 import { getKilocodeDefaultModel } from "./kilocode/getKilocodeDefaultModel"

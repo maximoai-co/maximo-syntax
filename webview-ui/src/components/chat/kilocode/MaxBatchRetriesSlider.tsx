@@ -1,7 +1,7 @@
 import React from "react"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 
-import { CODEBASE_INDEX_DEFAULTS } from "@roo-code/types"
+import { CODEBASE_INDEX_DEFAULTS } from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { Slider, StandardTooltip } from "@src/components/ui"

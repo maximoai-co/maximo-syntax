@@ -1,4 +1,4 @@
-import { TodoItem } from "@roo-code/types"
+import { TodoItem } from "@maximo-syntax/types"
 
 import { AttemptCompletionToolUse } from "../../../shared/tools"
 

@@ -4,7 +4,7 @@
 	"description": "%extension.description%",
 	"publisher": "maximoai",
 	"version": "5.7.0",
-	"icon": "assets/icons/logo-outline-black.png",
+	"icon": "assets/icons/maximo.png",
 	"galleryBanner": {
 		"color": "#FFFFFF",
 		"theme": "light"
@@ -112,8 +112,8 @@
 				{
 					"id": "kilo-code-ActivityBar",
 					"title": "%views.activitybar.title%",
-					"icon": "assets/icons/kilo.png",
-					"darkIcon": "assets/icons/kilo-dark.png"
+					"icon": "assets/icons/maximo.png",
+					"darkIcon": "assets/icons/maximo-dark.png"
 				}
 			]
 		},
@@ -123,8 +123,8 @@
 					"type": "webview",
 					"id": "kilo-code.SidebarProvider",
 					"name": "%views.sidebar.name%",
-					"icon": "assets/icons/kilo.png",
-					"darkIcon": "assets/icons/kilo-dark.png"
+					"icon": "assets/icons/maximo.png",
+					"darkIcon": "assets/icons/maximo-dark.png"
 				}
 			]
 		},
@@ -678,12 +678,12 @@
 		"@mistralai/mistralai": "^1.9.18",
 		"@modelcontextprotocol/sdk": "^1.24.0",
 		"@qdrant/js-client-rest": "^1.14.0",
-		"@roo-code/cloud": "workspace:^",
-		"@roo-code/core": "workspace:^",
-		"@kilocode/core-schemas": "workspace:^",
-		"@roo-code/ipc": "workspace:^",
-		"@roo-code/telemetry": "workspace:^",
-		"@roo-code/types": "workspace:^",
+		"@maximo-syntax/cloud": "workspace:^",
+		"@maximo-syntax/core": "workspace:^",
+		"@maximo-syntax/core-schemas": "workspace:^",
+		"@maximo-syntax/ipc": "workspace:^",
+		"@maximo-syntax/telemetry": "workspace:^",
+		"@maximo-syntax/types": "workspace:^",
 		"@sap-ai-sdk/foundation-models": "^2.2.0",
 		"@sap-ai-sdk/orchestration": "^2.2.0",
 		"@vscode/codicons": "^0.0.36",
@@ -771,9 +771,9 @@
 	"devDependencies": {
 		"@ai-sdk/openai-compatible": "^1.0.0",
 		"@openrouter/ai-sdk-provider": "^2.0.4",
-		"@roo-code/build": "workspace:^",
-		"@roo-code/config-eslint": "workspace:^",
-		"@roo-code/config-typescript": "workspace:^",
+		"@maximo-syntax/build": "workspace:^",
+		"@maximo-syntax/config-eslint": "workspace:^",
+		"@maximo-syntax/config-typescript": "workspace:^",
 		"@types/clone-deep": "^4.0.4",
 		"@types/debug": "^4.1.12",
 		"@types/diff": "^7.0.2",

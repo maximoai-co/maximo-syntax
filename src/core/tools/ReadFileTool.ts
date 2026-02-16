@@ -2,8 +2,8 @@ import path from "path"
 import * as fs from "fs/promises"
 import { isBinaryFile } from "isbinaryfile"
 
-import type { FileEntry, LineRange } from "@roo-code/types"
-import { type ClineSayTool, isNativeProtocol, ANTHROPIC_DEFAULT_MAX_TOKENS } from "@roo-code/types"
+import type { FileEntry, LineRange } from "@maximo-syntax/types"
+import { type ClineSayTool, isNativeProtocol, ANTHROPIC_DEFAULT_MAX_TOKENS } from "@maximo-syntax/types"
 
 import { Task } from "../task/Task"
 import { formatResponse } from "../prompts/responses"

@@ -3,7 +3,7 @@
 
 import { renderHook } from "@testing-library/react"
 import { useGroupedModelIds, getGroupedModelIds } from "../usePreferredModels"
-import type { ModelInfo } from "@roo-code/types"
+import type { ModelInfo } from "@maximo-syntax/types"
 
 // Helper to create minimal ModelInfo objects for testing
 const createModelInfo = (overrides: Partial<ModelInfo> = {}): ModelInfo => ({

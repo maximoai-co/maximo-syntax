@@ -10,8 +10,8 @@ import {
 	ANTHROPIC_DEFAULT_MAX_TOKENS,
 	TOOL_PROTOCOL,
 	VERTEX_1M_CONTEXT_MODEL_IDS,
-} from "@roo-code/types"
-import { safeJsonParse } from "@roo-code/core"
+} from "@maximo-syntax/types"
+import { safeJsonParse } from "@maximo-syntax/core"
 
 import { ApiHandlerOptions } from "../../shared/api"
 

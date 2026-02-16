@@ -1,7 +1,7 @@
 import { VSCodeButtonLink } from "../common/VSCodeButtonLink"
 import { telemetryClient } from "@/utils/TelemetryClient"
 import { useAppTranslation } from "@/i18n/TranslationContext"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 
 export const FreeModelsLink = ({
 	className,

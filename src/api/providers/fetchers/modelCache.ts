@@ -5,9 +5,9 @@ import * as fsSync from "fs"
 import NodeCache from "node-cache"
 import { z } from "zod"
 
-import type { ProviderName, ModelRecord } from "@roo-code/types"
-import { modelInfoSchema, TelemetryEventName } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import type { ProviderName, ModelRecord } from "@maximo-syntax/types"
+import { modelInfoSchema, TelemetryEventName } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { safeWriteJson } from "../../../utils/safeWriteJson"
 
@@ -23,7 +23,7 @@ import { getGlamaModels } from "./glama" // kilocode_change
 import { getUnboundModels } from "./unbound"
 import { getLiteLLMModels } from "./litellm"
 import { GetModelsOptions } from "../../../shared/api"
-import { getKiloUrlFromToken } from "@roo-code/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 import { getOllamaModels } from "./ollama"
 import { getLMStudioModels } from "./lmstudio"
 import { getIOIntelligenceModels } from "./io-intelligence"

@@ -1,6 +1,6 @@
 import EventEmitter from "events"
-import { getApiUrl, DeviceAuthInitiateResponseSchema, DeviceAuthPollResponseSchema } from "@roo-code/types"
-import type { DeviceAuthInitiateResponse, DeviceAuthPollResponse } from "@roo-code/types"
+import { getApiUrl, DeviceAuthInitiateResponseSchema, DeviceAuthPollResponseSchema } from "@maximo-syntax/types"
+import type { DeviceAuthInitiateResponse, DeviceAuthPollResponse } from "@maximo-syntax/types"
 
 const POLL_INTERVAL_MS = 3000
 

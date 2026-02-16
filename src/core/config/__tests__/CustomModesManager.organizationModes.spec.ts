@@ -10,7 +10,7 @@ import * as yaml from "yaml"
 import * as vscode from "vscode"
 import axios from "axios"
 
-import type { ModeConfig } from "@roo-code/types"
+import type { ModeConfig } from "@maximo-syntax/types"
 
 import { fileExistsAtPath } from "../../../utils/fs"
 import { getWorkspacePath } from "../../../utils/path"

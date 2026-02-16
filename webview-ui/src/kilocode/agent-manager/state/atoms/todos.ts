@@ -1,6 +1,6 @@
 import { atom } from "jotai"
 import { atomFamily } from "jotai/utils"
-import type { TodoItem } from "@roo-code/types"
+import type { TodoItem } from "@maximo-syntax/types"
 
 /**
  * Per-session todo list using atomFamily.

@@ -1,4 +1,4 @@
-import { getApiUrl } from "@roo-code/types"
+import { getApiUrl } from "@maximo-syntax/types"
 import { logs } from "../services/logs.js"
 import type { KilocodeNotification } from "../state/atoms/notifications.js"
 import type { ProviderConfig } from "../config/types.js"

@@ -1,6 +1,6 @@
 // kilocode_change - new file
 import { useMemo } from "react"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { ClineSayTool } from "@roo/ExtensionMessage"
 import { safeJsonParse } from "@roo/safeJsonParse"
 

@@ -1,4 +1,4 @@
-import { ClineMessage } from "@roo-code/types"
+import { ClineMessage } from "@maximo-syntax/types"
 import { vscode } from "@src/utils/vscode"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 import { FreeModelsLink } from "../FreeModelsLink"

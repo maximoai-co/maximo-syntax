@@ -1,4 +1,4 @@
-import type { AssertEqual, Equals, Keys, Values, ExperimentId, Experiments } from "@roo-code/types"
+import type { AssertEqual, Equals, Keys, Values, ExperimentId, Experiments } from "@maximo-syntax/types"
 
 export const EXPERIMENT_IDS = {
 	MORPH_FAST_APPLY: "morphFastApply", // kilocode_change

@@ -1,11 +1,11 @@
 /**
  * CLI Configuration Types
  *
- * Re-exports types from @kilocode/core-schemas for runtime validation
+ * Re-exports types from @maximo-syntax/core-schemas for runtime validation
  * and backward compatibility with existing code.
  */
 
-import type { ProviderConfig as CoreProviderConfig, CLIConfig as CoreCLIConfig } from "@kilocode/core-schemas"
+import type { ProviderConfig as CoreProviderConfig, CLIConfig as CoreCLIConfig } from "@maximo-syntax/core-schemas"
 
 // ProviderConfig with index signature for dynamic property access (backward compatibility)
 export type ProviderConfig = CoreProviderConfig & { [key: string]: unknown }
@@ -139,4 +139,4 @@ export {
 	historyDataSchema,
 	type HistoryEntry,
 	type HistoryData,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"

@@ -1,4 +1,4 @@
-import { type ProviderName, type ProviderSettings } from "@roo-code/types"
+import { type ProviderName, type ProviderSettings } from "@maximo-syntax/types"
 
 export const getModelIdKey = ({
 	provider,

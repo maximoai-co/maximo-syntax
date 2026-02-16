@@ -9,7 +9,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest"
 import { render } from "ink-testing-library"
 import { ExtensionMessageRow } from "../ExtensionMessageRow.js"
 import type { ExtensionChatMessage } from "../../../../types/messages.js"
-import type { ClineAsk, ClineSay } from "@roo-code/types"
+import type { ClineAsk, ClineSay } from "@maximo-syntax/types"
 
 // Mock the logs service
 vi.mock("../../../../services/logs.js", () => ({

@@ -1,5 +1,5 @@
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import type { AutocompleteContext, CacheMatchType, FillInAtCursorSuggestion } from "../types"
 
 export type { AutocompleteContext, CacheMatchType, FillInAtCursorSuggestion }

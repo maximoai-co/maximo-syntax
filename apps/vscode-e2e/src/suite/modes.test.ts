@@ -1,6 +1,6 @@
 import * as assert from "assert"
 
-import { RooCodeEventName } from "@roo-code/types"
+import { RooCodeEventName } from "@maximo-syntax/types"
 
 import { waitUntilCompleted } from "./utils"
 import { setDefaultSuiteTimeout } from "./test-utils"

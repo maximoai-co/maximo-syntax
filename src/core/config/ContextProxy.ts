@@ -17,8 +17,8 @@ import {
 	globalSettingsSchema,
 	isSecretStateKey,
 	isProviderName,
-} from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { logger } from "../../utils/logging"
 

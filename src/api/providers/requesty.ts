@@ -8,7 +8,7 @@ import {
 	requestyDefaultModelInfo,
 	TOOL_PROTOCOL,
 	NATIVE_TOOL_DEFAULTS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions } from "../../shared/api"
 import { resolveToolProtocol } from "../../utils/resolveToolProtocol"

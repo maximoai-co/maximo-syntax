@@ -1,6 +1,6 @@
 // kilocode_change - new file
 import { telemetryClient } from "../utils/TelemetryClient"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { createSampledFunction } from "../utils/sampling"
 
 interface PerformanceMemory {

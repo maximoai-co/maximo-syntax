@@ -53,7 +53,7 @@
 			"label": "watch:webview",
 			"dependsOn": ["watch:pnpm"],
 			"type": "shell",
-			"command": "pnpm --filter @roo-code/vscode-webview dev",
+			"command": "pnpm --filter @maximo-syntax/vscode-webview dev",
 			"group": "build",
 			"problemMatcher": {
 				"owner": "vite",

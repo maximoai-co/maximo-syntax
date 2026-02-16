@@ -1,5 +1,5 @@
 // kilocode_change - new file
-import { APERTIS_DEFAULT_BASE_URL, APERTIS_THINKING_MODELS, APERTIS_RESPONSES_API_MODELS } from "@roo-code/types"
+import { APERTIS_DEFAULT_BASE_URL, APERTIS_THINKING_MODELS, APERTIS_RESPONSES_API_MODELS } from "@maximo-syntax/types"
 import type { ModelRecord } from "../../../shared/api"
 
 interface ApertisModelsResponse {

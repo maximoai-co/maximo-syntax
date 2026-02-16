@@ -5,7 +5,7 @@ import { t } from "../../../i18n"
 import { WebviewMessage } from "../../../shared/WebviewMessage"
 import { Task } from "../../task/Task"
 import axios from "axios"
-import { getKiloUrlFromToken } from "@roo-code/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 import { buildApiHandler } from "../../../api"
 import { ContextProxy } from "../../config/ContextProxy"
 

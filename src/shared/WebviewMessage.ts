@@ -13,7 +13,7 @@ export type {
 	TasksByIdRequestPayload,
 	TasksByIdResponsePayload,
 	UpdateGlobalStateMessage,
-} from "@roo-code/types" // kilocode_change
+} from "@maximo-syntax/types" // kilocode_change
 
 export type ClineAskResponse =
 	| "yesButtonClicked"

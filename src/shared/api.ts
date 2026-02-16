@@ -9,7 +9,7 @@ import {
 	isDynamicProvider,
 	isLocalProvider,
 	ToolProtocol, // kilocode_change
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 // Re-export for legacy imports (some providers still import ModelRecord from this module).
 export type { ModelRecord } // kilocode_change

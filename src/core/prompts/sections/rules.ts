@@ -1,5 +1,5 @@
 import type { SystemPromptSettings } from "../types"
-import { getEffectiveProtocol, isNativeProtocol } from "@roo-code/types"
+import { getEffectiveProtocol, isNativeProtocol } from "@maximo-syntax/types"
 
 // kilocode_change start
 import { getFastApplyEditingInstructions } from "../tools/edit-file"

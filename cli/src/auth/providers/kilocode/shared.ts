@@ -1,5 +1,5 @@
-import { getApiUrl } from "@roo-code/types"
-import { openRouterDefaultModelId } from "@roo-code/types"
+import { getApiUrl } from "@maximo-syntax/types"
+import { openRouterDefaultModelId } from "@maximo-syntax/types"
 import { z } from "zod"
 import { select } from "@inquirer/prompts"
 import { logs } from "../../../services/logs.js"

@@ -1,7 +1,7 @@
 import { Anthropic } from "@anthropic-ai/sdk"
 import OpenAI from "openai"
 
-import type { ProviderSettings, ModelInfo, ToolProtocol } from "@roo-code/types"
+import type { ProviderSettings, ModelInfo, ToolProtocol } from "@maximo-syntax/types"
 
 import { ApiStream } from "./transform/stream"
 
@@ -55,6 +55,9 @@ import {
 	BasetenHandler,
 	CorethinkHandler,
 	OpenAiCompatibleResponsesHandler, // kilocode_change
+	// maximosyntax_change start
+	MaximoAiHandler,
+	// maximosyntax_change end
 } from "./providers"
 // kilocode_change start
 import { KilocodeOpenrouterHandler } from "./providers/kilocode-openrouter"
@@ -277,6 +280,10 @@ export function buildApiHandler(configuration: ProviderSettings): ApiHandler {
 			return new BasetenHandler(options)
 		case "corethink":
 			return new CorethinkHandler(options)
+		// maximosyntax_change start
+		case "maximo-ai":
+			return new MaximoAiHandler(options)
+		// maximosyntax_change end
 		default:
 			apiProvider satisfies undefined
 			return new AnthropicHandler(options)

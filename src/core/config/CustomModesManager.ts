@@ -7,7 +7,12 @@ import * as yaml from "yaml"
 import stripBom from "strip-bom"
 import axios from "axios" // kilocode_change
 
-import { type ModeConfig, type PromptComponent, customModesSettingsSchema, modeConfigSchema } from "@roo-code/types"
+import {
+	type ModeConfig,
+	type PromptComponent,
+	customModesSettingsSchema,
+	modeConfigSchema,
+} from "@maximo-syntax/types"
 
 import { fileExistsAtPath } from "../../utils/fs"
 import { getWorkspacePath } from "../../utils/path"
@@ -17,7 +22,7 @@ import { GlobalFileNames } from "../../shared/globalFileNames"
 import { ensureSettingsDirectoryExists } from "../../utils/globalContext"
 import { t } from "../../i18n"
 // kilocode_change start
-import { getKiloUrlFromToken } from "@roo-code/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 import { X_KILOCODE_ORGANIZATIONID, X_KILOCODE_TESTER } from "../../shared/kilocode/headers"
 // kilocode_change end
 

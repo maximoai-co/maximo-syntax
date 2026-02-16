@@ -1,5 +1,5 @@
 import { vscode } from "@src/utils/vscode"
-import type { GlobalState } from "@roo-code/types"
+import type { GlobalState } from "@maximo-syntax/types"
 import { GlobalStateValue } from "@roo/WebviewMessage"
 
 /**

@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next"
 import { CloudUpload, CloudDownload, FoldVertical } from "lucide-react"
 import { validateSlashCommand } from "@/utils/slash-commands"
 
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 import { getModelMaxOutputTokens } from "@roo/api"
 

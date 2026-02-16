@@ -1,5 +1,5 @@
 import type { Anthropic } from "@anthropic-ai/sdk"
-import type { ClaudeCodeRateLimitInfo } from "@roo-code/types"
+import type { ClaudeCodeRateLimitInfo } from "@maximo-syntax/types"
 import { Package } from "../../shared/package"
 
 /**

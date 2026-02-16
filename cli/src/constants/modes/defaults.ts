@@ -1,5 +1,5 @@
 import type { ModeConfig } from "../../types/messages.js"
-import { DEFAULT_MODES as DEFAULT_MODES_KILO, DEFAULT_MODE_SLUG as DEFAULT_MODE_SLUG_KILO } from "@roo-code/types"
+import { DEFAULT_MODES as DEFAULT_MODES_KILO, DEFAULT_MODE_SLUG as DEFAULT_MODE_SLUG_KILO } from "@maximo-syntax/types"
 
 /**
  * Default mode

@@ -5,8 +5,8 @@ import * as vscode from "vscode"
 import pWaitFor from "p-wait-for"
 import delay from "delay"
 
-import type { ExperimentId } from "@roo-code/types"
-import { DEFAULT_TERMINAL_OUTPUT_CHARACTER_LIMIT } from "@roo-code/types"
+import type { ExperimentId } from "@maximo-syntax/types"
+import { DEFAULT_TERMINAL_OUTPUT_CHARACTER_LIMIT } from "@maximo-syntax/types"
 
 import { resolveToolProtocol } from "../../utils/resolveToolProtocol"
 import { EXPERIMENT_IDS, experiments as Experiments } from "../../shared/experiments"
@@ -25,7 +25,7 @@ import { formatReminderSection } from "./reminder"
 
 // kilocode_change start
 import { OpenRouterHandler } from "../../api/providers/openrouter"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { t } from "../../i18n"
 import { NativeOllamaHandler } from "../../api/providers/native-ollama"
 

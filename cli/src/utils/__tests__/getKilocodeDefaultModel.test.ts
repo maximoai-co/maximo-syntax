@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest"
 import { getKilocodeDefaultModel } from "../../auth/providers/kilocode/shared.js"
-import { openRouterDefaultModelId } from "@roo-code/types"
+import { openRouterDefaultModelId } from "@maximo-syntax/types"
 
 // Mock the logs module
 vi.mock("../../services/logs.js", () => ({

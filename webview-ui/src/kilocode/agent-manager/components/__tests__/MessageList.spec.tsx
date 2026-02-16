@@ -7,7 +7,7 @@ import { sessionMessagesAtomFamily } from "../../state/atoms/messages"
 import { sessionInputAtomFamily, sessionsMapAtom, selectedSessionIdAtom } from "../../state/atoms/sessions"
 import { sessionMessageQueueAtomFamily } from "../../state/atoms/messageQueue"
 import { sessionMachineStateAtom } from "../../state/atoms/stateMachine"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { vscode } from "../../utils/vscode"
 
 // Mock react-i18next

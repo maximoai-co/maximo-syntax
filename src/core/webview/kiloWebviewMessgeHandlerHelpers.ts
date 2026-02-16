@@ -1,6 +1,6 @@
 // kilocode_change - new file
 
-import { GlobalState } from "@roo-code/types"
+import { GlobalState } from "@maximo-syntax/types"
 import { WebviewMessage } from "../../shared/WebviewMessage"
 import { ClineProvider } from "./ClineProvider"
 

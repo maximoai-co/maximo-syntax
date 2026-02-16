@@ -16,12 +16,12 @@ import {
 	geminiDefaultModelId,
 	geminiModels,
 	ApiProviderError,
-} from "@roo-code/types"
-import { safeJsonParse } from "@roo-code/core"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { safeJsonParse } from "@maximo-syntax/core"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import type { ApiHandlerOptions } from "../../shared/api"
-import { ModelRecord } from "@roo-code/types" // kilocode_change
+import { ModelRecord } from "@maximo-syntax/types" // kilocode_change
 
 import { convertAnthropicMessageToGemini } from "../transform/gemini-format"
 import { t } from "i18next"

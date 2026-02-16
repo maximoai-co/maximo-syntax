@@ -22,7 +22,7 @@ vi.mock("vscode", () => ({
 }))
 
 // Mock other dependencies
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureCheckpointCreated: vi.fn(),

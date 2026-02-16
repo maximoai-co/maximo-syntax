@@ -1,6 +1,6 @@
 import { Anthropic } from "@anthropic-ai/sdk"
 
-import { BrowserAction, BrowserActionResult, browserActions, ClineSayBrowserAction } from "@roo-code/types"
+import { BrowserAction, BrowserActionResult, browserActions, ClineSayBrowserAction } from "@maximo-syntax/types"
 
 import { Task } from "../task/Task"
 import { ToolUse, AskApproval, HandleError, PushToolResult, RemoveClosingTag } from "../../shared/tools"

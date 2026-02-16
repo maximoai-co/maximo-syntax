@@ -8,8 +8,8 @@ import {
 	type ProviderSettings,
 	mainlandZAiDefaultModelId,
 	openAiModelInfoSaneDefaults,
-} from "@roo-code/types"
-import { openAiCodexDefaultModelId } from "@roo-code/types"
+} from "@maximo-syntax/types"
+import { openAiCodexDefaultModelId } from "@maximo-syntax/types"
 
 import * as ExtensionStateContext from "@src/context/ExtensionStateContext"
 const { ExtensionStateContextProvider } = ExtensionStateContext

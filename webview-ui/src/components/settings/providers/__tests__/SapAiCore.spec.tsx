@@ -2,7 +2,7 @@
 import React from "react"
 import { render, screen, fireEvent, waitFor, act } from "@/utils/test-utils"
 import SapAiCore from "../SapAiCore"
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import type { ModelRecord } from "@roo/api"
 import { DeploymentRecord } from "../../../../../../src/api/providers/fetchers/sap-ai-core"
 

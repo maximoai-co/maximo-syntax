@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest"
 import { DeviceAuthService } from "../DeviceAuthService"
-import type { DeviceAuthInitiateResponse, DeviceAuthPollResponse } from "@roo-code/types"
+import type { DeviceAuthInitiateResponse, DeviceAuthPollResponse } from "@maximo-syntax/types"
 
 // Mock fetch globally
 global.fetch = vi.fn()

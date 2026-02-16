@@ -115,7 +115,7 @@ vi.mock("../classic-auto-complete/AutocompleteTelemetry", () => {
 	return { AutocompleteTelemetry }
 })
 
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureEvent: vi.fn(),

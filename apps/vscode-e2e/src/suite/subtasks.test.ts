@@ -1,6 +1,6 @@
 import * as assert from "assert"
 
-import { RooCodeEventName, type ClineMessage } from "@roo-code/types"
+import { RooCodeEventName, type ClineMessage } from "@maximo-syntax/types"
 
 import { waitFor } from "./utils"
 

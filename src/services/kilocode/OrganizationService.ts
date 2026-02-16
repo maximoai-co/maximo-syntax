@@ -1,5 +1,5 @@
 // kilocode_change - new file
-import { getKiloUrlFromToken } from "@roo-code/types"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
 import { X_KILOCODE_ORGANIZATIONID, X_KILOCODE_TESTER } from "../../shared/kilocode/headers"
 import { KiloOrganization, KiloOrganizationSchema } from "../../shared/kilocode/organization"
 import { CompactLogger } from "../../utils/logging/CompactLogger"

@@ -12,7 +12,7 @@ import {
 	TaskBridgeCommandName,
 	TaskSocketEvents,
 	TaskStatus,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { TaskChannel } from "../TaskChannel.js"
 

@@ -6,10 +6,10 @@ vitest.mock("vscode", () => ({}))
 
 import OpenAI from "openai"
 import { Anthropic } from "@anthropic-ai/sdk"
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { OVHcloudAIEndpointsHandler } from "../ovhcloud"
-import { ovhCloudAiEndpointsDefaultModelId } from "@roo-code/types"
+import { ovhCloudAiEndpointsDefaultModelId } from "@maximo-syntax/types"
 import { calculateApiCostOpenAI } from "../../../shared/cost"
 
 vitest.mock("openai", () => {

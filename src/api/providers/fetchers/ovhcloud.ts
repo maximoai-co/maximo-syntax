@@ -1,7 +1,7 @@
 // kilocode_change - file added
 import axios from "axios"
 
-import type { ModelInfo } from "@roo-code/types"
+import type { ModelInfo } from "@maximo-syntax/types"
 
 import { parseApiPrice } from "../../../shared/cost"
 

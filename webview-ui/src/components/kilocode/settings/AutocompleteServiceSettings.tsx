@@ -12,7 +12,7 @@ import {
 	EXTREME_SNOOZE_VALUES_ENABLED,
 	AutocompleteServiceSettings,
 	MODEL_SELECTION_ENABLED,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 import { vscode } from "@/utils/vscode"
 import { VSCodeCheckbox, VSCodeButton, VSCodeDropdown, VSCodeOption } from "@vscode/webview-ui-toolkit/react"
 import { useKeybindings } from "@/hooks/useKeybindings"
@@ -127,7 +127,9 @@ export const AutocompleteServiceSettingsView = ({
 						label={t("kilocode:autocomplete.settings.enableAutoTrigger.label")}
 						className="flex flex-col gap-1">
 						<VSCodeCheckbox checked={enableAutoTrigger || false} onChange={onEnableAutoTriggerChange}>
-							<span className="font-medium">{t("kilocode:autocomplete.settings.enableAutoTrigger.label")}</span>
+							<span className="font-medium">
+								{t("kilocode:autocomplete.settings.enableAutoTrigger.label")}
+							</span>
 						</VSCodeCheckbox>
 						<div className="text-vscode-descriptionForeground text-sm mt-1">
 							{t("kilocode:autocomplete.settings.enableAutoTrigger.description")}
@@ -263,11 +265,15 @@ export const AutocompleteServiceSettingsView = ({
 							{provider && model ? (
 								<>
 									<div className="text-vscode-descriptionForeground">
-										<span className="font-medium">{t("kilocode:autocomplete.settings.provider")}:</span>{" "}
+										<span className="font-medium">
+											{t("kilocode:autocomplete.settings.provider")}:
+										</span>{" "}
 										{provider}
 									</div>
 									<div className="text-vscode-descriptionForeground">
-										<span className="font-medium">{t("kilocode:autocomplete.settings.model")}:</span>{" "}
+										<span className="font-medium">
+											{t("kilocode:autocomplete.settings.model")}:
+										</span>{" "}
 										{model}
 									</div>
 								</>

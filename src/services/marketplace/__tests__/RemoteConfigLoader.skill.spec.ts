@@ -7,19 +7,19 @@
 
 import axios from "axios"
 import { RemoteConfigLoader } from "../RemoteConfigLoader"
-import type { MarketplaceItemType, SkillMarketplaceItem } from "@roo-code/types"
+import type { MarketplaceItemType, SkillMarketplaceItem } from "@maximo-syntax/types"
 
 // Mock axios
 vi.mock("axios")
 const mockedAxios = axios as any
 
 // Mock the cloud config
-vi.mock("@roo-code/cloud", () => ({
+vi.mock("@maximo-syntax/cloud", () => ({
 	getRooCodeApiUrl: () => "https://test.api.com",
 }))
 
-vi.mock("@roo-code/types", async (importOriginal) => {
-	const actual = await importOriginal<typeof import("@roo-code/types")>()
+vi.mock("@maximo-syntax/types", async (importOriginal) => {
+	const actual = await importOriginal<typeof import("@maximo-syntax/types")>()
 	return {
 		...actual,
 		getKiloBaseUriFromToken: () => "https://test.api.com",

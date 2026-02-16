@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import {
 	captureAgentManagerOpened,
 	captureAgentManagerSessionStarted,
@@ -12,7 +12,7 @@ import {
 } from "../telemetry"
 
 // Mock the TelemetryService
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		hasInstance: vi.fn(),
 		instance: {
@@ -21,7 +21,7 @@ vi.mock("@roo-code/telemetry", () => ({
 	},
 }))
 
-import { TelemetryService } from "@roo-code/telemetry"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 describe("Agent Manager Telemetry", () => {
 	beforeEach(() => {

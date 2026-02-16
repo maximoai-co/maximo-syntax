@@ -4,7 +4,7 @@
 
 import { generateMessage } from "../ui/utils/messages.js"
 import type { Command, ArgumentProviderContext, CommandContext } from "./core/types.js"
-import type { HistoryItem } from "@roo-code/types"
+import type { HistoryItem } from "@maximo-syntax/types"
 import type { TaskHistoryData, TaskHistoryFilters } from "../state/atoms/taskHistory.js"
 import { formatRelativeTime } from "../utils/time.js"
 

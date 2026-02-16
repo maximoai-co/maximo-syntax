@@ -19,6 +19,9 @@ export * from "./glama.js"
 export * from "./apertis.js"
 export * from "./zenmux.js"
 // kilocode_change end
+// maximosyntax_change start
+export * from "./maximo-ai.js"
+// maximosyntax_change end
 export * from "./groq.js"
 export * from "./huggingface.js"
 export * from "./io-intelligence.js"
@@ -79,6 +82,9 @@ import { vercelAiGatewayDefaultModelId } from "./vercel-ai-gateway.js"
 import { internationalZAiDefaultModelId, mainlandZAiDefaultModelId } from "./zai.js"
 import { deepInfraDefaultModelId } from "./deepinfra.js"
 import { minimaxDefaultModelId } from "./minimax.js"
+// maximosyntax_change start
+import { maximoAiDefaultModelId } from "./maximo-ai.js"
+// maximosyntax_change end
 
 // Import the ProviderName type from provider-settings to avoid duplication
 import type { ProviderName } from "../provider-settings.js"
@@ -173,6 +179,10 @@ export function getProviderDefaultModelId(
 			return qwenCodeDefaultModelId
 		case "vercel-ai-gateway":
 			return vercelAiGatewayDefaultModelId
+		// maximosyntax_change start
+		case "maximo-ai":
+			return maximoAiDefaultModelId
+		// maximosyntax_change end
 		case "anthropic":
 		case "human-relay":
 		case "fake-ai":

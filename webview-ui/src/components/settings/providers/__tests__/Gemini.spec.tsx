@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event"
 import { Gemini } from "../Gemini"
 
 // kilocode_change start
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 import { ExtensionStateContextProvider } from "@src/context/ExtensionStateContext"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 // kilocode_change end

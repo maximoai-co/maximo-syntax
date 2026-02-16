@@ -1,8 +1,8 @@
 import { JETBRAIN_PRODUCTS } from "../../../../src/shared/kilocode/wrapper"
-import { getAppUrl } from "@roo-code/types"
+import { getAppUrl } from "@maximo-syntax/types"
 
 type WrapperPropsForWebview =
-	| import("@roo-code/types").KiloCodeWrapperProperties
+	| import("@maximo-syntax/types").KiloCodeWrapperProperties
 	| import("../../../../src/shared/kilocode/wrapper").KiloCodeWrapperProperties // kilocode_change
 
 const getJetbrainsUrlScheme = (code: string) => {

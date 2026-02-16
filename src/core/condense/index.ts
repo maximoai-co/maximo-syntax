@@ -1,8 +1,8 @@
 import Anthropic from "@anthropic-ai/sdk"
 import crypto from "crypto"
 
-import { TelemetryService } from "@roo-code/telemetry"
-import { ModelInfo } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { ModelInfo } from "@maximo-syntax/types"
 
 import { t } from "../../i18n"
 import { ApiHandler } from "../../api"

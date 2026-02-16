@@ -4,8 +4,8 @@ import { fileURLToPath } from "url"
 
 import { createElement } from "react"
 
-import { isProviderName } from "@roo-code/types"
-import { setLogger } from "@roo-code/vscode-shim"
+import { isProviderName } from "@maximo-syntax/types"
+import { setLogger } from "@maximo-syntax/vscode-shim"
 
 import {
 	FlagOptions,

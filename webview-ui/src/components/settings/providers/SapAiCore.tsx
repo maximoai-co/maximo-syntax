@@ -7,14 +7,14 @@ import { ExtensionMessage } from "@roo/ExtensionMessage"
 import { VSCodeLink } from "@vscode/webview-ui-toolkit/react"
 import { Checkbox, Input, SearchableSelect, type SearchableSelectOption } from "@src/components/ui"
 
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 
 import { inputEventTransform } from "../transforms"
 // kilocode_change: Local deployment shape used by the webview.
 // The extension's SAP AI Core fetcher includes `model` + `targetStatus`, but the
-// canonical `@roo-code/types` DeploymentRecord is a different shape.
+// canonical `@maximo-syntax/types` DeploymentRecord is a different shape.
 type SapAiCoreDeployment = {
 	id: string
 	model?: string

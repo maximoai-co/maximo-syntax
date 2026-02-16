@@ -1,5 +1,5 @@
-import type { McpInstallationMethod } from "@roo-code/types"
-import { mcpInstallationMethodSchema, mcpMarketplaceItemSchema } from "@roo-code/types"
+import type { McpInstallationMethod } from "@maximo-syntax/types"
+import { mcpInstallationMethodSchema, mcpMarketplaceItemSchema } from "@maximo-syntax/types"
 
 describe("Nested Parameters", () => {
 	describe("McpInstallationMethod Schema", () => {

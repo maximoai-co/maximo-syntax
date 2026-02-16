@@ -168,6 +168,9 @@ export const providerNames = [
 	"inception",
 	"zenmux",
 	// kilocode_change end
+	// maximosyntax_change start
+	"maximo-ai",
+	// maximosyntax_change end
 	"sambanova",
 	"vertex",
 	"xai",
@@ -591,6 +594,12 @@ const corethinkSchema = apiModelIdProviderModelSchema.extend({
 	corethinkApiKey: z.string().optional(),
 })
 
+// maximosyntax_change start
+const maximoAiSchema = apiModelIdProviderModelSchema.extend({
+	maximoAiApiKey: z.string().optional(),
+})
+// maximosyntax_change end
+
 const defaultSchema = z.object({
 	apiProvider: z.undefined(),
 })
@@ -703,6 +712,9 @@ export const providerSettingsSchema = z.object({
 	...rooSchema.shape,
 	...vercelAiGatewaySchema.shape,
 	...sapAiCoreSchema.shape, // kilocode_change
+	// maximosyntax_change start
+	...maximoAiSchema.shape,
+	// maximosyntax_change end
 	...codebaseIndexProviderSchema.shape,
 	...inceptionSchema.shape,
 })
@@ -810,6 +822,9 @@ export const modelIdKeysByProvider: Record<TypicalProvider, ModelIdKey> = {
 	roo: "apiModelId",
 	"vercel-ai-gateway": "vercelAiGatewayModelId",
 	"virtual-quota-fallback": "apiModelId",
+	// maximosyntax_change start
+	"maximo-ai": "apiModelId",
+	// maximosyntax_change end
 }
 
 /**
@@ -978,4 +993,7 @@ export const MODELS_BY_PROVIDER: Record<
 	// Local providers; models discovered from localhost endpoints.
 	lmstudio: { id: "lmstudio", label: "LM Studio", models: [] },
 	ollama: { id: "ollama", label: "Ollama", models: [] },
+	// maximosyntax_change start
+	"maximo-ai": { id: "maximo-ai", label: "Maximo AI", models: [] },
+	// maximosyntax_change end
 }

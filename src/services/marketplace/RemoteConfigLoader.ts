@@ -1,7 +1,7 @@
 import axios from "axios"
 import * as yaml from "yaml"
 import { z } from "zod"
-import { getApiUrl } from "@roo-code/types" // kilocode_change
+import { getApiUrl } from "@maximo-syntax/types" // kilocode_change
 import {
 	type MarketplaceItem,
 	type MarketplaceItemType,
@@ -9,8 +9,8 @@ import {
 	modeMarketplaceItemSchema,
 	mcpMarketplaceItemSchema,
 	skillsMarketplaceCatalogSchema, // kilocode_change
-} from "@roo-code/types"
-//import { getRooCodeApiUrl } from "@roo-code/cloud" kilocode_change: use our own api
+} from "@maximo-syntax/types"
+//import { getRooCodeApiUrl } from "@maximo-syntax/cloud" kilocode_change: use our own api
 
 const modeMarketplaceResponse = z.object({
 	items: z.array(modeMarketplaceItemSchema),

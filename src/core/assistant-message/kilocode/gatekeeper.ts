@@ -5,7 +5,7 @@ import { singleCompletionHandler, streamResponseFromHandler } from "../../../uti
 import { execSync } from "child_process"
 import { existsSync } from "fs"
 import { isAbsolute, join } from "path"
-import { getApiProtocol } from "@roo-code/types"
+import { getApiProtocol } from "@maximo-syntax/types"
 
 /**
  * Evaluates whether an action should be approved using an AI gatekeeper model.

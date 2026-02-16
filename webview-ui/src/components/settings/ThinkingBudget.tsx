@@ -40,7 +40,7 @@ import {
 	type ModelInfo,
 	type ReasoningEffortWithMinimal,
 	reasoningEfforts,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import {
 	DEFAULT_HYBRID_REASONING_MODEL_MAX_TOKENS,

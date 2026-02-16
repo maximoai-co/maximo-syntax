@@ -11,10 +11,10 @@
  * 3. Using minimal state updates to avoid resetting scroll position
  */
 
-import { MarketplaceItem, isSkillItem, SkillMarketplaceItem } from "@roo-code/types" //kilo_code change
+import { MarketplaceItem, isSkillItem, SkillMarketplaceItem } from "@maximo-syntax/types" //kilo_code change
 import { vscode } from "../../utils/vscode"
 import { WebviewMessage } from "../../../../src/shared/WebviewMessage"
-import type { MarketplaceInstalledMetadata } from "@roo-code/types" // kilocode_change
+import type { MarketplaceInstalledMetadata } from "@maximo-syntax/types" // kilocode_change
 
 export interface ViewState {
 	allItems: MarketplaceItem[]

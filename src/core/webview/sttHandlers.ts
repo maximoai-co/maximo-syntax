@@ -39,7 +39,7 @@ function getService(clineProvider: ClineProvider): STTService {
 					start: 0,
 					end: 0,
 					isFinal,
-				})) satisfies import("@roo-code/types").STTSegment[]
+				})) satisfies import("@maximo-syntax/types").STTSegment[]
 				clineProvider.postMessageToWebview({
 					type: "stt:transcript",
 					sessionId,

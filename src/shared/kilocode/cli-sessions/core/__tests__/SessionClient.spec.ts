@@ -2,7 +2,7 @@ import { SessionClient, CliSessionSharedState } from "../SessionClient"
 import type { TrpcClient } from "../TrpcClient"
 
 // Mock getApiUrl
-vi.mock("@roo-code/types", () => ({
+vi.mock("@maximo-syntax/types", () => ({
 	getApiUrl: vi.fn().mockReturnValue("https://api.example.com"),
 }))
 

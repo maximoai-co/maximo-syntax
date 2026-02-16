@@ -1,6 +1,6 @@
 import { render, screen } from "@/utils/test-utils"
 import { ModelSelector } from "../ModelSelector"
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 
 vi.mock("@/utils/vscode", () => ({
 	vscode: {

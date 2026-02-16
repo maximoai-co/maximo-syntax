@@ -1,5 +1,5 @@
 import { checkAutoApproval } from "../index"
-import { ExtensionState } from "@roo-code/types"
+import { ExtensionState } from "@maximo-syntax/types"
 
 describe("checkAutoApproval", () => {
 	const mockAsk = "tool"

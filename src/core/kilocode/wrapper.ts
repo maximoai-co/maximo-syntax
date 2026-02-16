@@ -1,6 +1,6 @@
 import * as vscode from "vscode"
 import { JETBRAIN_PRODUCTS, KiloCodeWrapperProperties } from "../../shared/kilocode/wrapper"
-import { TelemetrySetting } from "@roo-code/types"
+import { TelemetrySetting } from "@maximo-syntax/types"
 
 export const getKiloCodeWrapperProperties = (): KiloCodeWrapperProperties => {
 	const appName = vscode.env.appName

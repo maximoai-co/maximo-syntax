@@ -1,8 +1,8 @@
 import pWaitFor from "p-wait-for"
 import * as vscode from "vscode"
 
-import type { ClineApiReqInfo } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import type { ClineApiReqInfo } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { Task } from "../task/Task"
 
@@ -17,7 +17,7 @@ import { DIFF_VIEW_URI_SCHEME } from "../../integrations/editor/DiffViewProvider
 import { CheckpointServiceOptions, RepoPerTaskCheckpointService } from "../../services/checkpoints"
 
 // kilocode_change start
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { stringifyError } from "../../shared/kilocode/errorUtils"
 
 function reportError(callsite: string, error: unknown) {

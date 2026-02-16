@@ -1,5 +1,5 @@
 // ============================================
-// SHARED TYPES - Import from @roo-code/types
+// SHARED TYPES - Import from @maximo-syntax/types
 // ============================================
 import type {
 	ProviderSettings,
@@ -10,10 +10,10 @@ import type {
 	TodoItem,
 	ClineMessage,
 	McpServer,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 // ============================================
-// SHARED TYPES - Import from @roo-code/types
+// SHARED TYPES - Import from @maximo-syntax/types
 // ============================================
 export type {
 	WebviewMessage,
@@ -24,7 +24,7 @@ export type {
 	McpServer,
 	McpTool,
 	McpResource,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 // ============================================
 // MODEL TYPES - Import from constants
@@ -53,11 +53,11 @@ export {
 	// Extension message types (also exported for backward compat)
 	type OrganizationAllowList,
 	type Mode,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"
 
 // ============================================
 // CLI-SPECIFIC TYPES (Interface definitions for complex types
-// that require imports from @roo-code/types)
+// that require imports from @maximo-syntax/types)
 // ============================================
 
 // ExtensionMessage interface with proper typing
@@ -90,7 +90,7 @@ export interface ExtensionState {
 	telemetrySetting: string
 	renderContext: "sidebar" | "editor" | "cli"
 	cwd?: string
-	organizationAllowList?: import("@kilocode/core-schemas").OrganizationAllowList
+	organizationAllowList?: import("@maximo-syntax/core-schemas").OrganizationAllowList
 	routerModels?: RouterModels
 	appendSystemPrompt?: string // Custom text to append to system prompt (CLI only)
 	[key: string]: unknown

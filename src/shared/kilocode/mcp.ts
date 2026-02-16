@@ -4,9 +4,9 @@ export const DEFAULT_MCP_TIMEOUT_SECONDS = 60 // matches Anthropic's default tim
 export const MIN_MCP_TIMEOUT_SECONDS = 1
 export type McpMode = "full" | "server-use-only" | "off"
 
-// Re-export canonical types from @roo-code/types to avoid drift between packages.
-export type { McpMarketplaceCatalog, McpMarketplaceItem, McpDownloadResponse } from "@roo-code/types" // kilocode_change
+// Re-export canonical types from @maximo-syntax/types to avoid drift between packages.
+export type { McpMarketplaceCatalog, McpMarketplaceItem, McpDownloadResponse } from "@maximo-syntax/types" // kilocode_change
 
 export interface McpState {
-	mcpMarketplaceCatalog?: import("@roo-code/types").McpMarketplaceCatalog
+	mcpMarketplaceCatalog?: import("@maximo-syntax/types").McpMarketplaceCatalog
 }

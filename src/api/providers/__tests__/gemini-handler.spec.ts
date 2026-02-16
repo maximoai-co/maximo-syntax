@@ -1,5 +1,5 @@
 import { t } from "i18next"
-import { TelemetryService } from "@roo-code/telemetry" // kilocode_change
+import { TelemetryService } from "@maximo-syntax/telemetry" // kilocode_change
 import { FunctionCallingConfigMode } from "@google/genai"
 
 import { GeminiHandler } from "../gemini"
@@ -7,7 +7,7 @@ import type { ApiHandlerOptions } from "../../../shared/api"
 
 // kilocode_change start
 // Mock TelemetryService
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureException: vi.fn(),

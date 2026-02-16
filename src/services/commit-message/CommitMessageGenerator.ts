@@ -3,8 +3,8 @@ import { ProviderSettingsManager } from "../../core/config/ProviderSettingsManag
 import { singleCompletionHandler } from "../../utils/single-completion-handler"
 import { supportPrompt } from "../../shared/support-prompt"
 import { addCustomInstructions } from "../../core/prompts/sections/custom-instructions"
-import { TelemetryService } from "@roo-code/telemetry"
-import { TelemetryEventName, type ProviderSettings } from "@roo-code/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
+import { TelemetryEventName, type ProviderSettings } from "@maximo-syntax/types"
 
 import { GenerateMessageParams, PromptOptions, ProgressUpdate } from "./types/core"
 

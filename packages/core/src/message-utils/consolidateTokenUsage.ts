@@ -1,4 +1,4 @@
-import type { TokenUsage, ToolUsage, ToolName, ClineMessage } from "@roo-code/types"
+import type { TokenUsage, ToolUsage, ToolName, ClineMessage } from "@maximo-syntax/types"
 
 // kilocode_change start
 // import { type ClineSayTool } from "./ExtensionMessage"
@@ -6,8 +6,8 @@ import type { TokenUsage, ToolUsage, ToolName, ClineMessage } from "@roo-code/ty
 // kilocode_change end
 
 // kilocode_change start
-import { type ClineSayTool } from "@roo-code/types"
-// Use relative import to avoid circular dependency - importing from "@roo-code/core"
+import { type ClineSayTool } from "@maximo-syntax/types"
+// Use relative import to avoid circular dependency - importing from "@maximo-syntax/core"
 // causes the main index.ts to load, which includes custom-tools/esbuild-runner.ts
 // that depends on Node-only packages like execa, breaking browser builds.
 import { safeJsonParse } from "./safeJsonParse.js"

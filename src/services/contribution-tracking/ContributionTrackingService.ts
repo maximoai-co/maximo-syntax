@@ -1,8 +1,8 @@
 // kilocode_change - new file
 import crypto from "crypto"
 import { createPatch } from "diff"
-import { getKiloUrlFromToken } from "@roo-code/types"
-import { TelemetryService } from "@roo-code/telemetry"
+import { getKiloUrlFromToken } from "@maximo-syntax/types"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 import { fetchWithRetries } from "../../shared/http"
 import { getCurrentBranch } from "../code-index/managed/git-utils"
 import { getProjectId } from "../../utils/kilo-config-file"

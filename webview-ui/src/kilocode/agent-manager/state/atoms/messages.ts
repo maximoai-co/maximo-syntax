@@ -1,6 +1,6 @@
 import { atom } from "jotai"
 import { atomFamily } from "jotai/utils"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { sendSessionEventAtom } from "./stateMachine"
 import type { SessionEvent } from "../sessionStateMachine"
 

@@ -9,7 +9,7 @@ import type { ApiHandlerCreateMessageMetadata, SingleCompletionHandler } from ".
 // SAP AI SDK imports
 import { ChatMessage, OrchestrationClient, OrchestrationModuleConfig } from "@sap-ai-sdk/orchestration"
 import { AzureOpenAiChatClient, AzureOpenAiChatCompletionRequestMessage } from "@sap-ai-sdk/foundation-models"
-import { openAiModelInfoSaneDefaults } from "@roo-code/types"
+import { openAiModelInfoSaneDefaults } from "@maximo-syntax/types"
 import { getProviderForModel, getSapAiCoreModels, Provider } from "./fetchers/sap-ai-core"
 
 /**

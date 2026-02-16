@@ -1,5 +1,5 @@
 import type { KilocodeStreamEvent, KilocodePayload } from "./CliOutputParser"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { RuntimeProcessHandler } from "./RuntimeProcessHandler"
 import { AgentRegistry } from "./AgentRegistry"
 

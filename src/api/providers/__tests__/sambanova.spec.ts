@@ -13,7 +13,7 @@ vitest.mock("vscode", () => ({
 import OpenAI from "openai"
 import { Anthropic } from "@anthropic-ai/sdk"
 
-import { type SambaNovaModelId, sambaNovaDefaultModelId, sambaNovaModels } from "@roo-code/types"
+import { type SambaNovaModelId, sambaNovaDefaultModelId, sambaNovaModels } from "@maximo-syntax/types"
 
 import { SambaNovaHandler } from "../sambanova"
 

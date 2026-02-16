@@ -26,7 +26,7 @@ import {
 	minimaxModels,
 	basetenModels,
 	corethinkModels,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 export const MODELS_BY_PROVIDER: Partial<Record<ProviderName, Record<string, ModelInfo>>> = {
 	anthropic: anthropicModels,

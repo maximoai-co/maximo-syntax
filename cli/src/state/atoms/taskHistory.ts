@@ -3,7 +3,7 @@
  */
 
 import { atom } from "jotai"
-import type { HistoryItem } from "@roo-code/types"
+import type { HistoryItem } from "@maximo-syntax/types"
 
 /**
  * Task history response data

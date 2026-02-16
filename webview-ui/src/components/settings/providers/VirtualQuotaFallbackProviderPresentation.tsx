@@ -4,7 +4,7 @@ import { VSCodeButton, VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 import { PlusIcon, TrashIcon } from "@radix-ui/react-icons"
 import { ChevronUp, ChevronDown } from "lucide-react"
 
-import { type ProviderSettingsEntry } from "@roo-code/types"
+import { type ProviderSettingsEntry } from "@maximo-syntax/types"
 import { LabeledProgress, SearchableSelect } from "@src/components/ui"
 import {
 	AlertDialog,
@@ -16,7 +16,7 @@ import {
 	AlertDialogHeader,
 	AlertDialogTitle,
 } from "@src/components/ui/alert-dialog"
-import { UsageResultByDuration } from "@roo-code/types"
+import { UsageResultByDuration } from "@maximo-syntax/types"
 import { inputEventTransform } from "../transforms"
 import { VirtualQuotaFallbackProviderData } from "./VirtualQuotaFallbackProvider"
 

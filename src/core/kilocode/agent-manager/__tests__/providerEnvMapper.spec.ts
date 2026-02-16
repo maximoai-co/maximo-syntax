@@ -3,7 +3,7 @@ import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
 import { buildProviderEnvOverrides } from "../providerEnvMapper"
-import type { ProviderSettings } from "@roo-code/types"
+import type { ProviderSettings } from "@maximo-syntax/types"
 
 const log = (_msg: string) => {}
 const debugLog = (_msg: string) => {}

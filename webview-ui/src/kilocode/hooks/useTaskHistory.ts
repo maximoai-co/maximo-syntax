@@ -1,4 +1,4 @@
-import { HistoryItem } from "@roo-code/types"
+import { HistoryItem } from "@maximo-syntax/types"
 import { ExtensionMessage } from "@roo/ExtensionMessage"
 import { TaskHistoryRequestPayload, TaskHistoryResponsePayload, TasksByIdResponsePayload } from "@roo/WebviewMessage"
 import { vscode } from "@src/utils/vscode"

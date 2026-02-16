@@ -26,7 +26,7 @@ import type {
 	McpServer,
 	McpTool,
 	McpToolCallResponse,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { McpAuthStatus, McpAuthDebugInfo } from "../../shared/mcp" // kilocode_change
 import { t } from "../../i18n"

@@ -1,7 +1,7 @@
 import type { CLIConfig, ProviderConfig } from "./types.js"
 import type { ExtensionState, ProviderSettings, ProviderSettingsEntry } from "../types/messages.js"
 import { logs } from "../services/logs.js"
-import { DEFAULT_MAX_CONCURRENT_FILE_READS } from "@kilocode/core-schemas"
+import { DEFAULT_MAX_CONCURRENT_FILE_READS } from "@maximo-syntax/core-schemas"
 
 export function mapConfigToExtensionState(
 	config: CLIConfig,

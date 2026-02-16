@@ -26,9 +26,9 @@ import { getNonce } from "../../webview/getNonce"
 import { getViteDevServerConfig } from "../../webview/getViteDevServerConfig"
 import { getRemoteUrl } from "../../../services/code-index/managed/git-utils"
 import { normalizeGitUrl } from "./normalizeGitUrl"
-import type { ClineMessage } from "@roo-code/types"
-import { getModelId, type ModeConfig, type ProviderSettings } from "@roo-code/types"
-import { DEFAULT_MODE_SLUG, DEFAULT_MODES } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
+import { getModelId, type ModeConfig, type ProviderSettings } from "@maximo-syntax/types"
+import { DEFAULT_MODE_SLUG, DEFAULT_MODES } from "@maximo-syntax/types"
 import {
 	captureAgentManagerOpened,
 	captureAgentManagerSessionStarted,

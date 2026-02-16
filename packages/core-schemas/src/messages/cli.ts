@@ -45,7 +45,7 @@ export const cliOptionsSchema = z.object({
 	jsonInteractive: z.boolean().optional(),
 	prompt: z.string().optional(),
 	timeout: z.number().optional(),
-	customModes: z.array(z.unknown()).optional(), // ModeConfig from @roo-code/types
+	customModes: z.array(z.unknown()).optional(), // ModeConfig from @maximo-syntax/types
 	parallel: z.boolean().optional(),
 	worktreeBranch: z.string().optional(),
 	continue: z.boolean().optional(),

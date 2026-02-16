@@ -7,8 +7,8 @@ import pWaitFor from "p-wait-for"
 import * as vscode from "vscode"
 // kilocode_change start
 import axios from "axios"
-import { fastApplyApiProviderSchema, getKiloUrlFromToken, isGlobalStateKey } from "@roo-code/types"
-import { getAppUrl } from "@roo-code/types"
+import { fastApplyApiProviderSchema, getKiloUrlFromToken, isGlobalStateKey } from "@maximo-syntax/types"
+import { getAppUrl } from "@maximo-syntax/types"
 import {
 	MaybeTypedWebviewMessage,
 	ProfileData,
@@ -39,10 +39,10 @@ import {
 	checkoutDiffPayloadSchema,
 	checkoutRestorePayloadSchema,
 	requestCheckpointRestoreApprovalPayloadSchema, // kilocode_change
-} from "@roo-code/types"
-import { customToolRegistry } from "@roo-code/core"
-import { CloudService } from "@roo-code/cloud"
-import { TelemetryService } from "@roo-code/telemetry"
+} from "@maximo-syntax/types"
+import { customToolRegistry } from "@maximo-syntax/core"
+import { CloudService } from "@maximo-syntax/cloud"
+import { TelemetryService } from "@maximo-syntax/telemetry"
 
 import { type ApiMessage } from "../task-persistence/apiMessages"
 import { saveTaskMessages } from "../task-persistence"
@@ -1286,8 +1286,8 @@ export const webviewMessageHandler = async (
 						provider.postMessageToWebview({
 							type: "sapAiCoreDeployments",
 							sapAiCoreDeployments:
-								// Cast to canonical type from @roo-code/types to avoid drift.
-								sapAiCoreDeployments as unknown as import("@roo-code/types").DeploymentRecord, // kilocode_change
+								// Cast to canonical type from @maximo-syntax/types to avoid drift.
+								sapAiCoreDeployments as unknown as import("@maximo-syntax/types").DeploymentRecord, // kilocode_change
 						})
 					}
 				} catch (error) {

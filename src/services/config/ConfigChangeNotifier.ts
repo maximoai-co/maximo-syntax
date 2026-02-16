@@ -2,7 +2,7 @@
 
 import * as vscode from "vscode"
 import type { ClineProvider } from "../../core/webview/ClineProvider"
-import type { ContextConfigChange, ContextConfigType } from "@roo-code/types"
+import type { ContextConfigChange, ContextConfigType } from "@maximo-syntax/types"
 import { t } from "../../i18n"
 
 interface ConfigInput {

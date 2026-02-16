@@ -55,4 +55,5 @@ export const PROVIDER_REQUIRED_FIELDS: Record<ProviderName, string[]> = {
 	baseten: ["basetenApiKey", "apiModelId"],
 	apertis: ["apertisApiKey", "apertisModelId"], // kilocode_change
 	corethink: ["corethinkApiKey", "corethinkModelId"],
+	"maximo-ai": ["maximoAiApiKey", "apiModelId"],
 }

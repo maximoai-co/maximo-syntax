@@ -3,7 +3,7 @@ import { authenticateWithDeviceAuth } from "../providers/kilocode/device-auth.js
 import { poll } from "../utils/polling.js"
 
 // Mock dependencies
-vi.mock("@roo-code/types", () => ({
+vi.mock("@maximo-syntax/types", () => ({
 	getApiUrl: (path: string) => `https://api.kilocode.com${path}`,
 	openRouterDefaultModelId: "anthropic/claude-sonnet-4",
 }))

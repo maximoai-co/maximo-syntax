@@ -50,7 +50,7 @@ vi.mock("../../protect/RooProtectedController", () => ({
 }))
 
 // Mock TelemetryService
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureTaskRestarted: vi.fn(),

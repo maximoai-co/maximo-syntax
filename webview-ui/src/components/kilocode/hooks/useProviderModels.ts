@@ -63,7 +63,7 @@ import {
 	mainlandZAiModels,
 	mainlandZAiDefaultModelId,
 	zenmuxDefaultModelId,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 import type { ModelRecord, RouterModels } from "@roo/api"
 import { useRouterModels } from "../../ui/hooks/useRouterModels"
 import { useExtensionState } from "@/context/ExtensionStateContext"
@@ -371,7 +371,7 @@ export const getOptionsForProvider = (provider: ProviderName, apiConfiguration?:
 				isChina:
 					apiConfiguration?.zaiApiLine === "china_coding" || apiConfiguration?.zaiApiLine === "china_api",
 			}
-			// kilocode_change end
+		// kilocode_change end
 		default:
 			return {}
 	}

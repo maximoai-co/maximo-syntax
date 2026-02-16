@@ -6,7 +6,7 @@ import { mentionRegex, mentionRegexGlobal, unescapeSpaces } from "@roo/context-m
 import { WebviewMessage } from "@roo/WebviewMessage"
 import { Mode, getAllModes } from "@roo/modes"
 import { ExtensionMessage } from "@roo/ExtensionMessage"
-import type { ProfileType } from "@roo-code/types" // kilocode_change - autocomplete profile type system
+import type { ProfileType } from "@maximo-syntax/types" // kilocode_change - autocomplete profile type system
 
 import { vscode } from "@/utils/vscode"
 import { useExtensionState } from "@/context/ExtensionStateContext"

@@ -1,7 +1,7 @@
 // kilocode_change - new file
 import React from "react"
 import { useAppTranslation } from "@src/i18n/TranslationContext"
-import { getAppUrl, TelemetryEventName } from "@roo-code/types"
+import { getAppUrl, TelemetryEventName } from "@maximo-syntax/types"
 import { telemetryClient } from "@/utils/TelemetryClient"
 
 interface KiloShareModesBannerProps {

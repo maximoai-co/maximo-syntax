@@ -15,7 +15,7 @@ import {
 } from "lucide-react"
 import prettyBytes from "pretty-bytes"
 
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 
 import { getModelMaxOutputTokens } from "@roo/api"
 import { findLastIndex } from "@roo/array"

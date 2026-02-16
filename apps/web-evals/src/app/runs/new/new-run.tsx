@@ -27,7 +27,7 @@ import {
 	providerSettingsSchema,
 	getModelId,
 	EVALS_SETTINGS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { createRun } from "@/actions/runs"
 import { getExercises } from "@/actions/exercises"

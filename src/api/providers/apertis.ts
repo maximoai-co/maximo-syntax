@@ -7,7 +7,7 @@ import {
 	apertisDefaultModelId,
 	apertisDefaultModelInfo,
 	APERTIS_RESPONSES_API_MODELS,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions, ModelRecord } from "../../shared/api"
 import type { ApiHandlerCreateMessageMetadata, SingleCompletionHandler } from "../index"

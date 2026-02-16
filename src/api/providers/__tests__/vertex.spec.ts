@@ -8,12 +8,12 @@ import { Anthropic } from "@anthropic-ai/sdk"
 import { ApiStreamChunk } from "../../transform/stream"
 
 import { t } from "i18next"
-import { TelemetryService } from "@roo-code/telemetry" // kilocode_change
+import { TelemetryService } from "@maximo-syntax/telemetry" // kilocode_change
 import { VertexHandler } from "../vertex"
 
 // kilocode_change start
 // Mock TelemetryService
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureException: vi.fn(),

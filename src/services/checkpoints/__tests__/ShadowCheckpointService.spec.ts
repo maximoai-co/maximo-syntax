@@ -13,7 +13,7 @@ import * as fileSearch from "../../../services/search/file-search"
 import { RepoPerTaskCheckpointService } from "../RepoPerTaskCheckpointService"
 
 // kilocode_change start
-vi.mock("@roo-code/telemetry", () => ({
+vi.mock("@maximo-syntax/telemetry", () => ({
 	TelemetryService: {
 		instance: {
 			captureEvent: vi.fn(),

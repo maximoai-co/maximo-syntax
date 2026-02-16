@@ -6,7 +6,7 @@ import stripBom from "strip-bom"
 import { XMLBuilder } from "fast-xml-parser"
 import delay from "delay"
 
-import { type ClineSayTool, DEFAULT_WRITE_DELAY_MS, isNativeProtocol } from "@roo-code/types"
+import { type ClineSayTool, DEFAULT_WRITE_DELAY_MS, isNativeProtocol } from "@maximo-syntax/types"
 
 import { createDirectoriesForFile } from "../../utils/fs"
 import { arePathsEqual, getReadablePath } from "../../utils/path"

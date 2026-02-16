@@ -25,7 +25,7 @@ vi.mock("@ai-sdk/openai-compatible", () => ({
 
 import type { Anthropic } from "@anthropic-ai/sdk"
 
-import { moonshotDefaultModelId } from "@roo-code/types"
+import { moonshotDefaultModelId } from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions } from "../../../shared/api"
 
@@ -335,7 +335,9 @@ describe("MoonshotHandler", () => {
 				}),
 			})
 
-			for await (const _chunk of strictHandler.createMessage(systemPrompt, messages, { taskId: "task-cache-2" })) {
+			for await (const _chunk of strictHandler.createMessage(systemPrompt, messages, {
+				taskId: "task-cache-2",
+			})) {
 				// Drain stream
 			}
 

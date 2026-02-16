@@ -1,7 +1,7 @@
 // kilocode_change new file
 
 import React, { useMemo, useState } from "react"
-import { SkillMarketplaceItem } from "@roo-code/types"
+import { SkillMarketplaceItem } from "@maximo-syntax/types"
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { SkillItemCard } from "./components/SkillItemCard"
 import { Input } from "@/components/ui/input"

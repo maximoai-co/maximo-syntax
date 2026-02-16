@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { telemetryClient } from "../utils/TelemetryClient"
-import { TelemetryEventName } from "@roo-code/types"
+import { TelemetryEventName } from "@maximo-syntax/types"
 import { getMemoryPercentage } from "./helpers"
 
 const warningThreshold = 90

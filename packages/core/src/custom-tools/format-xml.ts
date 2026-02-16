@@ -1,4 +1,4 @@
-import type { SerializedCustomToolDefinition, SerializedCustomToolParameters } from "@roo-code/types"
+import type { SerializedCustomToolDefinition, SerializedCustomToolParameters } from "@maximo-syntax/types"
 
 /**
  * Extract the type string from a parameter schema.

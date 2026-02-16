@@ -3,7 +3,7 @@
 import { Anthropic } from "@anthropic-ai/sdk"
 import OpenAI from "openai"
 
-import { type SyntheticModelId, syntheticDefaultModelId, syntheticModels } from "@roo-code/types"
+import { type SyntheticModelId, syntheticDefaultModelId, syntheticModels } from "@maximo-syntax/types"
 
 import type { ApiHandlerOptions, ModelRecord } from "../../shared/api"
 

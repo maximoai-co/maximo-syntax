@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest"
-import type { ClineMessage } from "@roo-code/types"
+import type { ClineMessage } from "@maximo-syntax/types"
 import { reconcileMessages, messageToEvent, getContentLength } from "../messages"
 
 describe("messages atom helpers", () => {

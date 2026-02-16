@@ -15,7 +15,7 @@ import type {
 	UserSettingsConfig,
 	UserSettingsData,
 	UserFeatures,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { TaskNotFoundError } from "./errors.js"
 import { WebAuthService } from "./WebAuthService.js"

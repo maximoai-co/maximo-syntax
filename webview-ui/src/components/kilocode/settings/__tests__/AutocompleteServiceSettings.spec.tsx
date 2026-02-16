@@ -1,7 +1,7 @@
 import { render, screen, fireEvent, act, waitFor } from "@testing-library/react"
 import { describe, expect, it, vi, beforeEach, afterEach } from "vitest"
 import { AutocompleteServiceSettingsView } from "../AutocompleteServiceSettings"
-import { AutocompleteServiceSettings } from "@roo-code/types"
+import { AutocompleteServiceSettings } from "@maximo-syntax/types"
 import React from "react"
 import { SearchIndexProvider } from "@/components/settings/useSettingsSearch"
 
@@ -224,7 +224,9 @@ describe("AutocompleteServiceSettingsView", () => {
 		const onAutocompleteServiceSettingsChange = vi.fn()
 		renderComponent({ onAutocompleteServiceSettingsChange })
 
-		const checkboxLabel = screen.getByText(/kilocode:autocomplete.settings.enableAutoTrigger.label/).closest("label")
+		const checkboxLabel = screen
+			.getByText(/kilocode:autocomplete.settings.enableAutoTrigger.label/)
+			.closest("label")
 		const checkbox = checkboxLabel?.querySelector('input[type="checkbox"]') as HTMLInputElement
 
 		fireEvent.click(checkbox)
@@ -250,7 +252,9 @@ describe("AutocompleteServiceSettingsView", () => {
 		const onAutocompleteServiceSettingsChange = vi.fn()
 		renderComponent({ onAutocompleteServiceSettingsChange })
 
-		const checkboxLabel = screen.getByText(/kilocode:autocomplete.settings.enableChatAutocomplete.label/).closest("label")
+		const checkboxLabel = screen
+			.getByText(/kilocode:autocomplete.settings.enableChatAutocomplete.label/)
+			.closest("label")
 		const checkbox = checkboxLabel?.querySelector('input[type="checkbox"]') as HTMLInputElement
 
 		fireEvent.click(checkbox)

@@ -9,7 +9,7 @@ vi.mock("../../../../services/code-index/managed/ManagedIndexer", () => ({
 }))
 
 import { getToolUseGuidelinesSection } from "../tool-use-guidelines"
-import { TOOL_PROTOCOL } from "@roo-code/types"
+import { TOOL_PROTOCOL } from "@maximo-syntax/types"
 import { EXPERIMENT_IDS } from "../../../../shared/experiments"
 
 describe("getToolUseGuidelinesSection", () => {

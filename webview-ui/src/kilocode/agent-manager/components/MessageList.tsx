@@ -12,7 +12,7 @@ import {
 } from "../state/atoms/messageQueue"
 import { sessionMachineStateAtom, sendSessionEventAtom } from "../state/atoms/stateMachine"
 import type { QueuedMessage } from "../state/atoms/messageQueue"
-import type { ClineMessage, SuggestionItem, FollowUpData } from "@roo-code/types"
+import type { ClineMessage, SuggestionItem, FollowUpData } from "@maximo-syntax/types"
 import { safeJsonParse } from "@roo/safeJsonParse"
 import { combineCommandSequences } from "@roo/combineCommandSequences"
 import { SimpleMarkdown } from "./SimpleMarkdown"

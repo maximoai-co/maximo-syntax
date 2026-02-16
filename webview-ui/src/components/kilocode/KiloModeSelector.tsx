@@ -1,6 +1,6 @@
 import React from "react"
 import { Mode, defaultModeSlug, getAllModes } from "@roo/modes"
-import { ModeConfig } from "@roo-code/types"
+import { ModeConfig } from "@maximo-syntax/types"
 import { SelectDropdown, DropdownOptionType } from "@/components/ui"
 import type { DropdownOption } from "@/components/ui/select-dropdown" // kilocode_change
 import { useAppTranslation } from "@/i18n/TranslationContext"

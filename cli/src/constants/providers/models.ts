@@ -1,7 +1,7 @@
 import type { ProviderName, ProviderSettings } from "../../types/messages.js"
 import type { ProviderConfig } from "../../config/types.js"
 
-// Import model definitions from @roo-code/types
+// Import model definitions from @maximo-syntax/types
 import {
 	anthropicModels,
 	anthropicDefaultModelId,
@@ -48,7 +48,7 @@ import {
 	ovhCloudAiEndpointsDefaultModelId,
 	apertisDefaultModelId,
 	zenmuxDefaultModelId,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 /**
  * RouterName type - mirrors the one from src/shared/api.ts
@@ -171,6 +171,7 @@ export const PROVIDER_TO_ROUTER_NAME: Record<ProviderName, RouterName | null> = 
 	baseten: null,
 	apertis: null, // kilocode_change
 	corethink: null,
+	"maximo-ai": null,
 }
 
 /**
@@ -227,6 +228,7 @@ export const PROVIDER_MODEL_FIELD: Record<ProviderName, string | null> = {
 	baseten: null,
 	apertis: "apertisModelId", // kilocode_change
 	corethink: null,
+	"maximo-ai": "maximoAiModelId",
 }
 
 /**

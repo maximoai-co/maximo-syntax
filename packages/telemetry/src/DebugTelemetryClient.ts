@@ -1,5 +1,5 @@
 // kilocode_change - new file
-import { type TelemetryEvent } from "@roo-code/types"
+import { type TelemetryEvent } from "@maximo-syntax/types"
 
 import { BaseTelemetryClient } from "./BaseTelemetryClient"
 

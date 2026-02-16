@@ -1,4 +1,4 @@
-import { ClineMessage, SuggestionItem } from "@roo-code/types"
+import { ClineMessage, SuggestionItem } from "@maximo-syntax/types"
 import { BASE_TIMESTAMP } from "./clineMessages"
 
 /**

@@ -1,7 +1,7 @@
 /**
  * Agent Manager Types
  *
- * Re-exports types from @kilocode/core-schemas for consistency
+ * Re-exports types from @maximo-syntax/core-schemas for consistency
  * and backward compatibility.
  */
 
@@ -33,7 +33,7 @@ export {
 	type AvailableModel,
 	type AvailableMode,
 	type StartSessionMessage,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"
 
 // Re-export remote session shape from shared session client for consistency
 export type { RemoteSession }

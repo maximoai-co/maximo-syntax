@@ -21,7 +21,7 @@ import {
 	internationalZAiModels,
 	mainlandZAiModels,
 	ZAI_DEFAULT_TEMPERATURE,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
 import { ZAiHandler } from "../zai"
 

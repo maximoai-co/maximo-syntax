@@ -2,8 +2,8 @@ import { memo, useEffect, useRef, useState } from "react"
 import { VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 import { AlertTriangle } from "lucide-react"
 
-import type { ProviderSettingsEntry, OrganizationAllowList, ProfileType } from "@roo-code/types" // kilocode_change - autocomplete profile type system
-import { MODEL_SELECTION_ENABLED } from "@roo-code/types"
+import type { ProviderSettingsEntry, OrganizationAllowList, ProfileType } from "@maximo-syntax/types" // kilocode_change - autocomplete profile type system
+import { MODEL_SELECTION_ENABLED } from "@maximo-syntax/types"
 
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import {

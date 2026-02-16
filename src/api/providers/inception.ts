@@ -5,7 +5,7 @@ import { ApiHandlerOptions } from "../../shared/api"
 import { calculateApiCostOpenAI } from "../../shared/cost"
 import { RouterProvider } from "./router-provider"
 
-import { inceptionDefaultModelId, inceptionDefaultModelInfo, ProviderSettings } from "@roo-code/types"
+import { inceptionDefaultModelId, inceptionDefaultModelInfo, ProviderSettings } from "@maximo-syntax/types"
 
 import { getModels } from "./fetchers/modelCache"
 import { getModelParams } from "../transform/model-params"

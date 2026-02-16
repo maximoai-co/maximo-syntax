@@ -1,9 +1,9 @@
 /**
  * Types for the agent runtime.
- * Re-exports from @roo-code/types and @kilocode/core-schemas plus runtime-specific types.
+ * Re-exports from @maximo-syntax/types and @maximo-syntax/core-schemas plus runtime-specific types.
  */
 
-// Re-export from @roo-code/types
+// Re-export from @maximo-syntax/types
 export type {
 	ProviderSettings,
 	ProviderSettingsEntry,
@@ -13,15 +13,15 @@ export type {
 	TodoItem,
 	ClineMessage,
 	ModelInfo,
-} from "@roo-code/types"
+} from "@maximo-syntax/types"
 
-// Re-export from @kilocode/core-schemas
+// Re-export from @maximo-syntax/core-schemas
 export {
 	type OrganizationAllowList,
 	type Mode,
 	extensionMessageSchema,
 	extensionStateSchema,
-} from "@kilocode/core-schemas"
+} from "@maximo-syntax/core-schemas"
 
 // Identity information for VSCode environment
 export interface IdentityInfo {
@@ -82,7 +82,7 @@ export interface RouterName {
 }
 
 export interface ModelRecord {
-	[modelId: string]: import("@roo-code/types").ModelInfo
+	[modelId: string]: import("@maximo-syntax/types").ModelInfo
 }
 
 export interface RouterModels {
@@ -98,7 +98,7 @@ export interface ExtensionMessage {
 	text?: string
 	state?: ExtensionState
 	images?: string[]
-	chatMessages?: import("@roo-code/types").ClineMessage[]
+	chatMessages?: import("@maximo-syntax/types").ClineMessage[]
 	values?: Record<string, unknown>
 	routerModels?: RouterModels
 	completionRequestId?: string
@@ -118,7 +118,7 @@ export interface WebviewMessage {
 	askResponse?: string
 	images?: string[]
 	bool?: boolean
-	apiConfiguration?: import("@roo-code/types").ProviderSettings
+	apiConfiguration?: import("@maximo-syntax/types").ProviderSettings
 	context?: string
 	messageTs?: number
 	completionRequestId?: string
@@ -130,22 +130,22 @@ export interface WebviewMessage {
  */
 export interface ExtensionState {
 	version: string
-	apiConfiguration: import("@roo-code/types").ProviderSettings
+	apiConfiguration: import("@maximo-syntax/types").ProviderSettings
 	currentApiConfigName?: string
-	listApiConfigMeta?: import("@roo-code/types").ProviderSettingsEntry[]
-	chatMessages: import("@roo-code/types").ClineMessage[]
-	clineMessages?: import("@roo-code/types").ClineMessage[] // Legacy name
-	currentTaskItem?: import("@roo-code/types").HistoryItem
-	currentTaskTodos?: import("@roo-code/types").TodoItem[]
+	listApiConfigMeta?: import("@maximo-syntax/types").ProviderSettingsEntry[]
+	chatMessages: import("@maximo-syntax/types").ClineMessage[]
+	clineMessages?: import("@maximo-syntax/types").ClineMessage[] // Legacy name
+	currentTaskItem?: import("@maximo-syntax/types").HistoryItem
+	currentTaskTodos?: import("@maximo-syntax/types").TodoItem[]
 	mode: string
-	customModes: import("@roo-code/types").ModeConfig[]
+	customModes: import("@maximo-syntax/types").ModeConfig[]
 	taskHistoryFullLength: number
 	taskHistoryVersion: number
 	mcpServers?: McpServer[]
 	telemetrySetting: string
 	renderContext: "sidebar" | "editor" | "cli"
 	cwd?: string
-	organizationAllowList?: import("@kilocode/core-schemas").OrganizationAllowList
+	organizationAllowList?: import("@maximo-syntax/core-schemas").OrganizationAllowList
 	routerModels?: RouterModels
 	appendSystemPrompt?: string
 	experiments?: Record<string, boolean>

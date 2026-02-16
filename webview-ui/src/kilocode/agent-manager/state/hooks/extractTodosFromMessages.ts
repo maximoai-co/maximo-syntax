@@ -1,4 +1,4 @@
-import type { ClineMessage, TodoItem } from "@roo-code/types"
+import type { ClineMessage, TodoItem } from "@maximo-syntax/types"
 
 interface TodoMetadata {
 	tool?: string
