@@ -98,7 +98,7 @@
 		"modelInfo": {
 			"contextWindow": "Context window",
 			"providerBreakdown": "Provider Price and Capability Breakdown",
-			"averageKiloCodeCost": "This is the average actual spent for Maximo Syntax using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
+			"averageMaximo SyntaxCodeCost": "This is the average actual spent for Maximo Syntax using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
 			"table": {
 				"provider": "Provider",
 				"context": "The endpoint can process this number of tokens (input + output).",
@@ -253,7 +253,7 @@
 	"toolCallStyle": {
 		"title": "Tool Call Style",
 		"description": "Choose how tool calls are formatted in the system prompt. JSON is currently experimental and mostly intended for users interested in contributing to its development.",
-		"automatic": "Let Kilo decide",
+		"automatic": "Let Maximo Syntax decide",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -372,7 +372,7 @@
 			"title": "Speech-to-Text",
 			"description": "Speech-to-text is unavailable. Speech-to-text requires both FFmpeg and a valid OpenAI provider configured. <moreInfoLink>Click here for more information</moreInfoLink>.",
 			"openAiReason": "You need a valid OpenAI provider with an API key to use voice transcription.",
-			"ffmpegReason": "You need FFmpeg installed. <ffmpegLink>Click here</ffmpegLink> to have Kilo help you install FFmpeg.",
+			"ffmpegReason": "You need FFmpeg installed. <ffmpegLink>Click here</ffmpegLink> to have Maximo Syntax help you install FFmpeg.",
 			"ffmpegMessage": "Help me install FFmpeg"
 		},
 		"microphone": {

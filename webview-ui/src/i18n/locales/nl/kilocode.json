@@ -90,7 +90,7 @@
 		"modelInfo": {
 			"contextWindow": "Context venster",
 			"providerBreakdown": "Provider Prijs en Capaciteit Overzicht",
-			"averageKiloCodeCost": "Dit zijn de gemiddelde daadwerkelijke kosten voor Maximo Syntax bij gebruik van dit model over de afgelopen week. Deze kunnen lager zijn dan de vermelde prijs door gebruik van prompt cache.",
+			"averageMaximo SyntaxCodeCost": "Dit zijn de gemiddelde daadwerkelijke kosten voor Maximo Syntax bij gebruik van dit model over de afgelopen week. Deze kunnen lager zijn dan de vermelde prijs door gebruik van prompt cache.",
 			"table": {
 				"provider": "Provider",
 				"context": "Het eindpunt kan dit aantal tokens verwerken (input + output).",
@@ -133,7 +133,7 @@
 	"toolCallStyle": {
 		"title": "Tool Call Stijl",
 		"description": "Kies hoe tool calls worden geformatteerd in de systeemprompt. JSON is momenteel experimenteel en voornamelijk bedoeld voor gebruikers die geïnteresseerd zijn in het bijdragen aan de ontwikkeling ervan.",
-		"automatic": "Laat Kilo beslissen",
+		"automatic": "Laat Maximo Syntax beslissen",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -371,7 +371,7 @@
 			"description": "Spraak-naar-tekst is niet beschikbaar. Spraak-naar-tekst vereist zowel FFmpeg als een geldige OpenAI-provider die is geconfigureerd. <moreInfoLink>Klik hier voor meer informatie</moreInfoLink>.",
 			"openAiReason": "Je hebt een geldige OpenAI-provider met een API-sleutel nodig om spraaktranscriptie te gebruiken.",
 			"ffmpegMessage": "Help me FFmpeg te installeren",
-			"ffmpegReason": "Je hebt FFmpeg nodig. <ffmpegLink>Klik hier</ffmpegLink> om Kilo te laten helpen met het installeren van FFmpeg."
+			"ffmpegReason": "Je hebt FFmpeg nodig. <ffmpegLink>Klik hier</ffmpegLink> om Maximo Syntax te laten helpen met het installeren van FFmpeg."
 		},
 		"misconfiguredState": "Niet beschikbaar vanwege configuratie",
 		"errorState": "Niet beschikbaar vanwege een fout",

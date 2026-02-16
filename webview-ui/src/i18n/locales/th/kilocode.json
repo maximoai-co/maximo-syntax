@@ -104,7 +104,7 @@
 		"modelInfo": {
 			"contextWindow": "หน้าต่างบริบท",
 			"providerBreakdown": "รายละเอียดราคาและความสามารถของผู้ให้บริการ",
-			"averageKiloCodeCost": "นี่คือค่าใช้จ่ายจริงเฉลี่ยสำหรับ Maximo Syntax ที่ใช้โมเดลนี้ในสัปดาห์ที่ผ่านมา อาจต่ำกว่าราคาที่แสดงเนื่องจากการใช้ prompt cache",
+			"averageMaximo SyntaxCodeCost": "นี่คือค่าใช้จ่ายจริงเฉลี่ยสำหรับ Maximo Syntax ที่ใช้โมเดลนี้ในสัปดาห์ที่ผ่านมา อาจต่ำกว่าราคาที่แสดงเนื่องจากการใช้ prompt cache",
 			"table": {
 				"provider": "ผู้ให้บริการ",
 				"context": "endpoint สามารถประมวลผล token จำนวนนี้ได้ (input + output)",
@@ -134,7 +134,7 @@
 	"toolCallStyle": {
 		"title": "รูปแบบการเรียกใช้เครื่องมือ",
 		"description": "เลือกวิธีการจัดรูปแบบการเรียกใช้เครื่องมือใน system prompt JSON เป็นฟีเจอร์ทดลองและมีไว้สำหรับผู้ใช้ที่สนใจมีส่วนร่วมในการพัฒนา",
-		"automatic": "ให้ Kilo ตัดสินใจ",
+		"automatic": "ให้ Maximo Syntax ตัดสินใจ",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -371,7 +371,7 @@
 			"title": "เสียงเป็นข้อความ",
 			"description": "การแปลงเสียงเป็นข้อความไม่พร้อมใช้งาน การแปลงเสียงเป็นข้อความต้องการทั้ง FFmpeg และการกำหนดค่า OpenAI provider ที่ถูกต้อง <moreInfoLink>คลิกที่นี่สำหรับข้อมูลเพิ่มเติม</moreInfoLink>",
 			"openAiReason": "คุณต้องมีผู้ให้บริการ OpenAI ที่ถูกต้องพร้อม API key เพื่อใช้งานการถอดเสียงเป็นข้อความ",
-			"ffmpegReason": "คุณจำเป็นต้องติดตั้ง FFmpeg <ffmpegLink>คลิกที่นี่</ffmpegLink> เพื่อให้ Kilo ช่วยคุณติดตั้ง FFmpeg",
+			"ffmpegReason": "คุณจำเป็นต้องติดตั้ง FFmpeg <ffmpegLink>คลิกที่นี่</ffmpegLink> เพื่อให้ Maximo Syntax ช่วยคุณติดตั้ง FFmpeg",
 			"ffmpegMessage": "ช่วยฉันติดตั้ง FFmpeg"
 		},
 		"misconfiguredState": "ไม่พร้อมใช้งานเนื่องจากการตั้งค่า",

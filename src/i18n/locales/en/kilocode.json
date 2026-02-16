@@ -59,13 +59,13 @@
 		"activated": "Maximo Syntax commit message generator activated",
 		"gitNotFound": "⚠️ Git repository not found or git not available",
 		"gitInitError": "⚠️ Git initialization error: {{error}}",
-		"generating": "Kilo: Generating commit message...",
-		"noChanges": "Kilo: No changes found to analyze",
-		"generated": "Kilo: Commit message generated!",
-		"generationFailed": "Kilo: Failed to generate commit message: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Generating message using unstaged changes",
-		"activationFailed": "Kilo: Failed to activate message generator: {{error}}",
-		"providerRegistered": "Kilo: Commit message provider registered",
+		"generating": "Maximo Syntax: Generating commit message...",
+		"noChanges": "Maximo Syntax: No changes found to analyze",
+		"generated": "Maximo Syntax: Commit message generated!",
+		"generationFailed": "Maximo Syntax: Failed to generate commit message: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Generating message using unstaged changes",
+		"activationFailed": "Maximo Syntax: Failed to activate message generator: {{error}}",
+		"providerRegistered": "Maximo Syntax: Commit message provider registered",
 		"errors": {
 			"connectionFailed": "Failed to connect to Maximo Syntax extension",
 			"timeout": "Request timed out after 30 seconds",
@@ -166,8 +166,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Your Kilocode CLI version is outdated and doesn't support the Agent Manager. Please update to the latest version.",
-			"cliMisconfigured": "Kilocode CLI is not configured. Please run 'kilocode auth' to sign in or 'kilocode config' to configure.",
+			"cliOutdated": "Your Maximo Syntaxcode CLI version is outdated and doesn't support the Agent Manager. Please update to the latest version.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI is not configured. Please run 'maximosyntax auth' to sign in or 'maximosyntax config' to configure.",
 			"sessionFailed": "Failed to start agent session",
 			"sessionFailedWithMessage": "Failed to start agent session: {{message}}"
 		},
@@ -180,22 +180,22 @@
 			"updateLocal": "Update Local",
 			"installGlobal": "Install Global",
 			"installLocal": "Install Local",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config"
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config"
 		},
 		"terminal": {
-			"installMessage": "Running npm install to install the Kilocode CLI. Once complete, you can close this terminal and try starting the Agent Manager again.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Running npm install to install the Maximo Syntaxcode CLI. Once complete, you can close this terminal and try starting the Agent Manager again.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"terminalCommandGenerator": {
-		"tipMessage": "Kilo: Press {{shortcut}} to generate terminal commands",
-		"inputPrompt": "Kilo: Describe the command you want to generate",
+		"tipMessage": "Maximo Syntax: Press {{shortcut}} to generate terminal commands",
+		"inputPrompt": "Maximo Syntax: Describe the command you want to generate",
 		"inputPlaceholder": "e.g., kill the process running on port 3001, find large files, etc",
-		"noActiveTerminal": "Kilo: No active terminal found. Please open a terminal first.",
-		"generatingProgress": "Kilo: Generating terminal command...",
-		"commandGenerated": "Kilo: Generated command: {{command}}",
-		"generationFailed": "Kilo: Failed to generate command: {{error}}",
+		"noActiveTerminal": "Maximo Syntax: No active terminal found. Please open a terminal first.",
+		"generatingProgress": "Maximo Syntax: Generating terminal command...",
+		"commandGenerated": "Maximo Syntax: Generated command: {{command}}",
+		"generationFailed": "Maximo Syntax: Failed to generate command: {{error}}",
 		"warningDialog": {
 			"title": "Terminal Safety Warning",
 			"message": "Double-check all generated commands before running them. Terminal actions cannot always be undone— running unverified commands can result in irreversible data loss or system damage. Review and understand the command completely before proceeding!",

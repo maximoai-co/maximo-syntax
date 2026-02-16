@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Kontextové okno",
 			"providerBreakdown": "Rozpis cen a schopností poskytovatelů",
-			"averageKiloCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v Maximo Syntax za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
+			"averageMaximo SyntaxCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v Maximo Syntax za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
 			"table": {
 				"provider": "Poskytovatel",
 				"context": "Endpoint může zpracovat tento počet tokenů (vstup + výstup).",
@@ -246,7 +246,7 @@
 	"toolCallStyle": {
 		"title": "Styl volání nástrojů",
 		"description": "Vyber, jak jsou volání nástrojů formátována v systémovém promptu. JSON je momentálně experimentální a je určen především pro uživatele, kteří mají zájem přispět k jeho vývoji.",
-		"automatic": "Nech Kilo rozhodnout",
+		"automatic": "Nech Maximo Syntax rozhodnout",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -371,7 +371,7 @@
 			"title": "Převod řeči na text",
 			"openAiReason": "Pro použití hlasové transkripce potřebujete platného poskytovatele OpenAI s API klíčem.",
 			"description": "Převod řeči na text není k dispozici. Převod řeči na text vyžaduje jak FFmpeg, tak platně nakonfigurovaného poskytovatele OpenAI. <moreInfoLink>Klikněte sem pro více informací</moreInfoLink>.",
-			"ffmpegReason": "Potřebujete nainstalovaný FFmpeg. <ffmpegLink>Klikněte zde</ffmpegLink>, aby vám Kilo pomohlo s instalací FFmpeg.",
+			"ffmpegReason": "Potřebujete nainstalovaný FFmpeg. <ffmpegLink>Klikněte zde</ffmpegLink>, aby vám Maximo Syntax pomohlo s instalací FFmpeg.",
 			"ffmpegMessage": "Pomozte mi nainstalovat FFmpeg"
 		},
 		"misconfiguredState": "Nedostupné kvůli konfiguraci",

@@ -62,7 +62,7 @@
 		"contact": {
 			"label": "需要联系我们？请发送邮件至"
 		},
-		"community": "想要获取使用技巧或与其他 Maximo Syntax 用户交流？加入 <redditLink>reddit.com/r/kilocode</redditLink> 或 <discordLink>kilo.ai/discord</discordLink>",
+		"community": "想要获取使用技巧或与其他 Maximo Syntax 用户交流？加入 <redditLink>reddit.com/r/maximosyntax</redditLink> 或 <discordLink>maximoai.co/discord</discordLink>",
 		"contactAndCommunity": "联系与社区",
 		"manageSettings": "管理设置",
 		"debugMode": {
@@ -223,7 +223,7 @@
 			},
 			"protected": {
 				"label": "包含受保护的文件",
-				"description": "允许 Maximo Syntax 创建和编辑受保护的文件（如 .kilocodeignore 和 .kilocode/ 配置文件），无需批准。"
+				"description": "允许 Maximo Syntax 创建和编辑受保护的文件（如 .maximosyntaxignore 和 .maximosyntax/ 配置文件），无需批准。"
 			}
 		},
 		"browser": {
@@ -621,7 +621,7 @@
 		},
 		"consecutiveMistakeLimit": {
 			"label": "错误和重复限制",
-			"description": "在显示“Kilo遇到问题”对话框前允许的连续错误或重复操作次数。设置为 0 可禁用此安全机制（它将永远不会触发）。",
+			"description": "在显示“Maximo Syntax遇到问题”对话框前允许的连续错误或重复操作次数。设置为 0 可禁用此安全机制（它将永远不会触发）。",
 			"unlimitedDescription": "已启用无限重试（自动继续）。对话框将永远不会出现。",
 			"warning": "⚠️ 设置为 0 允许无限重试，这可能会消耗大量 API 使用量"
 		},
@@ -781,8 +781,8 @@
 			"description": "允许纳入上下文的最大文件数（值越大消耗token越多）"
 		},
 		"rooignore": {
-			"label": "在列表和搜索中显示 .kilocodeignore 文件",
-			"description": "启用后，与 .kilocodeignore 中模式匹配的文件将在列表中显示锁定符号。禁用时，这些文件将从文件列表和搜索中完全隐藏。"
+			"label": "在列表和搜索中显示 .maximosyntaxignore 文件",
+			"description": "启用后，与 .maximosyntaxignore 中模式匹配的文件将在列表中显示锁定符号。禁用时，这些文件将从文件列表和搜索中完全隐藏。"
 		},
 		"maxReadFile": {
 			"label": "文件读取自动截断阈值",
@@ -858,11 +858,11 @@
 		},
 		"outputLineLimit": {
 			"label": "终端输出限制",
-			"description": "保留首尾行并丢弃中间行以保持在限制内。降低可节省 token；提高可为 Kilo 提供更多中间细节。Kilo 看到内容被跳过的占位符。<0>了解更多</0>"
+			"description": "保留首尾行并丢弃中间行以保持在限制内。降低可节省 token；提高可为 Maximo Syntax 提供更多中间细节。Maximo Syntax 看到内容被跳过的占位符。<0>了解更多</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "终端字符限制",
-			"description": "通过强制限制输出大小来覆盖行限制以防止内存问题。如果超出，保留开头和结尾并向 Kilo 显示内容被跳过的占位符。<0>了解更多</0>"
+			"description": "通过强制限制输出大小来覆盖行限制以防止内存问题。如果超出，保留开头和结尾并向 Maximo Syntax 显示内容被跳过的占位符。<0>了解更多</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "终端 shell 集成超时",
@@ -870,7 +870,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "使用内联终端（推荐）",
-			"description": "在内联终端（聊天）中运行命令以绕过 shell 配置文件/集成，实现更快、更可靠的运行。禁用时，Kilo 使用 VS Code 终端及您的 shell 配置文件、提示和插件。<0>了解更多</0>"
+			"description": "在内联终端（聊天）中运行命令以绕过 shell 配置文件/集成，实现更快、更可靠的运行。禁用时，Maximo Syntax 使用 VS Code 终端及您的 shell 配置文件、提示和插件。<0>了解更多</0>"
 		},
 		"commandDelay": {
 			"label": "终端命令延迟",
@@ -1011,7 +1011,7 @@
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "启用 Fast Apply",
-			"description": "启用后 Maximo Syntax 可使用专门优化的代码修改模型进行 Fast Apply 编辑文件。需要 Kilo Gateway Provider、OpenRouter 或 Morph API 密钥。",
+			"description": "启用后 Maximo Syntax 可使用专门优化的代码修改模型进行 Fast Apply 编辑文件。需要 Maximo Syntax Gateway Provider、OpenRouter 或 Morph API 密钥。",
 			"apiProvider": "API 提供商",
 			"apiProviderList": {
 				"current": "当前"
@@ -1041,9 +1041,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "启用自定义工具",
-			"description": "启用后 Kilo 可从项目中的 .kilocode/tools 目录或全局工具目录 ~/.kilocode/tools 加载并使用自定义 TypeScript/JavaScript 工具。注意：这些工具将自动获批。",
+			"description": "启用后 Maximo Syntax 可从项目中的 .maximosyntax/tools 目录或全局工具目录 ~/.maximosyntax/tools 加载并使用自定义 TypeScript/JavaScript 工具。注意：这些工具将自动获批。",
 			"toolsHeader": "可用自定义工具",
-			"noTools": "未加载自定义工具。请向项目的 .kilocode/tools 目录或全局工具目录 ~/.kilocode/tools 添加 .ts 或 .js 文件。",
+			"noTools": "未加载自定义工具。请向项目的 .maximosyntax/tools 目录或全局工具目录 ~/.maximosyntax/tools 添加 .ts 或 .js 文件。",
 			"refreshButton": "刷新",
 			"refreshing": "正在刷新...",
 			"refreshSuccess": "工具刷新成功",
@@ -1093,8 +1093,8 @@
 		"allModels": "全部模型"
 	},
 	"footer": {
-		"feedback": "如果您有任何问题或反馈，请随时在 <githubLink>github.com/Kilo-Org/kilocode</githubLink> 上提出问题或加入 <redditLink>reddit.com/r/kilocode</redditLink> 或 <discordLink>kilo.ai/discord</discordLink>",
-		"support": "如有财务问题，请联系客户支持 <supportLink>https://kilo.ai/support</supportLink>",
+		"feedback": "如果您有任何问题或反馈，请随时在 <githubLink>github.com/maximoai-co/maximosyntax</githubLink> 上提出问题或加入 <redditLink>reddit.com/r/maximosyntax</redditLink> 或 <discordLink>maximoai.co/discord</discordLink>",
+		"support": "如有财务问题，请联系客户支持 <supportLink>https://maximoai.co/support</supportLink>",
 		"telemetry": {
 			"label": "允许错误和使用情况报告",
 			"description": "通过发送使用数据和错误报告帮助改进 Maximo Syntax。绝不会发送代码、提示词或个人信息。详情请查看我们的隐私政策。"

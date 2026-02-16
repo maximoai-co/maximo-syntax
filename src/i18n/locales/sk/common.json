@@ -130,7 +130,7 @@
 			"completionError": "Chyba dokončenia Cerebras: {{error}}"
 		},
 		"roo": {
-			"authenticationRequired": "Poskytovateľ Kilo vyžaduje cloudovú autentizáciu. Prosím prihlás sa do Maximo Syntax Cloud."
+			"authenticationRequired": "Poskytovateľ Maximo Syntax vyžaduje cloudovú autentizáciu. Prosím prihlás sa do Maximo Syntax Cloud."
 		},
 		"openAiCodex": {
 			"notAuthenticated": "Nie si autentizovaný s OpenAI Codex. Prosím prihlás sa pomocou OpenAI Codex OAuth.",
@@ -212,8 +212,8 @@
 	},
 	"storage": {
 		"prompt_custom_path": "Zadaj vlastnú cestu úložiska histórie konverzácií, ponechaj prázdne pre použitie predvoleného umiestnenia",
-		"path_placeholder": "D:\\KiloCodeStorage",
-		"enter_absolute_path": "Prosím zadaj absolútnu cestu (napr. D:\\KiloCodeStorage alebo /home/user/storage)",
+		"path_placeholder": "D:\\Maximo SyntaxCodeStorage",
+		"enter_absolute_path": "Prosím zadaj absolútnu cestu (napr. D:\\Maximo SyntaxCodeStorage alebo /home/user/storage)",
 		"enter_valid_path": "Prosím zadaj platnú cestu"
 	},
 	"input": {
@@ -222,8 +222,8 @@
 	},
 	"customModes": {
 		"errors": {
-			"yamlParseError": "Neplatný YAML v súbore .kilocodemodes na riadku {{line}}. Skontroluj prosím:\n• Správne odsadenie (použi medzery, nie tabulátory)\n• Zodpovedajúce úvodzovky a zátvorky\n• Platnú YAML syntax",
-			"schemaValidationError": "Neplatný formát vlastných režimov v .kilocodemodes:\n{{issues}}",
+			"yamlParseError": "Neplatný YAML v súbore .maximosyntaxmodes na riadku {{line}}. Skontroluj prosím:\n• Správne odsadenie (použi medzery, nie tabulátory)\n• Zodpovedajúce úvodzovky a zátvorky\n• Platnú YAML syntax",
+			"schemaValidationError": "Neplatný formát vlastných režimov v .maximosyntaxmodes:\n{{issues}}",
 			"invalidFormat": "Neplatný formát vlastných režimov. Uisti sa prosím, že tvoje nastavenia dodržujú správny YAML formát.",
 			"updateFailed": "Nepodarilo sa aktualizovať vlastný režim: {{error}}",
 			"deleteFailed": "Nepodarilo sa zmazať vlastný režim: {{error}}",
@@ -272,7 +272,7 @@
 	},
 	"docsLink": {
 		"label": "Dokumentácia",
-		"url": "https://kilo.ai/docs"
+		"url": "https://maximoai.co/docs"
 	},
 	"errorBoundary": {
 		"title": "Chyba",

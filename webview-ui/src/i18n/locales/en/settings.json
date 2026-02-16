@@ -62,7 +62,7 @@
 		"contact": {
 			"label": "Need to talk to us? Write"
 		},
-		"community": "Want tips or to just hang out with other Maximo Syntax users? Join <redditLink>reddit.com/r/kilocode</redditLink> or <discordLink>kilo.ai/discord</discordLink>",
+		"community": "Want tips or to just hang out with other Maximo Syntax users? Join <redditLink>reddit.com/r/maximosyntax</redditLink> or <discordLink>maximoai.co/discord</discordLink>",
 		"contactAndCommunity": "Contact & Community",
 		"manageSettings": "Manage Settings",
 		"debugMode": {
@@ -227,7 +227,7 @@
 			},
 			"protected": {
 				"label": "Include protected files",
-				"description": "Allow Maximo Syntax to create and edit protected files (like .kilocodeignore and .kilocode/ configuration files) without requiring approval."
+				"description": "Allow Maximo Syntax to create and edit protected files (like .maximosyntaxignore and .maximosyntax/ configuration files) without requiring approval."
 			}
 		},
 		"delete": {
@@ -642,7 +642,7 @@
 		},
 		"consecutiveMistakeLimit": {
 			"label": "Error & Repetition Limit",
-			"description": "Number of consecutive errors or repeated actions before showing 'Kilo is having trouble' dialog. Set to 0 to disable this safety mechanism (it will never trigger).",
+			"description": "Number of consecutive errors or repeated actions before showing 'Maximo Syntax is having trouble' dialog. Set to 0 to disable this safety mechanism (it will never trigger).",
 			"unlimitedDescription": "Unlimited retries enabled (auto-proceed). The dialog will never appear.",
 			"warning": "⚠️ Setting to 0 allows unlimited retries which may consume significant API usage"
 		},
@@ -822,8 +822,8 @@
 			"description": "Maximum number of files to include in current working directory details. Higher values provide more context but increase token usage."
 		},
 		"rooignore": {
-			"label": "Show .kilocodeignore'd files in lists and searches",
-			"description": "When enabled, files matching patterns in .kilocodeignore will be shown in lists with a lock symbol. When disabled, these files will be completely hidden from file lists and searches."
+			"label": "Show .maximosyntaxignore'd files in lists and searches",
+			"description": "When enabled, files matching patterns in .maximosyntaxignore will be shown in lists with a lock symbol. When disabled, these files will be completely hidden from file lists and searches."
 		},
 		"maxConcurrentFileReads": {
 			"label": "Concurrent file reads limit",
@@ -898,11 +898,11 @@
 		},
 		"outputLineLimit": {
 			"label": "Terminal output limit",
-			"description": "Keeps the first and last lines and drops the middle to stay under the limit. Lower to save tokens; raise to give Kilo more middle detail. Kilo sees a placeholder where the content is skipped.<0>Learn more</0>"
+			"description": "Keeps the first and last lines and drops the middle to stay under the limit. Lower to save tokens; raise to give Maximo Syntax more middle detail. Maximo Syntax sees a placeholder where the content is skipped.<0>Learn more</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "Terminal character limit",
-			"description": "Overrides the line limit to prevent memory issues by enforcing a hard cap on output size. If exceeded, keeps the beginning and end and shows a placeholder to Kilo where content is skipped. <0>Learn more</0>"
+			"description": "Overrides the line limit to prevent memory issues by enforcing a hard cap on output size. If exceeded, keeps the beginning and end and shows a placeholder to Maximo Syntax where content is skipped. <0>Learn more</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "Terminal shell integration timeout",
@@ -910,7 +910,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "Use Inline Terminal (recommended)",
-			"description": "Run commands in the Inline Terminal (chat) to bypass shell profiles/integration for faster, more reliable runs. When disabled Kilo uses the VS Code terminal with your shell profile, prompts, and plugins. <0>Learn more</0>"
+			"description": "Run commands in the Inline Terminal (chat) to bypass shell profiles/integration for faster, more reliable runs. When disabled Maximo Syntax uses the VS Code terminal with your shell profile, prompts, and plugins. <0>Learn more</0>"
 		},
 		"commandDelay": {
 			"label": "Terminal command delay",
@@ -1018,7 +1018,7 @@
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Enable Fast Apply",
-			"description": "When enabled, Maximo Syntax can edit files using Fast Apply with specialized models optimized for code modifications. Requires the Kilo Gateway Provider, OpenRouter, or a Morph API key.",
+			"description": "When enabled, Maximo Syntax can edit files using Fast Apply with specialized models optimized for code modifications. Requires the Maximo Syntax Gateway Provider, OpenRouter, or a Morph API key.",
 			"apiProvider": "API Provider",
 			"apiProviderList": {
 				"current": "Current"
@@ -1073,9 +1073,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "Enable custom tools",
-			"description": "When enabled, Kilo can load and use custom TypeScript/JavaScript tools from your project's .kilocode/tools directory or ~/.kilocode/tools for global tools. Note: these tools will automatically be auto-approved.",
+			"description": "When enabled, Maximo Syntax can load and use custom TypeScript/JavaScript tools from your project's .maximosyntax/tools directory or ~/.maximosyntax/tools for global tools. Note: these tools will automatically be auto-approved.",
 			"toolsHeader": "Available Custom Tools",
-			"noTools": "No custom tools loaded. Add .ts or .js files to your project's .kilocode/tools directory or ~/.kilocode/tools for global tools.",
+			"noTools": "No custom tools loaded. Add .ts or .js files to your project's .maximosyntax/tools directory or ~/.maximosyntax/tools for global tools.",
 			"refreshButton": "Refresh",
 			"refreshing": "Refreshing...",
 			"refreshSuccess": "Tools refreshed successfully",
@@ -1125,8 +1125,8 @@
 		"allModels": "All models"
 	},
 	"footer": {
-		"feedback": "If you have any questions or feedback, feel free to open an issue at <githubLink>github.com/Kilo-Org/kilocode</githubLink> or join <redditLink>reddit.com/r/kilocode</redditLink> or <discordLink>kilo.ai/discord</discordLink>.",
-		"support": "For financial questions, please contact Customer Support at <supportLink>https://kilo.ai/support</supportLink>",
+		"feedback": "If you have any questions or feedback, feel free to open an issue at <githubLink>github.com/maximoai-co/maximosyntax</githubLink> or join <redditLink>reddit.com/r/maximosyntax</redditLink> or <discordLink>maximoai.co/discord</discordLink>.",
+		"support": "For financial questions, please contact Customer Support at <supportLink>https://maximoai.co/support</supportLink>",
 		"telemetry": {
 			"label": "Allow error and usage reporting",
 			"description": "Help improve Maximo Syntax by sending usage data and error reports. No code, prompts, or personal information is ever sent. See our privacy policy for more details."

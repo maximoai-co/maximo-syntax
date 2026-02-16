@@ -66,7 +66,7 @@
 		"contactSupportDesc": "Získat pomoc s technickými problémy nebo dotazy k účtu",
 		"joinCommunity": "Připojit se ke komunitě",
 		"joinCommunityDesc": "Připoj se k ostatním uživatelům pro tipy a diskuse",
-		"community": "Chceš tipy nebo si jen popovídat s ostatními uživateli Maximo Syntax? Připoj se na <redditLink>reddit.com/r/kilocode</redditLink> nebo <discordLink>kilo.ai/discord</discordLink>",
+		"community": "Chceš tipy nebo si jen popovídat s ostatními uživateli Maximo Syntax? Připoj se na <redditLink>reddit.com/r/maximosyntax</redditLink> nebo <discordLink>maximoai.co/discord</discordLink>",
 		"contactAndCommunity": "Kontakt a komunita",
 		"manageSettings": "Spravovat nastavení",
 		"debugMode": {
@@ -235,7 +235,7 @@
 			},
 			"protected": {
 				"label": "Zahrnout chráněné soubory",
-				"description": "Povolit Maximo Syntax vytvářet a upravovat chráněné soubory (jako .kilocodeignore a konfigurační soubory .kilocode/) bez nutnosti schválení."
+				"description": "Povolit Maximo Syntax vytvářet a upravovat chráněné soubory (jako .maximosyntaxignore a konfigurační soubory .maximosyntax/) bez nutnosti schválení."
 			}
 		},
 		"browser": {
@@ -876,8 +876,8 @@
 			"description": "Maximální počet souborových záznamů, které se zahrnou do kontextu Git stavu. Nastavte na 0 pro vypnutí. Informace o větvi se vždy zobrazí, když je > 0."
 		},
 		"rooignore": {
-			"label": "Zobrazit soubory ignorované .kilocodeignore v seznamech a vyhledáváních",
-			"description": "Pokud je povoleno, soubory odpovídající vzorům v .kilocodeignore se zobrazí v seznamech se symbolem zámku. Pokud je zakázáno, tyto soubory budou zcela skryty ze seznamů souborů a vyhledávání."
+			"label": "Zobrazit soubory ignorované .maximosyntaxignore v seznamech a vyhledáváních",
+			"description": "Pokud je povoleno, soubory odpovídající vzorům v .maximosyntaxignore se zobrazí v seznamech se symbolem zámku. Pokud je zakázáno, tyto soubory budou zcela skryty ze seznamů souborů a vyhledávání."
 		},
 		"enableSubfolderRules": {
 			"label": "Povolit pravidla podadresářů",
@@ -1044,7 +1044,7 @@
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Povolit Fast Apply",
-			"description": "Pokud je povoleno, Maximo Syntax může upravovat soubory pomocí Fast Apply se specializovanými modely optimalizovanými pro úpravy kódu. Vyžaduje Kilo Gateway Provider, OpenRouter nebo klíč API Morph.",
+			"description": "Pokud je povoleno, Maximo Syntax může upravovat soubory pomocí Fast Apply se specializovanými modely optimalizovanými pro úpravy kódu. Vyžaduje Maximo Syntax Gateway Provider, OpenRouter nebo klíč API Morph.",
 			"apiProvider": "Poskytovatel API",
 			"apiProviderList": {
 				"current": "Aktuální"
@@ -1131,9 +1131,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "Povolit vlastní nástroje",
-			"description": "Pokud je povoleno, Kilo může načítat a používat vlastní nástroje TypeScript/JavaScript z adresáře .kilocode/tools vašeho projektu nebo ~/.kilocode/tools pro globální nástroje. Poznámka: tyto nástroje budou automaticky schváleny.",
+			"description": "Pokud je povoleno, Maximo Syntax může načítat a používat vlastní nástroje TypeScript/JavaScript z adresáře .maximosyntax/tools vašeho projektu nebo ~/.maximosyntax/tools pro globální nástroje. Poznámka: tyto nástroje budou automaticky schváleny.",
 			"toolsHeader": "Dostupné vlastní nástroje",
-			"noTools": "Nejsou načteny žádné vlastní nástroje. Přidejte soubory .ts nebo .js do adresáře .kilocode/tools vašeho projektu nebo ~/.kilocode/tools pro globální nástroje.",
+			"noTools": "Nejsou načteny žádné vlastní nástroje. Přidejte soubory .ts nebo .js do adresáře .maximosyntax/tools vašeho projektu nebo ~/.maximosyntax/tools pro globální nástroje.",
 			"refreshButton": "Obnovit",
 			"refreshing": "Obnovování...",
 			"refreshSuccess": "Nástroje úspěšně obnoveny",
@@ -1185,8 +1185,8 @@
 		"allModels": "Všechny modely"
 	},
 	"footer": {
-		"feedback": "Pokud máte nějaké dotazy nebo zpětnou vazbu, neváhejte otevřít problém na <githubLink>github.com/Kilo-Org/kilocode</githubLink> nebo se připojte k <redditLink>reddit.com/r/kilocode</redditLink> nebo <discordLink>kilo.ai/discord</discordLink>.",
-		"support": "Pro finanční dotazy kontaktujte prosím zákaznickou podporu na <supportLink>https://kilo.ai/support</supportLink>",
+		"feedback": "Pokud máte nějaké dotazy nebo zpětnou vazbu, neváhejte otevřít problém na <githubLink>github.com/maximoai-co/maximosyntax</githubLink> nebo se připojte k <redditLink>reddit.com/r/maximosyntax</redditLink> nebo <discordLink>maximoai.co/discord</discordLink>.",
+		"support": "Pro finanční dotazy kontaktujte prosím zákaznickou podporu na <supportLink>https://maximoai.co/support</supportLink>",
 		"telemetry": {
 			"label": "Povolit hlášení chyb a používání",
 			"description": "Pomozte vylepšit Maximo Syntax odesíláním dat o používání a hlášení chyb. Nikdy se neodesílá žádný kód, výzvy ani osobní informace. Další podrobnosti najdete v našich zásadách ochrany osobních údajů."

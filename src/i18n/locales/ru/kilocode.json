@@ -50,13 +50,13 @@
 		"activated": "Генератор сообщений коммитов Maximo Syntax активирован",
 		"gitNotFound": "⚠️ Репозиторий Git не найден или git недоступен",
 		"gitInitError": "⚠️ Ошибка инициализации Git: {{error}}",
-		"generating": "Kilo: Генерация сообщения коммита...",
-		"noChanges": "Kilo: Изменения для анализа не найдены",
-		"generated": "Kilo: Сообщение коммита сгенерировано!",
-		"generationFailed": "Kilo: Ошибка генерации сообщения коммита: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Генерация сообщения с использованием незафиксированных изменений",
-		"activationFailed": "Kilo: Не удалось активировать генератор сообщений: {{error}}",
-		"providerRegistered": "Kilo: Поставщик сообщений коммитов зарегистрирован",
+		"generating": "Maximo Syntax: Генерация сообщения коммита...",
+		"noChanges": "Maximo Syntax: Изменения для анализа не найдены",
+		"generated": "Maximo Syntax: Сообщение коммита сгенерировано!",
+		"generationFailed": "Maximo Syntax: Ошибка генерации сообщения коммита: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Генерация сообщения с использованием незафиксированных изменений",
+		"activationFailed": "Maximo Syntax: Не удалось активировать генератор сообщений: {{error}}",
+		"providerRegistered": "Maximo Syntax: Поставщик сообщений коммитов зарегистрирован",
 		"errors": {
 			"noProject": "Нет доступных проектов",
 			"invalidResponse": "Получен неверный формат ответа от расширения",
@@ -150,19 +150,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: Опишите команду, которую вы хотите сгенерировать",
+		"inputPrompt": "Maximo Syntax: Опишите команду, которую вы хотите сгенерировать",
 		"inputPlaceholder": "например, завершить процесс, работающий на порту 3001, найти большие файлы и т.д.",
-		"generatingProgress": "Kilo: Создание команды терминала...",
-		"generationFailed": "Kilo: Не удалось сгенерировать команду: {{error}}",
-		"commandGenerated": "Kilo: Сгенерированная команда: {{command}}",
-		"noActiveTerminal": "Kilo: Активный терминал не найден. Пожалуйста, сначала откройте терминал.",
+		"generatingProgress": "Maximo Syntax: Создание команды терминала...",
+		"generationFailed": "Maximo Syntax: Не удалось сгенерировать команду: {{error}}",
+		"commandGenerated": "Maximo Syntax: Сгенерированная команда: {{command}}",
+		"noActiveTerminal": "Maximo Syntax: Активный терминал не найден. Пожалуйста, сначала откройте терминал.",
 		"warningDialog": {
 			"title": "Предупреждение о безопасности терминала",
 			"okButton": "Я понимаю",
 			"message": "Перепроверяйте все сгенерированные команды перед их выполнением. Действия в терминале не всегда можно отменить — запуск непроверенных команд может привести к необратимой потере данных или повреждению системы. Полностью просмотрите и осознайте команду перед тем, как продолжить!",
 			"cancelButton": "Отменить"
 		},
-		"tipMessage": "Kilo: Нажмите {{shortcut}}, чтобы сгенерировать команды терминала"
+		"tipMessage": "Maximo Syntax: Нажмите {{shortcut}}, чтобы сгенерировать команды терминала"
 	},
 	"checkpoints": {
 		"nestedGitRepos": "Контрольные точки недоступны, поскольку обнаружен вложенный Git-репозиторий по адресу: {{path}}. Пожалуйста, удалите или переместите вложенные Git-репозитории для использования функции контрольных точек или отключите контрольные точки в настройках, чтобы скрыть это предупреждение.",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Твоя версия Kilocode CLI устарела и не поддерживает Agent Manager. Обнови до последней версии.",
-			"cliMisconfigured": "Kilocode CLI не настроен. Выполни 'kilocode auth' для входа или 'kilocode config' для настройки.",
+			"cliOutdated": "Твоя версия Maximo Syntaxcode CLI устарела и не поддерживает Agent Manager. Обнови до последней версии.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI не настроен. Выполни 'maximosyntax auth' для входа или 'maximosyntax config' для настройки.",
 			"sessionFailed": "Не удалось запустить сессию агента",
 			"sessionFailedWithMessage": "Не удалось запустить сессию агента: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "Инструкции по Установке",
 			"getHelp": "Получить Помощь",
 			"runInTerminal": "Запустить в Терминале",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Обновить Глобально",
 			"updateLocal": "Обновить Локально",
 			"installGlobal": "Установить Глобально",
 			"installLocal": "Установить Локально"
 		},
 		"terminal": {
-			"installMessage": "Выполнение npm install для установки Kilocode CLI. После завершения можешь закрыть этот терминал и попробовать запустить Agent Manager снова.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Выполнение npm install для установки Maximo Syntaxcode CLI. После завершения можешь закрыть этот терминал и попробовать запустить Agent Manager снова.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -207,6 +207,6 @@
 	},
 	"configDiscovery": {
 		"added": "Код Кило: Добавлен {{source}} {{configType}}: {{name}}{{modeStr}}",
-		"removed": "Код Kilo: Удалено {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"removed": "Код Maximo Syntax: Удалено {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

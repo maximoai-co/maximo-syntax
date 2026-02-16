@@ -55,13 +55,13 @@
 		"activated": "Maximo Syntax Commit-Nachrichten-Generator aktiviert",
 		"gitNotFound": "⚠️ Git-Repository nicht gefunden oder Git nicht verfügbar",
 		"gitInitError": "⚠️ Git-Initialisierungsfehler: {{error}}",
-		"generating": "Kilo: Generiere Commit-Nachricht...",
-		"noChanges": "Kilo: Keine Änderungen zum Analysieren gefunden",
-		"generated": "Kilo: Commit-Nachricht generiert!",
-		"generationFailed": "Kilo: Fehler beim Generieren der Commit-Nachricht: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Nachricht mit nicht bereitgestellten Änderungen generieren",
-		"activationFailed": "Kilo: Der Nachrichtengenerator konnte nicht aktiviert werden: {{error}}",
-		"providerRegistered": "Kilo: Commit-Nachrichtenanbieter registriert",
+		"generating": "Maximo Syntax: Generiere Commit-Nachricht...",
+		"noChanges": "Maximo Syntax: Keine Änderungen zum Analysieren gefunden",
+		"generated": "Maximo Syntax: Commit-Nachricht generiert!",
+		"generationFailed": "Maximo Syntax: Fehler beim Generieren der Commit-Nachricht: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Nachricht mit nicht bereitgestellten Änderungen generieren",
+		"activationFailed": "Maximo Syntax: Der Nachrichtengenerator konnte nicht aktiviert werden: {{error}}",
+		"providerRegistered": "Maximo Syntax: Commit-Nachrichtenanbieter registriert",
 		"errors": {
 			"noProject": "Kein Projekt verfügbar",
 			"connectionFailed": "Verbindung zur Maximo Syntax-Erweiterung fehlgeschlagen",
@@ -155,19 +155,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: Beschreibe den Befehl, den du generieren möchtest",
-		"generatingProgress": "Kilo: Terminal-Befehl wird generiert...",
-		"noActiveTerminal": "Kilo: Kein aktives Terminal gefunden. Bitte öffne zuerst ein Terminal.",
+		"inputPrompt": "Maximo Syntax: Beschreibe den Befehl, den du generieren möchtest",
+		"generatingProgress": "Maximo Syntax: Terminal-Befehl wird generiert...",
+		"noActiveTerminal": "Maximo Syntax: Kein aktives Terminal gefunden. Bitte öffne zuerst ein Terminal.",
 		"inputPlaceholder": "z.B. den Prozess beenden, der auf Port 3001 läuft, große Dateien finden, usw.",
-		"generationFailed": "Kilo: Fehler beim Generieren des Befehls: {{error}}",
-		"commandGenerated": "Kilo: Generierter Befehl: {{command}}",
+		"generationFailed": "Maximo Syntax: Fehler beim Generieren des Befehls: {{error}}",
+		"commandGenerated": "Maximo Syntax: Generierter Befehl: {{command}}",
 		"warningDialog": {
 			"okButton": "Ich verstehe",
 			"title": "Sicherheitswarnung für das Terminal",
 			"message": "Überprüfe alle generierten Befehle doppelt, bevor du sie ausführst. Terminal-Aktionen können nicht immer rückgängig gemacht werden - das Ausführen ungeprüfter Befehle kann zu irreversiblem Datenverlust oder Systemschäden führen. Überprüfe und verstehe den Befehl vollständig, bevor du fortfährst!",
 			"cancelButton": "Abbrechen"
 		},
-		"tipMessage": "Kilo: Drücke {{shortcut}}, um Terminal-Befehle zu generieren"
+		"tipMessage": "Maximo Syntax: Drücke {{shortcut}}, um Terminal-Befehle zu generieren"
 	},
 	"seeNewChanges": {
 		"title": "Zeige neue Änderungen",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Deine Kilocode CLI-Version ist veraltet und unterstützt den Agent Manager nicht. Bitte aktualisiere auf die neueste Version.",
-			"cliMisconfigured": "Kilocode CLI ist nicht konfiguriert. Bitte führe 'kilocode auth' aus, um dich anzumelden, oder 'kilocode config' zum Konfigurieren.",
+			"cliOutdated": "Deine Maximo Syntaxcode CLI-Version ist veraltet und unterstützt den Agent Manager nicht. Bitte aktualisiere auf die neueste Version.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI ist nicht konfiguriert. Bitte führe 'maximosyntax auth' aus, um dich anzumelden, oder 'maximosyntax config' zum Konfigurieren.",
 			"sessionFailed": "Agent-Sitzung konnte nicht gestartet werden",
 			"sessionFailedWithMessage": "Agent-Sitzung konnte nicht gestartet werden: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "Installationsanleitung",
 			"getHelp": "Hilfe erhalten",
 			"runInTerminal": "Im Terminal ausführen",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Global Aktualisieren",
 			"updateLocal": "Lokal Aktualisieren",
 			"installGlobal": "Global Installieren",
 			"installLocal": "Lokal Installieren"
 		},
 		"terminal": {
-			"installMessage": "Führe npm install aus, um die Kilocode CLI zu installieren. Sobald die Installation abgeschlossen ist, kannst du dieses Terminal schließen und versuchen, den Agent Manager erneut zu starten.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Führe npm install aus, um die Maximo Syntaxcode CLI zu installieren. Sobald die Installation abgeschlossen ist, kannst du dieses Terminal schließen und versuchen, den Agent Manager erneut zu starten.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -206,7 +206,7 @@
 		}
 	},
 	"configDiscovery": {
-		"added": "Kilo-Code: Hinzugefügt {{source}} {{configType}}: {{name}}{{modeStr}}",
-		"removed": "Kilo-Code: Entfernt {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"added": "Maximo Syntax-Code: Hinzugefügt {{source}} {{configType}}: {{name}}{{modeStr}}",
+		"removed": "Maximo Syntax-Code: Entfernt {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

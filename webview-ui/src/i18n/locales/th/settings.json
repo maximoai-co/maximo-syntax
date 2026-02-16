@@ -69,8 +69,8 @@
 		"contactSupport": "ติดต่อฝ่ายสนับสนุน",
 		"contactSupportDesc": "สำหรับคำถามทั่วไป การแก้ไขปัญหา และความช่วยเหลือด้านเทคนิค",
 		"joinCommunity": "เข้าร่วมชุมชน",
-		"joinCommunityDesc": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ Maximo Syntax คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/kilocode</redditLink> หรือ <discordLink>kilo.ai/discord</discordLink>",
-		"community": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ Maximo Syntax คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/kilocode</redditLink> หรือ <discordLink>kilo.ai/discord</discordLink>",
+		"joinCommunityDesc": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ Maximo Syntax คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/maximosyntax</redditLink> หรือ <discordLink>maximoai.co/discord</discordLink>",
+		"community": "ต้องการเทคนิคหรือแค่ใช้เวลาร่วมกับผู้ใช้ Maximo Syntax คนอื่นๆ? เข้าร่วม <redditLink>reddit.com/r/maximosyntax</redditLink> หรือ <discordLink>maximoai.co/discord</discordLink>",
 		"contactAndCommunity": "ติดต่อและชุมชน",
 		"manageSettings": "จัดการการตั้งค่า"
 	},
@@ -249,7 +249,7 @@
 			},
 			"protected": {
 				"label": "รวมไฟล์ที่ได้รับการป้องกัน",
-				"description": "อนุญาตให้ Maximo Syntax สร้างและแก้ไขไฟล์ที่ได้รับการป้องกัน (เช่น .kilocodeignore และไฟล์การกำหนดค่า .kilocode/) โดยไม่ต้องขออนุมัติ"
+				"description": "อนุญาตให้ Maximo Syntax สร้างและแก้ไขไฟล์ที่ได้รับการป้องกัน (เช่น .maximosyntaxignore และไฟล์การกำหนดค่า .maximosyntax/) โดยไม่ต้องขออนุมัติ"
 			}
 		},
 		"browser": {
@@ -871,8 +871,8 @@
 			"description": "จำนวนไฟล์สูงสุดที่จะรวมไว้ในรายละเอียดไดเรกทอรีการทำงานปัจจุบัน ค่าที่สูงขึ้นจะให้บริบทมากขึ้น แต่จะเพิ่มการใช้โทเค็น"
 		},
 		"rooignore": {
-			"label": "แสดงไฟล์ที่ถูก .kilocodeignore ในรายการและการค้นหา",
-			"description": "เมื่อเปิดใช้งาน ไฟล์ที่ตรงกับรูปแบบใน .kilocodeignore จะแสดงในรายการพร้อมสัญลักษณ์ล็อก เมื่อปิดใช้งาน ไฟล์เหล่านี้จะถูกซ่อนอย่างสมบูรณ์จากรายการไฟล์และการค้นหา"
+			"label": "แสดงไฟล์ที่ถูก .maximosyntaxignore ในรายการและการค้นหา",
+			"description": "เมื่อเปิดใช้งาน ไฟล์ที่ตรงกับรูปแบบใน .maximosyntaxignore จะแสดงในรายการพร้อมสัญลักษณ์ล็อก เมื่อปิดใช้งาน ไฟล์เหล่านี้จะถูกซ่อนอย่างสมบูรณ์จากรายการไฟล์และการค้นหา"
 		},
 		"maxConcurrentFileReads": {
 			"label": "ขีดจำกัดการอ่านไฟล์พร้อมกัน",
@@ -951,11 +951,11 @@
 		},
 		"outputLineLimit": {
 			"label": "ขีดจำกัดเอาต์พุตเทอร์มินัล",
-			"description": "เก็บบรรทัดแรกและบรรทัดสุดท้ายและลบตรงกลางเพื่อให้อยู่ภายใต้ขีดจำกัด ลดลงเพื่อประหยัดโทเค็น เพิ่มขึ้นเพื่อให้ Kilo มีรายละเอียดตรงกลางมากขึ้น Kilo จะเห็นตัวยึดตำแหน่งที่เนื้อหาถูกข้าม<0>เรียนรู้เพิ่มเติม</0>"
+			"description": "เก็บบรรทัดแรกและบรรทัดสุดท้ายและลบตรงกลางเพื่อให้อยู่ภายใต้ขีดจำกัด ลดลงเพื่อประหยัดโทเค็น เพิ่มขึ้นเพื่อให้ Maximo Syntax มีรายละเอียดตรงกลางมากขึ้น Maximo Syntax จะเห็นตัวยึดตำแหน่งที่เนื้อหาถูกข้าม<0>เรียนรู้เพิ่มเติม</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "ขีดจำกัดอักขระเทอร์มินัล",
-			"description": "แทนที่ขีดจำกัดบรรทัดเพื่อป้องกันปัญหาหน่วยความจำโดยการบังคับใช้ขีดจำกัดสูงสุดของขนาดเอาต์พุต หากเกิน จะเก็บส่วนต้นและส่วนท้ายและแสดงตัวยึดตำแหน่งให้ Kilo ที่เนื้อหาถูกข้าม <0>เรียนรู้เพิ่มเติม</0>"
+			"description": "แทนที่ขีดจำกัดบรรทัดเพื่อป้องกันปัญหาหน่วยความจำโดยการบังคับใช้ขีดจำกัดสูงสุดของขนาดเอาต์พุต หากเกิน จะเก็บส่วนต้นและส่วนท้ายและแสดงตัวยึดตำแหน่งให้ Maximo Syntax ที่เนื้อหาถูกข้าม <0>เรียนรู้เพิ่มเติม</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "หมดเวลาการรวมเชลล์เทอร์มินัล",
@@ -963,7 +963,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "ใช้เทอร์มินัลแบบอินไลน์ (แนะนำ)",
-			"description": "รันคำสั่งในเทอร์มินัลแบบอินไลน์ (แชท) เพื่อข้ามโปรไฟล์/การรวมเชลล์สำหรับการรันที่เร็วและเชื่อถือได้มากขึ้น เมื่อปิดใช้งาน Kilo จะใช้เทอร์มินัล VS Code พร้อมโปรไฟล์เชลล์ พรอมต์ และปลั๊กอินของคุณ <0>เรียนรู้เพิ่มเติม</0>"
+			"description": "รันคำสั่งในเทอร์มินัลแบบอินไลน์ (แชท) เพื่อข้ามโปรไฟล์/การรวมเชลล์สำหรับการรันที่เร็วและเชื่อถือได้มากขึ้น เมื่อปิดใช้งาน Maximo Syntax จะใช้เทอร์มินัล VS Code พร้อมโปรไฟล์เชลล์ พรอมต์ และปลั๊กอินของคุณ <0>เรียนรู้เพิ่มเติม</0>"
 		},
 		"commandDelay": {
 			"label": "หน่วงเวลาคำสั่งเทอร์มินัล",
@@ -1112,7 +1112,7 @@
 		"experimentalParallelToolCallsWarning": "⚠️ นี่เป็นฟีเจอร์เบต้า และอาจส่งผลต่อพฤติกรรมของแอปพลิเคชัน",
 		"MORPH_FAST_APPLY": {
 			"name": "เปิดใช้งาน Fast Apply",
-			"description": "เมื่อเปิดใช้งาน Maximo Syntax สามารถแก้ไขไฟล์โดยใช้ Fast Apply กับโมเดลเฉพาะทางที่ปรับแต่งสำหรับการแก้ไขโค้ด ต้องใช้ Kilo Gateway Provider, OpenRouter หรือ Morph API key",
+			"description": "เมื่อเปิดใช้งาน Maximo Syntax สามารถแก้ไขไฟล์โดยใช้ Fast Apply กับโมเดลเฉพาะทางที่ปรับแต่งสำหรับการแก้ไขโค้ด ต้องใช้ Maximo Syntax Gateway Provider, OpenRouter หรือ Morph API key",
 			"apiProvider": "ผู้ให้บริการ API",
 			"apiProviderList": {
 				"current": "ปัจจุบัน"
@@ -1142,9 +1142,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "เปิดใช้งานเครื่องมือที่กำหนดเอง",
-			"description": "เมื่อเปิดใช้งาน Kilo สามารถโหลดและใช้เครื่องมือ TypeScript/JavaScript ที่กำหนดเองจากไดเรกทอรี .kilocode/tools ของโปรเจ็กต์ของคุณ หรือ ~/.kilocode/tools สำหรับเครื่องมือทั่วไป หมายเหตุ: เครื่องมือเหล่านี้จะได้รับการอนุมัติอัตโนมัติ",
+			"description": "เมื่อเปิดใช้งาน Maximo Syntax สามารถโหลดและใช้เครื่องมือ TypeScript/JavaScript ที่กำหนดเองจากไดเรกทอรี .maximosyntax/tools ของโปรเจ็กต์ของคุณ หรือ ~/.maximosyntax/tools สำหรับเครื่องมือทั่วไป หมายเหตุ: เครื่องมือเหล่านี้จะได้รับการอนุมัติอัตโนมัติ",
 			"toolsHeader": "เครื่องมือที่กำหนดเองที่มี",
-			"noTools": "ไม่มีเครื่องมือที่กำหนดเองที่โหลด เพิ่มไฟล์ .ts หรือ .js ไปยังไดเรกทอรี .kilocode/tools ของโปรเจ็กต์ของคุณ หรือ ~/.kilocode/tools สำหรับเครื่องมือทั่วไป",
+			"noTools": "ไม่มีเครื่องมือที่กำหนดเองที่โหลด เพิ่มไฟล์ .ts หรือ .js ไปยังไดเรกทอรี .maximosyntax/tools ของโปรเจ็กต์ของคุณ หรือ ~/.maximosyntax/tools สำหรับเครื่องมือทั่วไป",
 			"refreshButton": "รีเฟรช",
 			"refreshing": "กำลังรีเฟรช...",
 			"refreshSuccess": "รีเฟรชเครื่องมือสำเร็จ",
@@ -1196,8 +1196,8 @@
 		"allModels": "โมเดลทั้งหมด"
 	},
 	"footer": {
-		"feedback": "หากคุณมีคำถามหรือข้อเสนอแนะ โปรดเปิด issue ที่ <githubLink>github.com/Kilo-Org/kilocode</githubLink> หรือเข้าร่วม <redditLink>reddit.com/r/kilocode</redditLink> หรือ <discordLink>kilo.ai/discord</discordLink>",
-		"support": "สำหรับคำถามด้านการเงิน โปรดติดต่อฝ่ายสนับสนุนลูกค้าที่ <supportLink>https://kilo.ai/support</supportLink>",
+		"feedback": "หากคุณมีคำถามหรือข้อเสนอแนะ โปรดเปิด issue ที่ <githubLink>github.com/maximoai-co/maximosyntax</githubLink> หรือเข้าร่วม <redditLink>reddit.com/r/maximosyntax</redditLink> หรือ <discordLink>maximoai.co/discord</discordLink>",
+		"support": "สำหรับคำถามด้านการเงิน โปรดติดต่อฝ่ายสนับสนุนลูกค้าที่ <supportLink>https://maximoai.co/support</supportLink>",
 		"telemetry": {
 			"label": "อนุญาตการรายงานข้อผิดพลาดและการใช้งาน",
 			"description": "ช่วยปรับปรุง Maximo Syntax โดยการส่งข้อมูลการใช้งานและรายงานข้อผิดพลาด ไม่มีการส่งโค้ด พรอมต์ หรือข้อมูลส่วนบุคคล ดูนโยบายความเป็นส่วนตัวของเราสำหรับรายละเอียดเพิ่มเติม"

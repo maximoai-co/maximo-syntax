@@ -62,7 +62,7 @@
 		"contact": {
 			"label": "お問い合わせが必要ですか？メールを送信"
 		},
-		"community": "ヒントが欲しいですか、または他のMaximo Syntaxユーザーと交流したいですか？<redditLink>reddit.com/r/kilocode</redditLink>または<discordLink>kilo.ai/discord</discordLink>に参加してください",
+		"community": "ヒントが欲しいですか、または他のMaximo Syntaxユーザーと交流したいですか？<redditLink>reddit.com/r/maximosyntax</redditLink>または<discordLink>maximoai.co/discord</discordLink>に参加してください",
 		"contactAndCommunity": "お問い合わせとコミュニティ",
 		"manageSettings": "設定を管理",
 		"debugMode": {
@@ -219,7 +219,7 @@
 			},
 			"protected": {
 				"label": "保護されたファイルを含める",
-				"description": "Maximo Syntaxが保護されたファイル（.kilocodeignoreや.kilocode/設定ファイルなど）を承認なしで作成・編集することを許可します。"
+				"description": "Maximo Syntaxが保護されたファイル（.maximosyntaxignoreや.maximosyntax/設定ファイルなど）を承認なしで作成・編集することを許可します。"
 			}
 		},
 		"browser": {
@@ -626,7 +626,7 @@
 		},
 		"consecutiveMistakeLimit": {
 			"label": "エラーと繰り返しの制限",
-			"description": "「Kiloが問題を抱えています」ダイアログを表示するまでの連続エラーまたは繰り返しアクションの数。この安全機構を無効にするには0に設定します（トリガーされません）。",
+			"description": "「Maximo Syntaxが問題を抱えています」ダイアログを表示するまでの連続エラーまたは繰り返しアクションの数。この安全機構を無効にするには0に設定します（トリガーされません）。",
 			"unlimitedDescription": "無制限のリトライが有効です（自動進行）。ダイアログは表示されません。",
 			"warning": "⚠️ 0に設定すると無制限のリトライが可能になり、API使用量が大幅に増加する可能性があります"
 		},
@@ -786,8 +786,8 @@
 			"description": "現在の作業ディレクトリの詳細に含めるファイルの最大数。高い値はより多くのコンテキストを提供しますが、token使用量が増加します。"
 		},
 		"rooignore": {
-			"label": "リストと検索で.kilocodeignoreファイルを表示",
-			"description": "有効にすると、.kilocodeignoreのパターンに一致するファイルがロックシンボル付きでリストに表示されます。無効にすると、これらのファイルはファイルリストや検索から完全に非表示になります。"
+			"label": "リストと検索で.maximosyntaxignoreファイルを表示",
+			"description": "有効にすると、.maximosyntaxignoreのパターンに一致するファイルがロックシンボル付きでリストに表示されます。無効にすると、これらのファイルはファイルリストや検索から完全に非表示になります。"
 		},
 		"maxReadFile": {
 			"label": "ファイル読み込み自動切り詰めしきい値",
@@ -863,11 +863,11 @@
 		},
 		"outputLineLimit": {
 			"label": "ターミナル出力制限",
-			"description": "制限内に収めるため最初と最後の行を保持し、中間を削除します。トークンを節約するには下げる；Kiloに中間の詳細を与えるには上げる。Kiloはコンテンツがスキップされた箇所にプレースホルダーを表示します。<0>詳細情報</0>"
+			"description": "制限内に収めるため最初と最後の行を保持し、中間を削除します。トークンを節約するには下げる；Maximo Syntaxに中間の詳細を与えるには上げる。Maximo Syntaxはコンテンツがスキップされた箇所にプレースホルダーを表示します。<0>詳細情報</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "ターミナル文字制限",
-			"description": "出力サイズにハードキャップを適用してメモリ問題を防ぐため、行制限を上書きします。超過した場合、最初と最後を保持し、コンテンツがスキップされた箇所にKiloにプレースホルダーを表示します。<0>詳細情報</0>"
+			"description": "出力サイズにハードキャップを適用してメモリ問題を防ぐため、行制限を上書きします。超過した場合、最初と最後を保持し、コンテンツがスキップされた箇所にMaximo Syntaxにプレースホルダーを表示します。<0>詳細情報</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "ターミナルシェル統合タイムアウト",
@@ -875,7 +875,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "インラインターミナルを使用（推奨）",
-			"description": "より高速で信頼性の高い実行のため、シェルプロファイル/統合をバイパスしてインラインターミナル（チャット）でコマンドを実行します。無効にすると、Kilo はシェルプロファイル、プロンプト、プラグインと共に VS Code ターミナルを使用します。<0>詳細情報</0>"
+			"description": "より高速で信頼性の高い実行のため、シェルプロファイル/統合をバイパスしてインラインターミナル（チャット）でコマンドを実行します。無効にすると、Maximo Syntax はシェルプロファイル、プロンプト、プラグインと共に VS Code ターミナルを使用します。<0>詳細情報</0>"
 		},
 		"commandDelay": {
 			"label": "ターミナルコマンド遅延",
@@ -924,7 +924,7 @@
 	"advanced": {
 		"diff": {
 			"label": "diff経由の編集を有効化",
-			"description": "有効にすると、Kiloはファイルをより迅速に編集でき、切り詰められた全ファイル書き込みを自動的に拒否します。",
+			"description": "有効にすると、Maximo Syntaxはファイルをより迅速に編集でき、切り詰められた全ファイル書き込みを自動的に拒否します。",
 			"strategy": {
 				"label": "Diff戦略",
 				"options": {
@@ -1012,7 +1012,7 @@
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Fast Applyを有効化",
-			"description": "有効にすると、Maximo Syntaxはコード変更に最適化された専用モデルを使用してFast Applyでファイルを編集できます。Kilo Gateway Provider、OpenRouter、またはMorph APIキーが必要です。",
+			"description": "有効にすると、Maximo Syntaxはコード変更に最適化された専用モデルを使用してFast Applyでファイルを編集できます。Maximo Syntax Gateway Provider、OpenRouter、またはMorph APIキーが必要です。",
 			"apiProvider": "APIプロバイダー",
 			"apiProviderList": {
 				"current": "現在"
@@ -1042,9 +1042,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "カスタムツールを有効化",
-			"description": "有効にすると、Kiloはプロジェクトの .kilocode/tools ディレクトリまたはグローバルツール用の ~/.kilocode/tools からカスタム TypeScript/JavaScript ツールを読み込んで使用できます。注意：これらのツールは自動的に承認されます。",
+			"description": "有効にすると、Maximo Syntaxはプロジェクトの .maximosyntax/tools ディレクトリまたはグローバルツール用の ~/.maximosyntax/tools からカスタム TypeScript/JavaScript ツールを読み込んで使用できます。注意：これらのツールは自動的に承認されます。",
 			"toolsHeader": "利用可能なカスタムツール",
-			"noTools": "カスタムツールが読み込まれていません。プロジェクトの .kilocode/tools ディレクトリまたはグローバルツール用の ~/.kilocode/tools に .ts または .js ファイルを追加してください。",
+			"noTools": "カスタムツールが読み込まれていません。プロジェクトの .maximosyntax/tools ディレクトリまたはグローバルツール用の ~/.maximosyntax/tools に .ts または .js ファイルを追加してください。",
 			"refreshButton": "更新",
 			"refreshing": "更新中...",
 			"refreshSuccess": "ツールが正常に更新されました",
@@ -1094,8 +1094,8 @@
 		"allModels": "すべてのモデル"
 	},
 	"footer": {
-		"feedback": "質問やフィードバックがある場合は、<githubLink>github.com/Kilo-Org/kilocode</githubLink>で問題を開くか、<redditLink>reddit.com/r/kilocode</redditLink>や<discordLink>kilo.ai/discord</discordLink>に参加してください",
-		"support": "財務に関するご質問は、<supportLink>https://kilo.ai/support</supportLink>のカスタマーサポートまでお問い合わせください",
+		"feedback": "質問やフィードバックがある場合は、<githubLink>github.com/maximoai-co/maximosyntax</githubLink>で問題を開くか、<redditLink>reddit.com/r/maximosyntax</redditLink>や<discordLink>maximoai.co/discord</discordLink>に参加してください",
+		"support": "財務に関するご質問は、<supportLink>https://maximoai.co/support</supportLink>のカスタマーサポートまでお問い合わせください",
 		"telemetry": {
 			"label": "匿名のエラーと使用状況レポートを許可",
 			"description": "匿名の使用データとエラーレポートを送信してMaximo Syntaxの改善にご協力ください。コード、プロンプト、個人情報が送信されることはありません。詳細については、プライバシーポリシーをご覧ください。"

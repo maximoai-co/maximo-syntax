@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Finestra di contesto",
 			"providerBreakdown": "Ripartizione Prezzi e Funzionalità dei Provider",
-			"averageKiloCodeCost": "Questo è il costo medio effettivo sostenuto da Maximo Syntax utilizzando questo modello nell'ultima settimana. Potrebbe essere inferiore al prezzo indicato grazie all'utilizzo della cache dei prompt.",
+			"averageMaximo SyntaxCodeCost": "Questo è il costo medio effettivo sostenuto da Maximo Syntax utilizzando questo modello nell'ultima settimana. Potrebbe essere inferiore al prezzo indicato grazie all'utilizzo della cache dei prompt.",
 			"table": {
 				"provider": "Provider",
 				"context": "L'endpoint può elaborare questo numero di token (input + output).",
@@ -259,7 +259,7 @@
 			},
 			"enableSmartInlineTaskKeybinding": {
 				"label": "Completamento Automatico Manuale ({{keybinding}})",
-				"description": "Hai bisogno di una correzione rapida, completamento o refactoring? Kilo userà il contesto circostante per offrire miglioramenti immediati, mantenendoti nel flusso. <DocsLink>Modifica scorciatoia</DocsLink>"
+				"description": "Hai bisogno di una correzione rapida, completamento o refactoring? Maximo Syntax userà il contesto circostante per offrire miglioramenti immediati, mantenendoti nel flusso. <DocsLink>Modifica scorciatoia</DocsLink>"
 			},
 			"keybindingNotFound": "non trovato",
 			"configureAutocompleteProfile": "Usa qualsiasi modello andando nei profili e configurando un Profilo del Tipo di Profilo Autocompletamento.",
@@ -328,7 +328,7 @@
 	"toolCallStyle": {
 		"title": "Stile Chiamata Strumenti",
 		"description": "Scegli come formattare le chiamate agli strumenti nel prompt di sistema. JSON è attualmente sperimentale e destinato principalmente agli utenti interessati a contribuire al suo sviluppo.",
-		"automatic": "Lascia decidere a Kilo",
+		"automatic": "Lascia decidere a Maximo Syntax",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -372,7 +372,7 @@
 			"title": "Sintesi vocale",
 			"description": "La sintesi vocale non è disponibile. La sintesi vocale richiede sia FFmpeg che un provider OpenAI valido configurato. <moreInfoLink>Clicca qui per maggiori informazioni</moreInfoLink>.",
 			"openAiReason": "È necessario un provider OpenAI valido con una chiave API per utilizzare la trascrizione vocale.",
-			"ffmpegReason": "È necessario avere FFmpeg installato. <ffmpegLink>Clicca qui</ffmpegLink> per far sì che Kilo ti aiuti a installare FFmpeg.",
+			"ffmpegReason": "È necessario avere FFmpeg installato. <ffmpegLink>Clicca qui</ffmpegLink> per far sì che Maximo Syntax ti aiuti a installare FFmpeg.",
 			"ffmpegMessage": "Aiutami a installare FFmpeg"
 		},
 		"misconfiguredState": "Non disponibile a causa della configurazione",

@@ -50,13 +50,13 @@
 		"activated": "Maximo Syntax commit mesajı oluşturucu etkinleştirildi",
 		"gitNotFound": "⚠️ Git deposu bulunamadı veya git kullanılamıyor",
 		"gitInitError": "⚠️ Git başlatma hatası: {{error}}",
-		"generating": "Kilo: Commit mesajı oluşturuluyor...",
-		"noChanges": "Kilo: Analiz edilecek değişiklik bulunamadı",
-		"generated": "Kilo: Commit mesajı oluşturuldu!",
-		"generationFailed": "Kilo: Commit mesajı oluşturulamadı: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Hazırlanmamış değişikliklerle mesaj oluşturuluyor",
-		"activationFailed": "Kilo: Mesaj oluşturucu etkinleştirilemedi: {{error}}",
-		"providerRegistered": "Kilo: Commit mesajı sağlayıcısı kaydedildi",
+		"generating": "Maximo Syntax: Commit mesajı oluşturuluyor...",
+		"noChanges": "Maximo Syntax: Analiz edilecek değişiklik bulunamadı",
+		"generated": "Maximo Syntax: Commit mesajı oluşturuldu!",
+		"generationFailed": "Maximo Syntax: Commit mesajı oluşturulamadı: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Hazırlanmamış değişikliklerle mesaj oluşturuluyor",
+		"activationFailed": "Maximo Syntax: Mesaj oluşturucu etkinleştirilemedi: {{error}}",
+		"providerRegistered": "Maximo Syntax: Commit mesajı sağlayıcısı kaydedildi",
 		"errors": {
 			"noProject": "Proje mevcut değil",
 			"connectionFailed": "Maximo Syntax uzantısına bağlanılamadı",
@@ -155,19 +155,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"noActiveTerminal": "Kilo: Aktif terminal bulunamadı. Lütfen önce bir terminal açın.",
-		"inputPrompt": "Kilo: Oluşturmak istediğiniz komutu açıklayın",
+		"noActiveTerminal": "Maximo Syntax: Aktif terminal bulunamadı. Lütfen önce bir terminal açın.",
+		"inputPrompt": "Maximo Syntax: Oluşturmak istediğiniz komutu açıklayın",
 		"inputPlaceholder": "örn., 3001 portunda çalışan işlemi sonlandır, büyük dosyaları bul, vb.",
-		"generatingProgress": "Kilo: Uçbirim komutu oluşturuluyor...",
-		"commandGenerated": "Kilo: Oluşturulan komut: {{command}}",
-		"generationFailed": "Kilo: Komut oluşturulamadı: {{error}}",
+		"generatingProgress": "Maximo Syntax: Uçbirim komutu oluşturuluyor...",
+		"commandGenerated": "Maximo Syntax: Oluşturulan komut: {{command}}",
+		"generationFailed": "Maximo Syntax: Komut oluşturulamadı: {{error}}",
 		"warningDialog": {
 			"title": "Uçbirim Güvenlik Uyarısı",
 			"okButton": "Anlıyorum",
 			"message": "Oluşturulan tüm komutları çalıştırmadan önce iki kez kontrol edin. Terminal eylemleri her zaman geri alınamaz— doğrulanmamış komutları çalıştırmak geri döndürülemez veri kaybına veya sistem hasarına neden olabilir. İlerlemeden önce komutu tamamen inceleyin ve anlayın!",
 			"cancelButton": "İptal"
 		},
-		"tipMessage": "Kilo: Terminal komutları oluşturmak için {{shortcut}} tuşuna basın"
+		"tipMessage": "Maximo Syntax: Terminal komutları oluşturmak için {{shortcut}} tuşuna basın"
 	},
 	"seeNewChanges": {
 		"title": "Yeni değişiklikler gösteriliyor",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Kilocode CLI sürümün eski ve Agent Manager'ı desteklemiyor. Lütfen en son sürüme güncelle.",
-			"cliMisconfigured": "Kilocode CLI yapılandırılmamış. Giriş yapmak için 'kilocode auth' veya yapılandırmak için 'kilocode config' çalıştır.",
+			"cliOutdated": "Maximo Syntaxcode CLI sürümün eski ve Agent Manager'ı desteklemiyor. Lütfen en son sürüme güncelle.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI yapılandırılmamış. Giriş yapmak için 'maximosyntax auth' veya yapılandırmak için 'maximosyntax config' çalıştır.",
 			"sessionFailed": "Ajan oturumu başlatılamadı",
 			"sessionFailedWithMessage": "Ajan oturumu başlatılamadı: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "Kurulum Talimatları",
 			"getHelp": "Yardım Al",
 			"runInTerminal": "Terminalde Çalıştır",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Global Güncelle",
 			"updateLocal": "Lokal Güncelle",
 			"installGlobal": "Global Yükle",
 			"installLocal": "Lokal Yükle"
 		},
 		"terminal": {
-			"installMessage": "Kilocode CLI'yi yüklemek için npm install çalıştırılıyor. Tamamlandığında, bu terminali kapatıp Agent Manager'ı tekrar başlatmayı deneyebilirsin.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Maximo Syntaxcode CLI'yi yüklemek için npm install çalıştırılıyor. Tamamlandığında, bu terminali kapatıp Agent Manager'ı tekrar başlatmayı deneyebilirsin.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -206,7 +206,7 @@
 		}
 	},
 	"configDiscovery": {
-		"added": "Kilo Kodu: {{source}} {{configType}}: {{name}}{{modeStr}} eklendi.",
-		"removed": "Kilo Kodu: Kaldırıldı {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"added": "Maximo Syntax Kodu: {{source}} {{configType}}: {{name}}{{modeStr}} eklendi.",
+		"removed": "Maximo Syntax Kodu: Kaldırıldı {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

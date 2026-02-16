@@ -55,13 +55,13 @@
 		"activated": "Generator pesan komit Maximo Syntax diaktifkan",
 		"gitNotFound": "⚠️ Repositori Git tidak ditemukan atau git tidak tersedia",
 		"gitInitError": "⚠️ Kesalahan inisialisasi Git: {{error}}",
-		"generating": "Kilo: Menghasilkan pesan komit...",
-		"noChanges": "Kilo: Tidak ada perubahan yang ditemukan untuk dianalisis",
-		"generated": "Kilo: Pesan komit dihasilkan!",
-		"generationFailed": "Kilo: Gagal menghasilkan pesan komit: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Menghasilkan pesan menggunakan perubahan yang belum ditahapkan",
-		"activationFailed": "Kilo: Gagal mengaktifkan generator pesan: {{error}}",
-		"providerRegistered": "Kilo: Penyedia pesan komit terdaftar",
+		"generating": "Maximo Syntax: Menghasilkan pesan komit...",
+		"noChanges": "Maximo Syntax: Tidak ada perubahan yang ditemukan untuk dianalisis",
+		"generated": "Maximo Syntax: Pesan komit dihasilkan!",
+		"generationFailed": "Maximo Syntax: Gagal menghasilkan pesan komit: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Menghasilkan pesan menggunakan perubahan yang belum ditahapkan",
+		"activationFailed": "Maximo Syntax: Gagal mengaktifkan generator pesan: {{error}}",
+		"providerRegistered": "Maximo Syntax: Penyedia pesan komit terdaftar",
 		"errors": {
 			"noProject": "Tidak ada proyek yang tersedia",
 			"connectionFailed": "Gagal terhubung ke ekstensi Maximo Syntax",
@@ -156,18 +156,18 @@
 	},
 	"terminalCommandGenerator": {
 		"inputPlaceholder": "mis., matikan proses yang berjalan di port 3001, temukan file besar, dll",
-		"noActiveTerminal": "Kilo: Tidak ada terminal aktif yang ditemukan. Silakan buka terminal terlebih dahulu.",
-		"inputPrompt": "Kilo: Jelaskan perintah yang ingin Anda hasilkan",
-		"generatingProgress": "Kilo: Menghasilkan perintah terminal...",
-		"generationFailed": "Kilo: Gagal menghasilkan perintah: {{error}}",
-		"commandGenerated": "Kilo: Perintah yang dihasilkan: {{command}}",
+		"noActiveTerminal": "Maximo Syntax: Tidak ada terminal aktif yang ditemukan. Silakan buka terminal terlebih dahulu.",
+		"inputPrompt": "Maximo Syntax: Jelaskan perintah yang ingin Anda hasilkan",
+		"generatingProgress": "Maximo Syntax: Menghasilkan perintah terminal...",
+		"generationFailed": "Maximo Syntax: Gagal menghasilkan perintah: {{error}}",
+		"commandGenerated": "Maximo Syntax: Perintah yang dihasilkan: {{command}}",
 		"warningDialog": {
 			"title": "Peringatan Keamanan Terminal",
 			"okButton": "Saya Mengerti",
 			"message": "Periksa kembali semua perintah yang dihasilkan sebelum menjalankannya. Tindakan terminal tidak selalu dapat dibatalkan—menjalankan perintah yang belum diverifikasi dapat mengakibatkan kehilangan data atau kerusakan sistem yang tidak dapat dipulihkan. Tinjau dan pahami perintah sepenuhnya sebelum melanjutkan!",
 			"cancelButton": "Batal"
 		},
-		"tipMessage": "Kilo: Tekan {{shortcut}} untuk menghasilkan perintah terminal"
+		"tipMessage": "Maximo Syntax: Tekan {{shortcut}} untuk menghasilkan perintah terminal"
 	},
 	"seeNewChanges": {
 		"title": "Menampilkan perubahan baru",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Versi Kilocode CLI kamu sudah usang dan tidak mendukung Agent Manager. Harap perbarui ke versi terbaru.",
-			"cliMisconfigured": "Kilocode CLI belum dikonfigurasi. Jalankan 'kilocode auth' untuk masuk atau 'kilocode config' untuk mengonfigurasi.",
+			"cliOutdated": "Versi Maximo Syntaxcode CLI kamu sudah usang dan tidak mendukung Agent Manager. Harap perbarui ke versi terbaru.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI belum dikonfigurasi. Jalankan 'maximosyntax auth' untuk masuk atau 'maximosyntax config' untuk mengonfigurasi.",
 			"sessionFailed": "Gagal memulai sesi agen",
 			"sessionFailedWithMessage": "Gagal memulai sesi agen: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "Petunjuk Instalasi",
 			"getHelp": "Dapatkan Bantuan",
 			"runInTerminal": "Jalankan di Terminal",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Perbarui Global",
 			"updateLocal": "Perbarui Lokal",
 			"installGlobal": "Instal Global",
 			"installLocal": "Instal Lokal"
 		},
 		"terminal": {
-			"installMessage": "Menjalankan npm install untuk menginstal Kilocode CLI. Setelah selesai, kamu dapat menutup terminal ini dan mencoba memulai Agent Manager lagi.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Menjalankan npm install untuk menginstal Maximo Syntaxcode CLI. Setelah selesai, kamu dapat menutup terminal ini dan mencoba memulai Agent Manager lagi.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -206,7 +206,7 @@
 		}
 	},
 	"configDiscovery": {
-		"added": "Kilo Kode: Ditambahkan {{source}} {{configType}}: {{name}}{{modeStr}}",
-		"removed": "Kilo Kode: Dihapus {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"added": "Maximo Syntax Kode: Ditambahkan {{source}} {{configType}}: {{name}}{{modeStr}}",
+		"removed": "Maximo Syntax Kode: Dihapus {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

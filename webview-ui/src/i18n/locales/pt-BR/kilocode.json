@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Janela de contexto",
 			"providerBreakdown": "Detalhamento de Preços e Capacidades do Provedor",
-			"averageKiloCodeCost": "Este é o valor médio realmente gasto pelo Maximo Syntax usando este modelo na última semana. Pode ser menor que o preço listado devido à utilização do cache de prompts.",
+			"averageMaximo SyntaxCodeCost": "Este é o valor médio realmente gasto pelo Maximo Syntax usando este modelo na última semana. Pode ser menor que o preço listado devido à utilização do cache de prompts.",
 			"table": {
 				"provider": "Provedor",
 				"context": "O endpoint pode processar este número de tokens (entrada + saída).",
@@ -319,7 +319,7 @@
 	"toolCallStyle": {
 		"title": "Estilo de Chamada de Ferramenta",
 		"description": "Escolha como as chamadas de ferramentas são formatadas no prompt do sistema. JSON é atualmente experimental e destinado principalmente a usuários interessados em contribuir para seu desenvolvimento.",
-		"automatic": "Deixe o Kilo decidir",
+		"automatic": "Deixe o Maximo Syntax decidir",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -371,7 +371,7 @@
 			"title": "Conversão de Fala em Texto",
 			"openAiReason": "Você precisa de um provedor OpenAI válido com uma chave de API para usar a transcrição de voz.",
 			"description": "A conversão de fala para texto está indisponível. A conversão de fala para texto requer o FFmpeg e um provedor OpenAI válido configurados. <moreInfoLink>Clique aqui para mais informações</moreInfoLink>.",
-			"ffmpegReason": "Você precisa ter o FFmpeg instalado. <ffmpegLink>Clique aqui</ffmpegLink> para que o Kilo ajude você a instalar o FFmpeg.",
+			"ffmpegReason": "Você precisa ter o FFmpeg instalado. <ffmpegLink>Clique aqui</ffmpegLink> para que o Maximo Syntax ajude você a instalar o FFmpeg.",
 			"ffmpegMessage": "Ajude-me a instalar o FFmpeg"
 		},
 		"misconfiguredState": "Indisponível devido à configuração",

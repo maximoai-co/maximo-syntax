@@ -55,13 +55,13 @@
 		"activated": "Maximo Syntax कमिट संदेश जनरेटर सक्रिय",
 		"gitNotFound": "⚠️ Git रिपॉजिटरी नहीं मिली या Git उपलब्ध नहीं है",
 		"gitInitError": "⚠️ Git इनिशियलाइज़ेशन त्रुटि: {{error}}",
-		"generating": "Kilo: कमिट संदेश उत्पन्न कर रहा है...",
-		"noChanges": "Kilo: विश्लेषण के लिए कोई बदलाव नहीं मिला",
-		"generated": "Kilo: कमिट संदेश उत्पन्न हुआ!",
-		"generationFailed": "Kilo: कमिट संदेश उत्पन्न करने में विफल: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: अनस्टेज किए गए परिवर्तनों का उपयोग करके संदेश उत्पन्न कर रहा है",
-		"activationFailed": "Kilo: संदेश जनरेटर सक्रिय करने में विफल: {{error}}",
-		"providerRegistered": "Kilo: कमिट संदेश प्रदाता पंजीकृत",
+		"generating": "Maximo Syntax: कमिट संदेश उत्पन्न कर रहा है...",
+		"noChanges": "Maximo Syntax: विश्लेषण के लिए कोई बदलाव नहीं मिला",
+		"generated": "Maximo Syntax: कमिट संदेश उत्पन्न हुआ!",
+		"generationFailed": "Maximo Syntax: कमिट संदेश उत्पन्न करने में विफल: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: अनस्टेज किए गए परिवर्तनों का उपयोग करके संदेश उत्पन्न कर रहा है",
+		"activationFailed": "Maximo Syntax: संदेश जनरेटर सक्रिय करने में विफल: {{error}}",
+		"providerRegistered": "Maximo Syntax: कमिट संदेश प्रदाता पंजीकृत",
 		"errors": {
 			"noProject": "कोई प्रोजेक्ट उपलब्ध नहीं है",
 			"timeout": "30 सेकंड के बाद अनुरोध का समय समाप्त हो गया",
@@ -105,8 +105,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "आपका Kilocode CLI संस्करण पुराना है और Agent Manager का समर्थन नहीं करता। कृपया नवीनतम संस्करण में अपडेट करें।",
-			"cliMisconfigured": "Kilocode CLI कॉन्फ़िगर नहीं है। साइन इन करने के लिए 'kilocode auth' चलाएं या कॉन्फ़िगर करने के लिए 'kilocode config' चलाएं।",
+			"cliOutdated": "आपका Maximo Syntaxcode CLI संस्करण पुराना है और Agent Manager का समर्थन नहीं करता। कृपया नवीनतम संस्करण में अपडेट करें।",
+			"cliMisconfigured": "Maximo Syntaxcode CLI कॉन्फ़िगर नहीं है। साइन इन करने के लिए 'maximosyntax auth' चलाएं या कॉन्फ़िगर करने के लिए 'maximosyntax config' चलाएं।",
 			"sessionFailed": "एजेंट सत्र प्रारंभ करने में विफल",
 			"sessionFailedWithMessage": "एजेंट सत्र प्रारंभ करने में विफल: {{message}}"
 		},
@@ -115,16 +115,16 @@
 			"installInstructions": "इंस्टॉल निर्देश",
 			"getHelp": "सहायता प्राप्त करें",
 			"runInTerminal": "टर्मिनल में चलाएं",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "ग्लोबल अपडेट करें",
 			"updateLocal": "लोकल अपडेट करें",
 			"installGlobal": "ग्लोबल इंस्टॉल करें",
 			"installLocal": "लोकल इंस्टॉल करें"
 		},
 		"terminal": {
-			"installMessage": "Kilocode CLI इंस्टॉल करने के लिए npm install चल रहा है। पूर्ण होने के बाद, आप यह टर्मिनल बंद कर सकते हैं और Agent Manager को फिर से शुरू करने का प्रयास कर सकते हैं।",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Maximo Syntaxcode CLI इंस्टॉल करने के लिए npm install चल रहा है। पूर्ण होने के बाद, आप यह टर्मिनल बंद कर सकते हैं और Agent Manager को फिर से शुरू करने का प्रयास कर सकते हैं।",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"autocomplete": {
@@ -185,19 +185,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: उस कमांड का वर्णन करें जिसे आप जनरेट करना चाहते हैं",
-		"noActiveTerminal": "Kilo: कोई सक्रिय टर्मिनल नहीं मिला। कृपया पहले एक टर्मिनल खोलें।",
+		"inputPrompt": "Maximo Syntax: उस कमांड का वर्णन करें जिसे आप जनरेट करना चाहते हैं",
+		"noActiveTerminal": "Maximo Syntax: कोई सक्रिय टर्मिनल नहीं मिला। कृपया पहले एक टर्मिनल खोलें।",
 		"inputPlaceholder": "उदाहरण के लिए, पोर्ट 3001 पर चल रही प्रक्रिया को समाप्त करें, बड़ी फाइलें खोजें, इत्यादि",
-		"generatingProgress": "Kilo: टर्मिनल कमांड उत्पन्न कर रहा है...",
-		"generationFailed": "Kilo: कमांड जनरेट करने में विफल: {{error}}",
-		"commandGenerated": "Kilo: उत्पन्न आदेश: {{command}}",
+		"generatingProgress": "Maximo Syntax: टर्मिनल कमांड उत्पन्न कर रहा है...",
+		"generationFailed": "Maximo Syntax: कमांड जनरेट करने में विफल: {{error}}",
+		"commandGenerated": "Maximo Syntax: उत्पन्न आदेश: {{command}}",
 		"warningDialog": {
 			"title": "टर्मिनल सुरक्षा चेतावनी",
 			"okButton": "मैं समझता हूँ",
 			"message": "सभी जनरेट किए गए कमांड्स को चलाने से पहले दोबारा जांच लें। टर्मिनल क्रियाओं को हमेशा पूर्ववत नहीं किया जा सकता है - बिना सत्यापित कमांड्स चलाने से अपरिवर्तनीय डेटा हानि या सिस्टम क्षति हो सकती है। आगे बढ़ने से पहले कमांड को पूरी तरह से समझें और समीक्षा करें!",
 			"cancelButton": "रद्द करें"
 		},
-		"tipMessage": "Kilo: टर्मिनल कमांड उत्पन्न करने के लिए {{shortcut}} दबाएँ"
+		"tipMessage": "Maximo Syntax: टर्मिनल कमांड उत्पन्न करने के लिए {{shortcut}} दबाएँ"
 	},
 	"speechToText": {
 		"errors": {

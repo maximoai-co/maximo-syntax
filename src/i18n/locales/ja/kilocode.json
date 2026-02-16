@@ -55,13 +55,13 @@
 		"activated": "Maximo Syntax コミットメッセージジェネレーターがアクティブになりました",
 		"gitNotFound": "⚠️ Git リポジトリが見つからないか、git が利用できません",
 		"gitInitError": "⚠️ Git 初期化エラー: {{error}}",
-		"generating": "Kilo: コミットメッセージを生成中...",
-		"noChanges": "Kilo: 分析する変更が見つかりません",
-		"generated": "Kilo: コミットメッセージが生成されました！",
-		"generationFailed": "Kilo: コミットメッセージの生成に失敗しました: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: ステージされていない変更を使用してメッセージを生成中",
-		"activationFailed": "Kilo: メッセージジェネレーターのアクティブ化に失敗しました: {{error}}",
-		"providerRegistered": "Kilo: コミットメッセージプロバイダーが登録されました",
+		"generating": "Maximo Syntax: コミットメッセージを生成中...",
+		"noChanges": "Maximo Syntax: 分析する変更が見つかりません",
+		"generated": "Maximo Syntax: コミットメッセージが生成されました！",
+		"generationFailed": "Maximo Syntax: コミットメッセージの生成に失敗しました: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: ステージされていない変更を使用してメッセージを生成中",
+		"activationFailed": "Maximo Syntax: メッセージジェネレーターのアクティブ化に失敗しました: {{error}}",
+		"providerRegistered": "Maximo Syntax: コミットメッセージプロバイダーが登録されました",
 		"errors": {
 			"noProject": "利用可能なプロジェクトがありません",
 			"timeout": "リクエストが30秒後にタイムアウトしました",
@@ -155,19 +155,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: 生成したいコマンドを説明してください",
-		"commandGenerated": "Kilo：生成されたコマンド：{{command}}",
+		"inputPrompt": "Maximo Syntax: 生成したいコマンドを説明してください",
+		"commandGenerated": "Maximo Syntax：生成されたコマンド：{{command}}",
 		"inputPlaceholder": "例えば、ポート3001で実行中のプロセスを終了する、大きなファイルを見つける、など",
-		"generatingProgress": "Kilo: ターミナルコマンドを生成中...",
-		"noActiveTerminal": "Kilo: アクティブな端末が見つかりません。まず端末を開いてください。",
-		"generationFailed": "Kilo: コマンドの生成に失敗しました: {{error}}",
+		"generatingProgress": "Maximo Syntax: ターミナルコマンドを生成中...",
+		"noActiveTerminal": "Maximo Syntax: アクティブな端末が見つかりません。まず端末を開いてください。",
+		"generationFailed": "Maximo Syntax: コマンドの生成に失敗しました: {{error}}",
 		"warningDialog": {
 			"title": "ターミナル安全警告",
 			"okButton": "理解しました",
 			"message": "生成されたコマンドはすべて実行前に二重確認してください。ターミナル操作は常に元に戻せるとは限りません—未検証のコマンドを実行すると、取り返しのつかないデータ損失やシステム損傷を引き起こす可能性があります。実行前にコマンドを完全に確認し理解してください！",
 			"cancelButton": "キャンセル"
 		},
-		"tipMessage": "Kilo: {{shortcut}}を押してターミナルコマンドを生成"
+		"tipMessage": "Maximo Syntax: {{shortcut}}を押してターミナルコマンドを生成"
 	},
 	"seeNewChanges": {
 		"title": "新しい変更を表示中",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Kilocode CLIのバージョンが古く、Agent Managerをサポートしていません。最新バージョンに更新してください。",
-			"cliMisconfigured": "Kilocode CLIが設定されていません。'kilocode auth'でサインインするか、'kilocode config'で設定してください。",
+			"cliOutdated": "Maximo Syntaxcode CLIのバージョンが古く、Agent Managerをサポートしていません。最新バージョンに更新してください。",
+			"cliMisconfigured": "Maximo Syntaxcode CLIが設定されていません。'maximosyntax auth'でサインインするか、'maximosyntax config'で設定してください。",
 			"sessionFailed": "エージェントセッションの開始に失敗しました",
 			"sessionFailedWithMessage": "エージェントセッションの開始に失敗しました: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "インストール手順",
 			"getHelp": "ヘルプを表示",
 			"runInTerminal": "ターミナルで実行",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "グローバル更新",
 			"updateLocal": "ローカル更新",
 			"installGlobal": "グローバルインストール",
 			"installLocal": "ローカルインストール"
 		},
 		"terminal": {
-			"installMessage": "Kilocode CLIをインストールするためにnpm installを実行しています。完了したら、このターミナルを閉じてAgent Managerを再度起動してみてください。",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Maximo Syntaxcode CLIをインストールするためにnpm installを実行しています。完了したら、このターミナルを閉じてAgent Managerを再度起動してみてください。",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -206,7 +206,7 @@
 		}
 	},
 	"configDiscovery": {
-		"added": "Kiloコード: {{source}} {{configType}}: {{name}}{{modeStr}} を追加しました。",
-		"removed": "Kiloコード: {{source}} {{configType}}: {{name}}{{modeStr}} を削除しました"
+		"added": "Maximo Syntaxコード: {{source}} {{configType}}: {{name}}{{modeStr}} を追加しました。",
+		"removed": "Maximo Syntaxコード: {{source}} {{configType}}: {{name}}{{modeStr}} を削除しました"
 	}
 }

@@ -58,13 +58,13 @@
 		"activated": "Generátor správ pre commit Maximo Syntax aktivovaný",
 		"gitNotFound": "⚠️ Git repozitár nebol nájdený alebo git nie je dostupný",
 		"gitInitError": "⚠️ Chyba inicializácie Gitu: {{error}}",
-		"generating": "Kilo: Generujem správu commitu...",
-		"noChanges": "Kilo: Nenájdené žiadne zmeny na analýzu",
-		"generated": "Kilo: Správa bola vygenerovaná!",
-		"generationFailed": "Kilo: Nepodarilo sa vygenerovať správu commitu: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Generovanie správy s použitím nenapojených zmien",
-		"activationFailed": "Kilo: Aktivácia generátora správ sa nepodarila: {{error}}",
-		"providerRegistered": "Kilo: Poskytovateľ správ commitov zaregistrovaný",
+		"generating": "Maximo Syntax: Generujem správu commitu...",
+		"noChanges": "Maximo Syntax: Nenájdené žiadne zmeny na analýzu",
+		"generated": "Maximo Syntax: Správa bola vygenerovaná!",
+		"generationFailed": "Maximo Syntax: Nepodarilo sa vygenerovať správu commitu: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Generovanie správy s použitím nenapojených zmien",
+		"activationFailed": "Maximo Syntax: Aktivácia generátora správ sa nepodarila: {{error}}",
+		"providerRegistered": "Maximo Syntax: Poskytovateľ správ commitov zaregistrovaný",
 		"errors": {
 			"noProject": "Žiadny projekt k dispozícii",
 			"connectionFailed": "Nepodarilo sa pripojiť k rozšíreniu Maximo Syntax",
@@ -108,8 +108,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "Tvoja verzia Kilocode CLI je zastaraná a nepodporuje Agent Manager. Prosím aktualizuj na najnovšiu verziu.",
-			"cliMisconfigured": "Kilocode CLI nie je nakonfigurované. Spusť 'kilocode auth' pre prihlásenie alebo 'kilocode config' pre konfiguráciu.",
+			"cliOutdated": "Tvoja verzia Maximo Syntaxcode CLI je zastaraná a nepodporuje Agent Manager. Prosím aktualizuj na najnovšiu verziu.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI nie je nakonfigurované. Spusť 'maximosyntax auth' pre prihlásenie alebo 'maximosyntax config' pre konfiguráciu.",
 			"sessionFailed": "Nepodarilo sa spustiť reláciu agenta",
 			"sessionFailedWithMessage": "Nepodarilo sa spustiť reláciu agenta: {{message}}"
 		},
@@ -118,16 +118,16 @@
 			"installInstructions": "Inštrukcie k Inštalácii",
 			"getHelp": "Získať Pomoc",
 			"runInTerminal": "Spustiť v Termináli",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Aktualizovať Globálne",
 			"updateLocal": "Aktualizovať Lokálne",
 			"installGlobal": "Inštalovať Globálne",
 			"installLocal": "Inštalovať Lokálne"
 		},
 		"terminal": {
-			"installMessage": "Spúšťam npm install pre inštaláciu Kilocode CLI. Po dokončení môžeš tento terminál zavrieť a skúsiť Agent Manager spustiť znova.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Spúšťam npm install pre inštaláciu Maximo Syntaxcode CLI. Po dokončení môžeš tento terminál zavrieť a skúsiť Agent Manager spustiť znova.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"autocomplete": {
@@ -188,19 +188,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: Popíšte príkaz, ktorý chcete vygenerovať",
-		"noActiveTerminal": "Kilo: Nebol nájdený žiadny aktívny terminál. Najprv prosím otvorte terminál.",
+		"inputPrompt": "Maximo Syntax: Popíšte príkaz, ktorý chcete vygenerovať",
+		"noActiveTerminal": "Maximo Syntax: Nebol nájdený žiadny aktívny terminál. Najprv prosím otvorte terminál.",
 		"inputPlaceholder": "napr. ukončiť proces bežiaci na porte 3001, nájsť veľké súbory atď.",
-		"generatingProgress": "Kilo: Generujem príkaz terminálu...",
-		"generationFailed": "Kilo: Príkaz sa nepodarilo vygenerovať: {{error}}",
-		"commandGenerated": "Kilo: Vygenerovaný príkaz: {{command}}",
+		"generatingProgress": "Maximo Syntax: Generujem príkaz terminálu...",
+		"generationFailed": "Maximo Syntax: Príkaz sa nepodarilo vygenerovať: {{error}}",
+		"commandGenerated": "Maximo Syntax: Vygenerovaný príkaz: {{command}}",
 		"warningDialog": {
 			"title": "Bezpečnostné Upozornenie Terminálu",
 			"okButton": "Rozumiem",
 			"message": "Dvakrát skontrolujte všetky vygenerované príkazy pred ich spustením. Akcie v termináli sa nedajú vždy vrátiť späť – spustenie neoverených príkazov môže viesť k nevratnej strate dát alebo poškodeniu systému. Pred pokračovaním si príkaz dôkladne prejdite a uistite sa, že mu rozumiete!",
 			"cancelButton": "Zrušiť"
 		},
-		"tipMessage": "Kilo: Stlačte {{shortcut}} pre generovanie príkazov v termináli"
+		"tipMessage": "Maximo Syntax: Stlačte {{shortcut}} pre generovanie príkazov v termináli"
 	},
 	"speechToText": {
 		"errors": {
@@ -210,6 +210,6 @@
 	},
 	"configDiscovery": {
 		"added": "Kód kilo: Pridané {{source}} {{configType}}: {{name}}{{modeStr}}",
-		"removed": "Kód Kilo: Odstránené {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"removed": "Kód Maximo Syntax: Odstránené {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

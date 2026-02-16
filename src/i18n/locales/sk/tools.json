@@ -7,7 +7,7 @@
 		"imageWithSize": "Súbor obrázka ({{size}} KB)"
 	},
 	"toolRepetitionLimitReached": "Zdá sa, že model uviazol v slučke a opakovane sa pokúša o rovnakú akciu ({{toolName}}). To môže naznačovať problém s jeho súčasnou stratégiou. Skús úlohu preformulovať, poskytnúť konkrétnejšie pokyny alebo ho naviesť k inému prístupu.",
-	"unknownToolError": "Kilo sa pokúsil použiť neznámy nástroj: \"{{toolName}}\". Skúšam znova...",
+	"unknownToolError": "Maximo Syntax sa pokúsil použiť neznámy nástroj: \"{{toolName}}\". Skúšam znova...",
 	"codebaseSearch": {
 		"approval": "Hľadanie '{{query}}' v kódovej základni..."
 	},

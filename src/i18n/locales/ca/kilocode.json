@@ -55,13 +55,13 @@
 		"activated": "Generador de missatges de commit de Maximo Syntax activat",
 		"gitNotFound": "⚠️ No s'ha trobat el repositori Git o git no està disponible",
 		"gitInitError": "⚠️ Error d'inicialització de Git: {{error}}",
-		"generating": "Kilo: Generant missatge de commit...",
-		"noChanges": "Kilo: No s'han trobat canvis per analitzar",
-		"generated": "Kilo: Missatge de commit generat!",
-		"generationFailed": "Kilo: No s'ha pogut generar el missatge de confirmació: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: Generant missatge utilitzant canvis no preparats",
-		"providerRegistered": "Kilo: Proveïdor de missatges de «commit» registrat",
-		"activationFailed": "Kilo: No s'ha pogut activar el generador de missatges: {{error}}",
+		"generating": "Maximo Syntax: Generant missatge de commit...",
+		"noChanges": "Maximo Syntax: No s'han trobat canvis per analitzar",
+		"generated": "Maximo Syntax: Missatge de commit generat!",
+		"generationFailed": "Maximo Syntax: No s'ha pogut generar el missatge de confirmació: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: Generant missatge utilitzant canvis no preparats",
+		"providerRegistered": "Maximo Syntax: Proveïdor de missatges de «commit» registrat",
+		"activationFailed": "Maximo Syntax: No s'ha pogut activar el generador de missatges: {{error}}",
 		"errors": {
 			"noProject": "Cap projecte disponible",
 			"connectionFailed": "No s'ha pogut connectar a l'extensió de Maximo Syntax",
@@ -155,19 +155,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: Descriu l'ordre que vols generar",
-		"generatingProgress": "Kilo: Generant ordre de terminal...",
-		"noActiveTerminal": "Kilo: No s'ha trobat cap terminal actiu. Si us plau, obriu primer un terminal.",
+		"inputPrompt": "Maximo Syntax: Descriu l'ordre que vols generar",
+		"generatingProgress": "Maximo Syntax: Generant ordre de terminal...",
+		"noActiveTerminal": "Maximo Syntax: No s'ha trobat cap terminal actiu. Si us plau, obriu primer un terminal.",
 		"inputPlaceholder": "p. ex., matar el procés que s'executa al port 3001, trobar fitxers grans, etc.",
-		"commandGenerated": "Kilo: Ordre generada: {{command}}",
-		"generationFailed": "Kilo: Error en generar l'ordre: {{error}}",
+		"commandGenerated": "Maximo Syntax: Ordre generada: {{command}}",
+		"generationFailed": "Maximo Syntax: Error en generar l'ordre: {{error}}",
 		"warningDialog": {
 			"title": "Advertència de Seguretat del Terminal",
 			"message": "Comproveu detingudament totes les comandes generades abans d'executar-les. Les accions al terminal no sempre es poden desfer — executar comandes sense verificar pot provocar la pèrdua irreversible de dades o danys al sistema. Reviseu i entengueu completament la comanda abans de continuar!",
 			"okButton": "Ho entenc",
 			"cancelButton": "Cancel·lar"
 		},
-		"tipMessage": "Kilo: Premeu {{shortcut}} per a generar ordres del terminal"
+		"tipMessage": "Maximo Syntax: Premeu {{shortcut}} per a generar ordres del terminal"
 	},
 	"seeNewChanges": {
 		"title": "Mostrant canvis nous",
@@ -177,8 +177,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "La teva versió de Kilocode CLI està desactualitzada i no és compatible amb el Gestor d'Agents. Si us plau, actualitza a la versió més recent.",
-			"cliMisconfigured": "Kilocode CLI no està configurat. Executa 'kilocode auth' per iniciar sessió o 'kilocode config' per configurar.",
+			"cliOutdated": "La teva versió de Maximo Syntaxcode CLI està desactualitzada i no és compatible amb el Gestor d'Agents. Si us plau, actualitza a la versió més recent.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI no està configurat. Executa 'maximosyntax auth' per iniciar sessió o 'maximosyntax config' per configurar.",
 			"sessionFailed": "Error en iniciar la sessió de l'agent",
 			"sessionFailedWithMessage": "Error en iniciar la sessió de l'agent: {{message}}"
 		},
@@ -187,16 +187,16 @@
 			"installInstructions": "Instruccions d'Instal·lació",
 			"getHelp": "Obtenir Ajuda",
 			"runInTerminal": "Executar al Terminal",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "Actualitzar Global",
 			"updateLocal": "Actualitzar Local",
 			"installGlobal": "Instal·lar Global",
 			"installLocal": "Instal·lar Local"
 		},
 		"terminal": {
-			"installMessage": "Executant npm install per instal·lar Kilocode CLI. Un cop completat, pots tancar aquest terminal i intentar iniciar el Gestor d'Agents de nou.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "Executant npm install per instal·lar Maximo Syntaxcode CLI. Un cop completat, pots tancar aquest terminal i intentar iniciar el Gestor d'Agents de nou.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {
@@ -206,7 +206,7 @@
 		}
 	},
 	"configDiscovery": {
-		"removed": "Kilo Codi: Eliminat {{source}} {{configType}}: {{name}}{{modeStr}}",
-		"added": "Codi Kilo: Afegit {{source}} {{configType}}: {{name}}{{modeStr}}"
+		"removed": "Maximo Syntax Codi: Eliminat {{source}} {{configType}}: {{name}}{{modeStr}}",
+		"added": "Codi Maximo Syntax: Afegit {{source}} {{configType}}: {{name}}{{modeStr}}"
 	}
 }

@@ -103,7 +103,7 @@
 		"modelInfo": {
 			"contextWindow": "Cửa sổ ngữ cảnh",
 			"providerBreakdown": "Phân tích Giá và Khả năng của Nhà cung cấp",
-			"averageKiloCodeCost": "Đây là chi phí thực tế trung bình mà Maximo Syntax đã chi tiêu khi sử dụng mô hình này trong tuần qua. Chi phí này có thể thấp hơn giá niêm yết do việc sử dụng bộ nhớ đệm prompt.",
+			"averageMaximo SyntaxCodeCost": "Đây là chi phí thực tế trung bình mà Maximo Syntax đã chi tiêu khi sử dụng mô hình này trong tuần qua. Chi phí này có thể thấp hơn giá niêm yết do việc sử dụng bộ nhớ đệm prompt.",
 			"table": {
 				"provider": "Nhà cung cấp",
 				"context": "Điểm cuối có thể xử lý số lượng token này (đầu vào + đầu ra).",
@@ -259,7 +259,7 @@
 			},
 			"enableSmartInlineTaskKeybinding": {
 				"label": "Tự động hoàn thành thủ công ({{keybinding}})",
-				"description": "Cần sửa chữa nhanh, hoàn thành, hoặc tái cấu trúc? Kilo sẽ sử dụng ngữ cảnh xung quanh để cung cấp cải tiến ngay lập tức, giữ bạn trong luồng làm việc. <DocsLink>Xem phím tắt</DocsLink>"
+				"description": "Cần sửa chữa nhanh, hoàn thành, hoặc tái cấu trúc? Maximo Syntax sẽ sử dụng ngữ cảnh xung quanh để cung cấp cải tiến ngay lập tức, giữ bạn trong luồng làm việc. <DocsLink>Xem phím tắt</DocsLink>"
 			},
 			"keybindingNotFound": "không tìm thấy",
 			"configureAutocompleteProfile": "Sử dụng bất kỳ mô hình nào bằng cách vào hồ sơ và cấu hình Hồ sơ có Loại Hồ sơ là Tự động hoàn thành.",
@@ -320,7 +320,7 @@
 	"toolCallStyle": {
 		"title": "Kiểu Gọi Công Cụ",
 		"description": "Chọn cách định dạng các lệnh gọi công cụ trong system prompt. JSON hiện đang ở giai đoạn thử nghiệm và chủ yếu dành cho người dùng quan tâm đến việc đóng góp vào phát triển của nó.",
-		"automatic": "Để Kilo quyết định",
+		"automatic": "Để Maximo Syntax quyết định",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -373,7 +373,7 @@
 			"description": "Chuyển giọng nói thành văn bản không khả dụng. Chuyển giọng nói thành văn bản yêu cầu cả FFmpeg và nhà cung cấp OpenAI hợp lệ được cấu hình. <moreInfoLink>Nhấp vào đây để biết thêm thông tin</moreInfoLink>.",
 			"openAiReason": "Bạn cần một nhà cung cấp OpenAI hợp lệ với API key để sử dụng chức năng phiên âm giọng nói.",
 			"ffmpegMessage": "Giúp tôi cài đặt FFmpeg",
-			"ffmpegReason": "Bạn cần cài đặt FFmpeg. <ffmpegLink>Nhấp vào đây</ffmpegLink> để Kilo giúp bạn cài đặt FFmpeg."
+			"ffmpegReason": "Bạn cần cài đặt FFmpeg. <ffmpegLink>Nhấp vào đây</ffmpegLink> để Maximo Syntax giúp bạn cài đặt FFmpeg."
 		},
 		"misconfiguredState": "Không khả dụng do cấu hình",
 		"errorState": "Không khả dụng do lỗi",

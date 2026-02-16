@@ -84,7 +84,7 @@
 		"modelInfo": {
 			"contextWindow": "Jendela konteks",
 			"providerBreakdown": "Rincian Harga dan Kemampuan Penyedia",
-			"averageKiloCodeCost": "Ini adalah rata-rata biaya aktual yang dihabiskan Maximo Syntax menggunakan model ini selama seminggu terakhir. Biaya ini mungkin lebih rendah dari harga yang tercantum karena pemanfaatan cache prompt.",
+			"averageMaximo SyntaxCodeCost": "Ini adalah rata-rata biaya aktual yang dihabiskan Maximo Syntax menggunakan model ini selama seminggu terakhir. Biaya ini mungkin lebih rendah dari harga yang tercantum karena pemanfaatan cache prompt.",
 			"table": {
 				"provider": "Penyedia",
 				"context": "Endpoint dapat memproses jumlah token ini (input + output).",
@@ -327,7 +327,7 @@
 	"toolCallStyle": {
 		"title": "Gaya Panggilan Tool",
 		"description": "Pilih bagaimana panggilan tool diformat dalam prompt sistem. JSON saat ini bersifat eksperimental dan sebagian besar ditujukan untuk pengguna yang tertarik berkontribusi pada pengembangannya.",
-		"automatic": "Biarkan Kilo yang memutuskan",
+		"automatic": "Biarkan Maximo Syntax yang memutuskan",
 		"xml": "XML",
 		"json": "JSON"
 	},
@@ -371,7 +371,7 @@
 			"title": "Ucapan-ke-Teks",
 			"description": "Speech-to-text tidak tersedia. Speech-to-text memerlukan FFmpeg dan penyedia OpenAI yang valid untuk dikonfigurasi. <moreInfoLink>Klik di sini untuk informasi lebih lanjut</moreInfoLink>.",
 			"openAiReason": "Anda memerlukan penyedia OpenAI yang valid dengan kunci API untuk menggunakan transkripsi suara.",
-			"ffmpegReason": "Anda perlu menginstal FFmpeg. <ffmpegLink>Klik di sini</ffmpegLink> agar Kilo membantu Anda menginstal FFmpeg.",
+			"ffmpegReason": "Anda perlu menginstal FFmpeg. <ffmpegLink>Klik di sini</ffmpegLink> agar Maximo Syntax membantu Anda menginstal FFmpeg.",
 			"ffmpegMessage": "Bantu saya menginstal FFmpeg"
 		},
 		"misconfiguredState": "Tidak tersedia karena konfigurasi",

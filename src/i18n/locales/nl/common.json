@@ -208,8 +208,8 @@
 	},
 	"storage": {
 		"prompt_custom_path": "Voer een aangepast opslagpad voor gespreksgeschiedenis in, laat leeg voor standaardlocatie",
-		"path_placeholder": "D:\\KiloCodeStorage",
-		"enter_absolute_path": "Voer een absoluut pad in (bijv. D:\\KiloCodeStorage of /home/user/storage)",
+		"path_placeholder": "D:\\Maximo SyntaxCodeStorage",
+		"enter_absolute_path": "Voer een absoluut pad in (bijv. D:\\Maximo SyntaxCodeStorage of /home/user/storage)",
 		"enter_valid_path": "Voer een geldig pad in"
 	},
 	"input": {
@@ -224,8 +224,8 @@
 	},
 	"customModes": {
 		"errors": {
-			"yamlParseError": "Ongeldige YAML in .kilocodemodes bestand op regel {{line}}. Controleer:\n• Juiste inspringing (gebruik spaties, geen tabs)\n• Overeenkomende aanhalingstekens en haakjes\n• Geldige YAML syntaxis",
-			"schemaValidationError": "Ongeldig aangepaste modi formaat in .kilocodemodes:\n{{issues}}",
+			"yamlParseError": "Ongeldige YAML in .maximosyntaxmodes bestand op regel {{line}}. Controleer:\n• Juiste inspringing (gebruik spaties, geen tabs)\n• Overeenkomende aanhalingstekens en haakjes\n• Geldige YAML syntaxis",
+			"schemaValidationError": "Ongeldig aangepaste modi formaat in .maximosyntaxmodes:\n{{issues}}",
 			"invalidFormat": "Ongeldig aangepaste modi formaat. Zorg ervoor dat je instellingen het juiste YAML formaat volgen.",
 			"updateFailed": "Aangepaste modus bijwerken mislukt: {{error}}",
 			"deleteFailed": "Aangepaste modus verwijderen mislukt: {{error}}",
@@ -274,7 +274,7 @@
 	},
 	"docsLink": {
 		"label": "Docs",
-		"url": "https://kilo.ai/docs"
+		"url": "https://maximoai.co/docs"
 	},
 	"errorBoundary": {
 		"title": "Fout",

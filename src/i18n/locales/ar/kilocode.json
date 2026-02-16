@@ -55,17 +55,17 @@
 		"activated": "تم تفعيل منشئ رسائل التزام Maximo Syntax",
 		"gitNotFound": "⚠️ مستودع Git غير موجود أو Git غير متاح",
 		"gitInitError": "⚠️ خطأ في تهيئة Git: {{error}}",
-		"generating": "Kilo: جارٍ إنشاء رسالة الالتزام...",
-		"noChanges": "Kilo: لم يتم العثور على تغييرات للتحليل",
-		"generated": "Kilo: تم إنشاء رسالة الالتزام!",
-		"generationFailed": "Kilo: فشل في إنشاء رسالة الالتزام: {{errorMessage}}",
-		"generatingFromUnstaged": "Kilo: إنشاء رسالة باستخدام التغييرات غير المرحلة",
-		"analyzingChanges": "Kilo: جاري تحليل التعديلات الجاهزة...",
-		"noStagedChangesRepo": "Kilo: ما فيه تعديلات مضافة في مستودع git",
-		"noStagedChanges": "Kilo: ما فيه تعديلات مضافة لتحليلها",
+		"generating": "Maximo Syntax: جارٍ إنشاء رسالة الالتزام...",
+		"noChanges": "Maximo Syntax: لم يتم العثور على تغييرات للتحليل",
+		"generated": "Maximo Syntax: تم إنشاء رسالة الالتزام!",
+		"generationFailed": "Maximo Syntax: فشل في إنشاء رسالة الالتزام: {{errorMessage}}",
+		"generatingFromUnstaged": "Maximo Syntax: إنشاء رسالة باستخدام التغييرات غير المرحلة",
+		"analyzingChanges": "Maximo Syntax: جاري تحليل التعديلات الجاهزة...",
+		"noStagedChangesRepo": "Maximo Syntax: ما فيه تعديلات مضافة في مستودع git",
+		"noStagedChanges": "Maximo Syntax: ما فيه تعديلات مضافة لتحليلها",
 		"tokenRequired": "يتطلب توليد الرسالة رمز Maximo Syntax",
-		"activationFailed": "Kilo: فشل تفعيل مولّد الرسائل: {{error}}",
-		"providerRegistered": "Kilo: تم تسجيل موفر رسائل الاعتماد",
+		"activationFailed": "Maximo Syntax: فشل تفعيل مولّد الرسائل: {{error}}",
+		"providerRegistered": "Maximo Syntax: تم تسجيل موفر رسائل الاعتماد",
 		"errors": {
 			"noProject": "لا يوجد مشروع متاح",
 			"connectionFailed": "فشل الاتصال بملحق Maximo Syntax",
@@ -159,19 +159,19 @@
 		}
 	},
 	"terminalCommandGenerator": {
-		"inputPrompt": "Kilo: وصف الأمر الذي ترغب في توليده",
-		"generatingProgress": "Kilo: جاري توليد الأمر الطرفي...",
-		"noActiveTerminal": "Kilo: لا يوجد طرفية نشطة. يرجى فتح طرفية أولاً.",
-		"commandGenerated": "Kilo: الأمر الذي تم إنشاؤه: {{command}}",
+		"inputPrompt": "Maximo Syntax: وصف الأمر الذي ترغب في توليده",
+		"generatingProgress": "Maximo Syntax: جاري توليد الأمر الطرفي...",
+		"noActiveTerminal": "Maximo Syntax: لا يوجد طرفية نشطة. يرجى فتح طرفية أولاً.",
+		"commandGenerated": "Maximo Syntax: الأمر الذي تم إنشاؤه: {{command}}",
 		"inputPlaceholder": "مثلًا، إنهاء العملية التي تعمل على المنفذ 3001، إيجاد الملفات الكبيرة، إلخ",
-		"generationFailed": "Kilo: فشل في إنشاء الأمر: {{error}}",
+		"generationFailed": "Maximo Syntax: فشل في إنشاء الأمر: {{error}}",
 		"warningDialog": {
 			"okButton": "أفهم",
 			"title": "تحذير أمان للمحطة",
 			"message": "تحقق مرة أخرى من جميع الأوامر التي تم إنشاؤها قبل تنفيذها. لا يمكن دائمًا التراجع عن الإجراءات التي تتم في نافذة الطرفية - فتنفيذ أوامر غير موثوقة قد يؤدي إلى فقدان البيانات بشكل لا رجعة فيه أو تلف النظام. راجع وافهم الأمر بشكل كامل قبل المتابعة!",
 			"cancelButton": "إلغاء"
 		},
-		"tipMessage": "Kilo: اضغط {{shortcut}} لإنشاء أوامر الطرفية"
+		"tipMessage": "Maximo Syntax: اضغط {{shortcut}} لإنشاء أوامر الطرفية"
 	},
 	"seeNewChanges": {
 		"title": "عرض التغييرات الجديدة",
@@ -181,8 +181,8 @@
 	},
 	"agentManager": {
 		"errors": {
-			"cliOutdated": "إصدار Kilocode CLI لديك قديم ولا يدعم مدير الوكلاء. يرجى التحديث إلى أحدث إصدار.",
-			"cliMisconfigured": "Kilocode CLI غير مُهيأ. قم بتشغيل 'kilocode auth' لتسجيل الدخول أو 'kilocode config' للإعداد.",
+			"cliOutdated": "إصدار Maximo Syntaxcode CLI لديك قديم ولا يدعم مدير الوكلاء. يرجى التحديث إلى أحدث إصدار.",
+			"cliMisconfigured": "Maximo Syntaxcode CLI غير مُهيأ. قم بتشغيل 'maximosyntax auth' لتسجيل الدخول أو 'maximosyntax config' للإعداد.",
 			"sessionFailed": "فشل بدء جلسة الوكيل",
 			"sessionFailedWithMessage": "فشل بدء جلسة الوكيل: {{message}}"
 		},
@@ -191,16 +191,16 @@
 			"installInstructions": "تعليمات التثبيت",
 			"getHelp": "الحصول على المساعدة",
 			"runInTerminal": "تشغيل في الطرفية",
-			"loginCli": "Run kilocode auth",
-			"configureCli": "Run kilocode config",
+			"loginCli": "Run maximosyntax auth",
+			"configureCli": "Run maximosyntax config",
 			"updateGlobal": "تحديث عام",
 			"updateLocal": "تحديث محلي",
 			"installGlobal": "تثبيت عام",
 			"installLocal": "تثبيت محلي"
 		},
 		"terminal": {
-			"installMessage": "تشغيل npm install لتثبيت Kilocode CLI. بمجرد الانتهاء، يمكنك إغلاق هذه الطرفية ومحاولة بدء Agent Manager مرة أخرى.",
-			"authReminder": "If this is your first install, run `kilocode auth` to sign in before starting the Agent Manager."
+			"installMessage": "تشغيل npm install لتثبيت Maximo Syntaxcode CLI. بمجرد الانتهاء، يمكنك إغلاق هذه الطرفية ومحاولة بدء Agent Manager مرة أخرى.",
+			"authReminder": "If this is your first install, run `maximosyntax auth` to sign in before starting the Agent Manager."
 		}
 	},
 	"speechToText": {

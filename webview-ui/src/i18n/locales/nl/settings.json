@@ -62,7 +62,7 @@
 		"contact": {
 			"label": "Moet je met ons praten? Schrijf"
 		},
-		"community": "Wil je tips of gewoon even hangen met andere Maximo Syntax-gebruikers? Sluit je aan bij <redditLink>reddit.com/r/kilocode</redditLink> of <discordLink>kilo.ai/discord</discordLink>",
+		"community": "Wil je tips of gewoon even hangen met andere Maximo Syntax-gebruikers? Sluit je aan bij <redditLink>reddit.com/r/maximosyntax</redditLink> of <discordLink>maximoai.co/discord</discordLink>",
 		"contactAndCommunity": "Contact & Gemeenschap",
 		"manageSettings": "Instellingen Beheren",
 		"debugMode": {
@@ -219,7 +219,7 @@
 			},
 			"protected": {
 				"label": "Inclusief beschermde bestanden",
-				"description": "Sta Maximo Syntax toe om beschermde bestanden (zoals .kilocodeignore en .kilocode/ configuratiebestanden) aan te maken en te bewerken zonder goedkeuring."
+				"description": "Sta Maximo Syntax toe om beschermde bestanden (zoals .maximosyntaxignore en .maximosyntax/ configuratiebestanden) aan te maken en te bewerken zonder goedkeuring."
 			}
 		},
 		"delete": {
@@ -621,7 +621,7 @@
 		},
 		"consecutiveMistakeLimit": {
 			"label": "Fout- & Herhalingslimiet",
-			"description": "Aantal opeenvolgende fouten of herhaalde acties voordat het dialoogvenster 'Kilo ondervindt problemen' wordt weergegeven. Zet op 0 om dit veiligheidsmechanisme uit te schakelen (wordt nooit geactiveerd).",
+			"description": "Aantal opeenvolgende fouten of herhaalde acties voordat het dialoogvenster 'Maximo Syntax ondervindt problemen' wordt weergegeven. Zet op 0 om dit veiligheidsmechanisme uit te schakelen (wordt nooit geactiveerd).",
 			"unlimitedDescription": "Onbeperkt aantal nieuwe pogingen ingeschakeld (automatisch doorgaan). Het dialoogvenster zal nooit verschijnen.",
 			"warning": "⚠️ Instellen op 0 staat onbeperkte nieuwe pogingen toe, wat aanzienlijk API-gebruik kan verbruiken"
 		},
@@ -781,8 +781,8 @@
 			"description": "Maximaal aantal bestanden dat wordt opgenomen in details van de huidige werkmap. Hogere waarden geven meer context maar verhogen het tokengebruik."
 		},
 		"rooignore": {
-			"label": ".kilocodeignore-bestanden tonen in lijsten en zoekopdrachten",
-			"description": "Indien ingeschakeld, worden bestanden die overeenkomen met patronen in .kilocodeignore getoond in lijsten met een slotje. Indien uitgeschakeld, worden deze bestanden volledig verborgen in lijsten en zoekopdrachten."
+			"label": ".maximosyntaxignore-bestanden tonen in lijsten en zoekopdrachten",
+			"description": "Indien ingeschakeld, worden bestanden die overeenkomen met patronen in .maximosyntaxignore getoond in lijsten met een slotje. Indien uitgeschakeld, worden deze bestanden volledig verborgen in lijsten en zoekopdrachten."
 		},
 		"maxReadFile": {
 			"label": "Automatisch afkappen bij bestandslezen",
@@ -858,11 +858,11 @@
 		},
 		"outputLineLimit": {
 			"label": "Terminaluitvoerlimiet",
-			"description": "Behoudt eerste en laatste regels en verwijdert middelste om onder de limiet te blijven. Verlaag om tokens te besparen; verhoog om Kilo meer tussendetails te geven. Kilo ziet een placeholder waar inhoud wordt overgeslagen.<0>Meer informatie</0>"
+			"description": "Behoudt eerste en laatste regels en verwijdert middelste om onder de limiet te blijven. Verlaag om tokens te besparen; verhoog om Maximo Syntax meer tussendetails te geven. Maximo Syntax ziet een placeholder waar inhoud wordt overgeslagen.<0>Meer informatie</0>"
 		},
 		"outputCharacterLimit": {
 			"label": "Terminal-tekenlimiet",
-			"description": "Overschrijft de regellimiet om geheugenproblemen te voorkomen door een harde limiet op uitvoergrootte af te dwingen. Bij overschrijding behoudt het begin en einde en toont een placeholder aan Kilo waar inhoud wordt overgeslagen. <0>Meer informatie</0>"
+			"description": "Overschrijft de regellimiet om geheugenproblemen te voorkomen door een harde limiet op uitvoergrootte af te dwingen. Bij overschrijding behoudt het begin en einde en toont een placeholder aan Maximo Syntax waar inhoud wordt overgeslagen. <0>Meer informatie</0>"
 		},
 		"shellIntegrationTimeout": {
 			"label": "Terminal-shell-integratie timeout",
@@ -870,7 +870,7 @@
 		},
 		"shellIntegrationDisabled": {
 			"label": "Inline Terminal gebruiken (aanbevolen)",
-			"description": "Voer commando's uit in de Inline Terminal (chat) om shell-profielen/integratie te omzeilen voor snellere, betrouwbaardere runs. Wanneer uitgeschakeld gebruikt Kilo de VS Code-terminal met je shell-profiel, prompts en plugins. <0>Meer informatie</0>"
+			"description": "Voer commando's uit in de Inline Terminal (chat) om shell-profielen/integratie te omzeilen voor snellere, betrouwbaardere runs. Wanneer uitgeschakeld gebruikt Maximo Syntax de VS Code-terminal met je shell-profiel, prompts en plugins. <0>Meer informatie</0>"
 		},
 		"commandDelay": {
 			"label": "Terminal-commandovertraging",
@@ -974,7 +974,7 @@
 		},
 		"MORPH_FAST_APPLY": {
 			"name": "Fast Apply inschakelen",
-			"description": "Wanneer ingeschakeld, kan Maximo Syntax bestanden bewerken met Fast Apply met gespecialiseerde modellen geoptimaliseerd voor codewijzigingen. Vereist de Kilo Gateway Provider, OpenRouter, of een Morph API-sleutel.",
+			"description": "Wanneer ingeschakeld, kan Maximo Syntax bestanden bewerken met Fast Apply met gespecialiseerde modellen geoptimaliseerd voor codewijzigingen. Vereist de Maximo Syntax Gateway Provider, OpenRouter, of een Morph API-sleutel.",
 			"apiProvider": "API-provider",
 			"apiProviderList": {
 				"current": "Huidig"
@@ -1037,9 +1037,9 @@
 		},
 		"CUSTOM_TOOLS": {
 			"name": "Aangepaste tools inschakelen",
-			"description": "Indien ingeschakeld kan Kilo aangepaste TypeScript/JavaScript-tools laden en gebruiken uit de map .kilocode/tools van je project of ~/.kilocode/tools voor globale tools. Opmerking: deze tools worden automatisch goedgekeurd.",
+			"description": "Indien ingeschakeld kan Maximo Syntax aangepaste TypeScript/JavaScript-tools laden en gebruiken uit de map .maximosyntax/tools van je project of ~/.maximosyntax/tools voor globale tools. Opmerking: deze tools worden automatisch goedgekeurd.",
 			"toolsHeader": "Beschikbare aangepaste tools",
-			"noTools": "Geen aangepaste tools geladen. Voeg .ts- of .js-bestanden toe aan de map .kilocode/tools van je project of ~/.kilocode/tools voor globale tools.",
+			"noTools": "Geen aangepaste tools geladen. Voeg .ts- of .js-bestanden toe aan de map .maximosyntax/tools van je project of ~/.maximosyntax/tools voor globale tools.",
 			"refreshButton": "Vernieuwen",
 			"refreshing": "Vernieuwen...",
 			"refreshSuccess": "Tools succesvol vernieuwd",
@@ -1089,8 +1089,8 @@
 		"allModels": "Alle modellen"
 	},
 	"footer": {
-		"feedback": "Heb je vragen of feedback? Open gerust een issue op <githubLink>github.com/Kilo-Org/kilocode</githubLink> of sluit je aan bij <redditLink>reddit.com/r/kilocode</redditLink> of <discordLink>kilo.ai/discord</discordLink>",
-		"support": "Voor financiële vragen kunt u contact opnemen met de klantenservice via <supportLink>https://kilo.ai/support</supportLink>",
+		"feedback": "Heb je vragen of feedback? Open gerust een issue op <githubLink>github.com/maximoai-co/maximosyntax</githubLink> of sluit je aan bij <redditLink>reddit.com/r/maximosyntax</redditLink> of <discordLink>maximoai.co/discord</discordLink>",
+		"support": "Voor financiële vragen kunt u contact opnemen met de klantenservice via <supportLink>https://maximoai.co/support</supportLink>",
 		"telemetry": {
 			"label": "Fout- en gebruiksrapportage toestaan",
 			"description": "Help Maximo Syntax te verbeteren door gebruiksgegevens en foutmeldingen te verzenden. Er worden nooit code, prompts of persoonlijke gegevens verzonden. Zie ons privacybeleid voor meer informatie."
