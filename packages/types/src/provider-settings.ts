@@ -595,8 +595,9 @@ const corethinkSchema = apiModelIdProviderModelSchema.extend({
 })
 
 // maximosyntax_change start
-const maximoAiSchema = apiModelIdProviderModelSchema.extend({
+const maximoAiSchema = baseProviderSettingsSchema.extend({
 	maximoAiApiKey: z.string().optional(),
+	maximoAiModel: z.string().optional(),
 })
 // maximosyntax_change end
 
@@ -656,6 +657,9 @@ export const providerSettingsSchemaDiscriminated = z.discriminatedUnion("apiProv
 	rooSchema.merge(z.object({ apiProvider: z.literal("roo") })),
 	vercelAiGatewaySchema.merge(z.object({ apiProvider: z.literal("vercel-ai-gateway") })),
 	sapAiCoreSchema.merge(z.object({ apiProvider: z.literal("sap-ai-core") })), // kilocode_change
+	// maximosyntax_change start
+	maximoAiSchema.merge(z.object({ apiProvider: z.literal("maximo-ai") })),
+	// maximosyntax_change end
 	defaultSchema,
 ])
 
