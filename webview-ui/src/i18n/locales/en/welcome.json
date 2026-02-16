@@ -11,43 +11,43 @@
 		"openrouter": {
 			"description": "A unified interface for LLMs"
 		},
-		"roo": {
-			"description": "The best free models to get started",
-			"incentive": "Try Roo out for free"
+		"maximo-ai": {
+			"description": "Native Maximo AI models - Pandora 3 & 3.5",
+			"incentive": "Free tier available"
 		}
 	},
 	"chooseProvider": "To do its magic, Maximo Syntax needs an API key.",
 	"landing": {
-		"greeting": "Welcome to Roo Code!",
-		"introduction": "With a range of built-in and extensible Modes, Roo Code lets you plan, architect, code, debug and boost your productivity like never before.",
-		"accountMention": "To get started, create your Roo Code Cloud account. Get powerful models, web control, analytics, support and more.",
-		"getStarted": "Create Roo Account",
+		"greeting": "Welcome to Maximo Syntax!",
+		"introduction": "Maximo Syntax is a free, open source AI coding agent with native Maximo AI integration. It works with Maximo Pandora models, Claude, Gemini, GPT, and 450+ more models.",
+		"accountMention": "Create a free Maximo AI account to get started with Pandora models - our specialized coding AI. Get $20 in bonus credits when you top-up for the first time!",
+		"getStarted": "Create Maximo Account",
 		"noAccount": "or use without an account"
 	},
 	"providerSignup": {
 		"heading": "Choose your provider",
-		"chooseProvider": "Roo needs an LLM provider to work. Choose one to get started, you can add more later.",
-		"rooCloudProvider": "Roo Code Router",
-		"rooCloudDescription": "The easiest way to start is with the Roo Code Router: a curated mix of free and paid models at a low cost.",
+		"chooseProvider": "Maximo Syntax needs an LLM provider to work. Choose Maximo AI for the best experience with Pandora models, or use a 3rd-party provider.",
+		"rooCloudProvider": "Maximo AI",
+		"rooCloudDescription": "The best experience with native Pandora 3 & 3.5 models - specialized for coding tasks. Free tier available with generous limits.",
 		"learnMore": "Learn more",
 		"useAnotherProvider": "3rd-party Provider",
-		"useAnotherProviderDescription": "Enter an API key and get going.",
+		"useAnotherProviderDescription": "Use OpenRouter, Anthropic, OpenAI, or other providers.",
 		"noApiKeys": "Don't want to deal with API keys and separate accounts?",
-		"backToRoo": "Go with the Roo Code Router.",
+		"backToRoo": "Go with Maximo AI.",
 		"goBack": "Back",
 		"finish": "Finish"
 	},
 	"waitingForCloud": {
-		"heading": "Logging into Roo Code Cloud...",
-		"description": "We'll take you to your browser to sign up for Roo Code Cloud. We'll then bring you back here to finish.",
+		"heading": "Logging into Maximo AI...",
+		"description": "We'll take you to your browser to sign up for Maximo AI. We'll then bring you back here to finish.",
 		"noPrompt": "If you don't get prompted to open a URL, <clickHere>click here</clickHere>.",
 		"havingTrouble": "If you've completed sign up but are having trouble, <clickHere>click here</clickHere>.",
 		"pasteUrl": "Paste the callback URL shown in your browser:",
 		"docsLink": "Not working? <DocsLink>Check the docs</DocsLink>.",
-		"invalidURL": "That doesn't look like a valid callback URL. Please copy what Roo Code Cloud is showing in your browser.",
+		"invalidURL": "That doesn't look like a valid callback URL. Please copy what Maximo AI is showing in your browser.",
 		"goBack": "Go back"
 	},
-	"startRouter": "We recommend using an LLM Router:",
+	"startRouter": "We recommend using Maximo AI for the best experience:",
 	"startCustom": "Or you can bring your provider API key:",
 	"telemetry": {
 		"helpImprove": "Help Improve Maximo Syntax",

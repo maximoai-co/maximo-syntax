@@ -16,10 +16,10 @@
 	},
 	"welcome": {
 		"greeting": "Welcome to Maximo Syntax!",
-		"introText1": "Maximo Syntax is a free, open source AI coding agent.",
-		"introText2": "It works with the latest AI models like Claude Opus 4.5, Gemini 3 Pro, GPT-5.2, and 450+ more.",
-		"introText3": "Create a free account and get $20 in bonus credits when you top-up for the first time.",
-		"ctaButton": "Get Started",
+		"introText1": "Maximo Syntax is a free, open source AI coding agent with native Maximo AI integration.",
+		"introText2": "It works with Maximo Pandora 3 & 3.5 models (specialized for coding), plus Claude, Gemini, GPT, and 450+ more.",
+		"introText3": "Create a free Maximo AI account and get $5 in bonus credits for free!",
+		"ctaButton": "Get Started with Maximo AI",
 		"manualModeButton": "Use your own API key",
 		"alreadySignedUp": "Already signed up?",
 		"loginText": "Log in here"

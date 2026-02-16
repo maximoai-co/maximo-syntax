@@ -73,25 +73,20 @@ export const MAX_IMAGES_PER_MESSAGE = 20 // This is the Anthropic limit.
 
 const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0
 
-// kilocode_change start: KiloLogo component
+// maximosyntax_change: MaximoLogo component
 const KiloLogo = () => {
-	const iconsBaseUri = (window as any).ICONS_BASE_URI || ""
-	const isLightTheme =
-		document.body.classList.contains("vscode-light") ||
-		document.body.classList.contains("vscode-high-contrast-light")
-	const iconFile = isLightTheme ? "kilo-light.svg" : "kilo-dark.svg"
 	return (
 		<div className="flex items-center justify-center" style={{ width: "56px", height: "56px", margin: "0 auto" }}>
 			<img
-				src={`${iconsBaseUri}/${iconFile}`}
+				src="https://maximoai.co/maximo-vscode-icon-512.png"
 				alt="Maximo Syntax"
 				className="w-full h-full object-contain"
-				style={{ opacity: 0.85 }}
+				style={{ opacity: 0.9 }}
 			/>
 		</div>
 	)
 }
-// kilocode_change end
+// maximosyntax_change end
 
 const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewProps> = (
 	{ isHidden, showAnnouncement, hideAnnouncement },

@@ -66,14 +66,14 @@ export class ProviderSettingsManager {
 		modes.map((mode) => [mode.slug, this.defaultConfigId]),
 	)
 
-	// kilocode_change start: Anonymous kilocode onboarding - set default provider for new users
+	// maximosyntax_change: Set Maximo AI as default provider for new users
 	private readonly defaultProviderProfiles: ProviderProfiles = {
 		currentApiConfigName: "default",
 		apiConfigs: {
 			default: {
 				id: this.defaultConfigId,
-				apiProvider: "kilocode",
-				kilocodeModel: "minimax/minimax-m2.1:free",
+				apiProvider: "maximo-ai",
+				maximoAiModel: "maximo-pandora-3.5-syntax-fast",
 			},
 		},
 		modeApiConfigs: this.defaultModeApiConfigs,
@@ -86,7 +86,7 @@ export class ProviderSettingsManager {
 			claudeCodeLegacySettingsMigrated: true, // Mark as migrated on fresh installs
 		},
 	}
-	// kilocode_change end
+	// maximosyntax_change end
 
 	// kilocode_change start
 	private pendingDuplicateIdRepairReport: Record<string, string[]> | null = null
