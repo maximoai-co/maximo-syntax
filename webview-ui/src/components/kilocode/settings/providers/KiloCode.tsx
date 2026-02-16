@@ -121,7 +121,7 @@ export const KiloCode = ({
 				defaultModelId={kilocodeDefaultModel}
 				models={routerModels?.kilocode ?? {}}
 				modelIdKey="kilocodeModel"
-				serviceName="Kilo Code"
+				serviceName="Maximo Syntax"
 				serviceUrl={getAppUrl()}
 				organizationAllowList={organizationAllowList}
 			/>

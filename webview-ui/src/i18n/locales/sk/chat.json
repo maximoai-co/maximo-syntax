@@ -1,5 +1,5 @@
 {
-	"greeting": "Čo pre teba môže Kilo Code urobiť?",
+	"greeting": "Čo pre teba môže Maximo Syntax urobiť?",
 	"task": {
 		"title": "Úloha",
 		"seeMore": "Zobraziť viac",
@@ -20,7 +20,7 @@
 		"sharePublicly": "Zdieľať verejne",
 		"sharePubliclyDescription": "Ktokoľvek s odkazom má prístup",
 		"connectToCloud": "Pripojiť ku cloudu",
-		"connectToCloudDescription": "Prihlás sa do Kilo Code Cloud pre zdieľanie úloh",
+		"connectToCloudDescription": "Prihlás sa do Maximo Syntax Cloud pre zdieľanie úloh",
 		"sharingDisabledByOrganization": "Zdieľanie zakázané organizáciou",
 		"shareSuccessOrganization": "Odkaz organizácie skopírovaný do schránky",
 		"shareSuccessPublic": "Verejný odkaz skopírovaný do schránky",
@@ -217,52 +217,52 @@
 		}
 	},
 	"instructions": {
-		"wantsToFetch": "Kilo Code chce načítať podrobné inštrukcie pre pomoc s aktuálnou úlohou"
+		"wantsToFetch": "Maximo Syntax chce načítať podrobné inštrukcie pre pomoc s aktuálnou úlohou"
 	},
 	"fileOperations": {
-		"wantsToRead": "Kilo Code chce prečítať tento súbor:",
-		"wantsToReadMultiple": "Kilo Code chce prečítať viac súborov:",
-		"wantsToReadAndXMore": "Kilo Code chce prečítať tento súbor a {{count}} ďalších:",
-		"wantsToReadOutsideWorkspace": "Kilo Code chce prečítať tento súbor mimo pracovného priestoru:",
-		"didRead": "Kilo Code prečítal tento súbor:",
-		"wantsToEdit": "Kilo Code chce upraviť tento súbor:",
-		"wantsToEditOutsideWorkspace": "Kilo Code chce upraviť tento súbor mimo pracovného priestoru:",
-		"wantsToEditProtected": "Kilo Code chce upraviť chránený konfiguračný súbor:",
-		"wantsToApplyBatchChanges": "Kilo Code chce aplikovať zmeny na viac súborov:",
-		"wantsToGenerateImage": "Kilo Code chce vygenerovať obrázok:",
-		"wantsToGenerateImageOutsideWorkspace": "Kilo Code chce vygenerovať obrázok mimo pracovného priestoru:",
-		"wantsToGenerateImageProtected": "Kilo Code chce vygenerovať obrázok v chránenom umiestnení:",
-		"didGenerateImage": "Kilo Code vygeneroval obrázok:",
-		"wantsToCreate": "Kilo Code chce vytvoriť nový súbor:",
-		"wantsToSearchReplace": "Kilo Code chce hľadať a nahradiť v tomto súbore:",
-		"didSearchReplace": "Kilo Code vykonal hľadanie a nahradenie v tomto súbore:",
-		"wantsToInsert": "Kilo Code chce vložiť obsah do tohto súboru:",
-		"wantsToInsertWithLineNumber": "Kilo Code chce vložiť obsah do tohto súboru na riadok {{lineNumber}}:",
-		"wantsToInsertAtEnd": "Kilo Code chce pridať obsah na koniec tohto súboru:",
-		"wantsToDelete": "Kilo Code chce zmazať tento súbor:",
-		"wantsToDeleteDirectory": "Kilo Code chce zmazať tento adresár:"
+		"wantsToRead": "Maximo Syntax chce prečítať tento súbor:",
+		"wantsToReadMultiple": "Maximo Syntax chce prečítať viac súborov:",
+		"wantsToReadAndXMore": "Maximo Syntax chce prečítať tento súbor a {{count}} ďalších:",
+		"wantsToReadOutsideWorkspace": "Maximo Syntax chce prečítať tento súbor mimo pracovného priestoru:",
+		"didRead": "Maximo Syntax prečítal tento súbor:",
+		"wantsToEdit": "Maximo Syntax chce upraviť tento súbor:",
+		"wantsToEditOutsideWorkspace": "Maximo Syntax chce upraviť tento súbor mimo pracovného priestoru:",
+		"wantsToEditProtected": "Maximo Syntax chce upraviť chránený konfiguračný súbor:",
+		"wantsToApplyBatchChanges": "Maximo Syntax chce aplikovať zmeny na viac súborov:",
+		"wantsToGenerateImage": "Maximo Syntax chce vygenerovať obrázok:",
+		"wantsToGenerateImageOutsideWorkspace": "Maximo Syntax chce vygenerovať obrázok mimo pracovného priestoru:",
+		"wantsToGenerateImageProtected": "Maximo Syntax chce vygenerovať obrázok v chránenom umiestnení:",
+		"didGenerateImage": "Maximo Syntax vygeneroval obrázok:",
+		"wantsToCreate": "Maximo Syntax chce vytvoriť nový súbor:",
+		"wantsToSearchReplace": "Maximo Syntax chce hľadať a nahradiť v tomto súbore:",
+		"didSearchReplace": "Maximo Syntax vykonal hľadanie a nahradenie v tomto súbore:",
+		"wantsToInsert": "Maximo Syntax chce vložiť obsah do tohto súboru:",
+		"wantsToInsertWithLineNumber": "Maximo Syntax chce vložiť obsah do tohto súboru na riadok {{lineNumber}}:",
+		"wantsToInsertAtEnd": "Maximo Syntax chce pridať obsah na koniec tohto súboru:",
+		"wantsToDelete": "Maximo Syntax chce zmazať tento súbor:",
+		"wantsToDeleteDirectory": "Maximo Syntax chce zmazať tento adresár:"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "Kilo Code chce zobraziť súbory najvyššej úrovne v tomto adresári:",
-		"didViewTopLevel": "Kilo Code zobrazil súbory najvyššej úrovne v tomto adresári:",
-		"wantsToViewTopLevelOutsideWorkspace": "Kilo Code chce zobraziť súbory najvyššej úrovne v tomto adresári (mimo pracovného priestoru):",
-		"didViewTopLevelOutsideWorkspace": "Kilo Code zobrazil súbory najvyššej úrovne v tomto adresári (mimo pracovného priestoru):",
-		"wantsToViewRecursive": "Kilo Code chce rekurzívne zobraziť všetky súbory v tomto adresári:",
-		"didViewRecursive": "Kilo Code rekurzívne zobrazil všetky súbory v tomto adresári:",
-		"wantsToViewRecursiveOutsideWorkspace": "Kilo Code chce rekurzívne zobraziť všetky súbory v tomto adresári (mimo pracovného priestoru):",
-		"didViewRecursiveOutsideWorkspace": "Kilo Code rekurzívne zobrazil všetky súbory v tomto adresári (mimo pracovného priestoru):",
-		"wantsToViewDefinitions": "Kilo Code chce zobraziť názvy definícií zdrojového kódu použité v tomto adresári:",
-		"didViewDefinitions": "Kilo Code zobrazil názvy definícií zdrojového kódu použité v tomto adresári:",
-		"wantsToViewDefinitionsOutsideWorkspace": "Kilo Code chce zobraziť názvy definícií zdrojového kódu použité v tomto adresári (mimo pracovného priestoru):",
-		"didViewDefinitionsOutsideWorkspace": "Kilo Code zobrazil názvy definícií zdrojového kódu použité v tomto adresári (mimo pracovného priestoru):",
-		"wantsToSearch": "Kilo Code chce hľadať v tomto adresári <code>{{regex}}</code>:",
-		"didSearch": "Kilo Code hľadal v tomto adresári <code>{{regex}}</code>:",
-		"wantsToSearchOutsideWorkspace": "Kilo Code chce hľadať v tomto adresári (mimo pracovného priestoru) <code>{{regex}}</code>:",
-		"didSearchOutsideWorkspace": "Kilo Code hľadal v tomto adresári (mimo pracovného priestoru) <code>{{regex}}</code>:"
+		"wantsToViewTopLevel": "Maximo Syntax chce zobraziť súbory najvyššej úrovne v tomto adresári:",
+		"didViewTopLevel": "Maximo Syntax zobrazil súbory najvyššej úrovne v tomto adresári:",
+		"wantsToViewTopLevelOutsideWorkspace": "Maximo Syntax chce zobraziť súbory najvyššej úrovne v tomto adresári (mimo pracovného priestoru):",
+		"didViewTopLevelOutsideWorkspace": "Maximo Syntax zobrazil súbory najvyššej úrovne v tomto adresári (mimo pracovného priestoru):",
+		"wantsToViewRecursive": "Maximo Syntax chce rekurzívne zobraziť všetky súbory v tomto adresári:",
+		"didViewRecursive": "Maximo Syntax rekurzívne zobrazil všetky súbory v tomto adresári:",
+		"wantsToViewRecursiveOutsideWorkspace": "Maximo Syntax chce rekurzívne zobraziť všetky súbory v tomto adresári (mimo pracovného priestoru):",
+		"didViewRecursiveOutsideWorkspace": "Maximo Syntax rekurzívne zobrazil všetky súbory v tomto adresári (mimo pracovného priestoru):",
+		"wantsToViewDefinitions": "Maximo Syntax chce zobraziť názvy definícií zdrojového kódu použité v tomto adresári:",
+		"didViewDefinitions": "Maximo Syntax zobrazil názvy definícií zdrojového kódu použité v tomto adresári:",
+		"wantsToViewDefinitionsOutsideWorkspace": "Maximo Syntax chce zobraziť názvy definícií zdrojového kódu použité v tomto adresári (mimo pracovného priestoru):",
+		"didViewDefinitionsOutsideWorkspace": "Maximo Syntax zobrazil názvy definícií zdrojového kódu použité v tomto adresári (mimo pracovného priestoru):",
+		"wantsToSearch": "Maximo Syntax chce hľadať v tomto adresári <code>{{regex}}</code>:",
+		"didSearch": "Maximo Syntax hľadal v tomto adresári <code>{{regex}}</code>:",
+		"wantsToSearchOutsideWorkspace": "Maximo Syntax chce hľadať v tomto adresári (mimo pracovného priestoru) <code>{{regex}}</code>:",
+		"didSearchOutsideWorkspace": "Maximo Syntax hľadal v tomto adresári (mimo pracovného priestoru) <code>{{regex}}</code>:"
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "Kilo Code chce hľadať v kódovej základni <code>{{query}}</code>:",
-		"wantsToSearchWithPath": "Kilo Code chce hľadať v kódovej základni <code>{{query}}</code> v <code>{{path}}</code>:",
+		"wantsToSearch": "Maximo Syntax chce hľadať v kódovej základni <code>{{query}}</code>:",
+		"wantsToSearchWithPath": "Maximo Syntax chce hľadať v kódovej základni <code>{{query}}</code> v <code>{{path}}</code>:",
 		"didSearch_one": "Nájdený 1 výsledok",
 		"didSearch_other": "Nájdených {{count}} výsledkov",
 		"didSearch": "Vyhľadané {{query}}",
@@ -301,18 +301,18 @@
 		"youSaid": "Povedal si"
 	},
 	"mcp": {
-		"wantsToUseTool": "Kilo Code chce použiť nástroj na MCP serveri {{serverName}}:",
-		"wantsToAccessResource": "Kilo Code chce pristupovať k prostriedku na MCP serveri {{serverName}}:"
+		"wantsToUseTool": "Maximo Syntax chce použiť nástroj na MCP serveri {{serverName}}:",
+		"wantsToAccessResource": "Maximo Syntax chce pristupovať k prostriedku na MCP serveri {{serverName}}:"
 	},
 	"modes": {
-		"wantsToSwitch": "Kilo Code chce prepnúť do režimu {{mode}}",
-		"wantsToSwitchWithReason": "Kilo Code chce prepnúť do režimu {{mode}}, pretože: {{reason}}",
-		"didSwitch": "Kilo Code prepol do režimu {{mode}}",
-		"didSwitchWithReason": "Kilo Code prepol do režimu {{mode}}, pretože: {{reason}}"
+		"wantsToSwitch": "Maximo Syntax chce prepnúť do režimu {{mode}}",
+		"wantsToSwitchWithReason": "Maximo Syntax chce prepnúť do režimu {{mode}}, pretože: {{reason}}",
+		"didSwitch": "Maximo Syntax prepol do režimu {{mode}}",
+		"didSwitchWithReason": "Maximo Syntax prepol do režimu {{mode}}, pretože: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "Kilo Code chce vytvoriť novú podúlohu v režime {{mode}}:",
-		"wantsToFinish": "Kilo Code chce dokončiť túto podúlohu",
+		"wantsToCreate": "Maximo Syntax chce vytvoriť novú podúlohu v režime {{mode}}:",
+		"wantsToFinish": "Maximo Syntax chce dokončiť túto podúlohu",
 		"newTaskContent": "Inštrukcie podúlohy",
 		"completionContent": "Podúloha dokončená",
 		"resultContent": "Výsledky podúlohy",
@@ -320,7 +320,7 @@
 		"completionInstructions": "Podúloha dokončená! Môžeš skontrolovať výsledky a navrhnúť akékoľvek opravy alebo ďalšie kroky. Ak všetko vyzerá dobre, potvrď pre vrátenie výsledku do nadradenej úlohy."
 	},
 	"questions": {
-		"hasQuestion": "Kilo Code má otázku:"
+		"hasQuestion": "Maximo Syntax má otázku:"
 	},
 	"taskCompleted": "Úloha dokončená",
 	"error": "Chyba",
@@ -342,14 +342,14 @@
 	"diffError": {
 		"title": "Úprava neúspešná"
 	},
-	"troubleMessage": "Kilo Code má ťažkosti...",
+	"troubleMessage": "Maximo Syntax má ťažkosti...",
 	"powershell": {
 		"issues": "Zdá sa, že máš problémy s Windows PowerShell, prosím pozri sa na toto"
 	},
 	"autoApprove": {
 		"title": "Automatické schvaľovanie:",
 		"none": "Žiadne",
-		"description": "Automatické schvaľovanie umožňuje Kilo Code vykonávať akcie bez žiadania o povolenie. Zapni iba pre akcie, ktorým plne dôveruješ. Podrobnejšia konfigurácia je dostupná v <settingsLink>Nastaveniach</settingsLink>.",
+		"description": "Automatické schvaľovanie umožňuje Maximo Syntax vykonávať akcie bez žiadania o povolenie. Zapni iba pre akcie, ktorým plne dôveruješ. Podrobnejšia konfigurácia je dostupná v <settingsLink>Nastaveniach</settingsLink>.",
 		"selectOptionsFirst": "Najprv vyber aspoň jednu možnosť nižšie pre povolenie automatického schvaľovania",
 		"toggleAriaLabel": "Prepnúť automatické schvaľovanie",
 		"disabledAriaLabel": "Automatické schvaľovanie zakázané - najprv vyber možnosti",
@@ -370,19 +370,19 @@
 		"title": "Režimy",
 		"marketplace": "Trhovisko režimov",
 		"settings": "Nastavenia režimov",
-		"description": "Špecializované persony ktoré prispôsobujú správanie Kilo Code.",
+		"description": "Špecializované persony ktoré prispôsobujú správanie Maximo Syntax.",
 		"searchPlaceholder": "Hľadať režimy...",
 		"noResults": "Neboli nájdené žiadne výsledky",
 		"organizationModes": "Režimy organizácie"
 	},
 	"announcement": {
-		"title": "🎉 Vydaný Kilo Code {{version}}",
-		"support": "Prosím podpor Kilo Code tým, že nám dáš hviezdičku na <githubLink>GitHube</githubLink>.",
+		"title": "🎉 Vydaný Maximo Syntax {{version}}",
+		"support": "Prosím podpor Maximo Syntax tým, že nám dáš hviezdičku na <githubLink>GitHube</githubLink>.",
 		"stealthModel": {
-			"feature": "<bold>Časovo obmedzený ZDARMA stealth model</bold> - Code Supernova: Teraz vylepšený s <bold>kontextovým oknom 1M tokenov</bold>! Všestranný agentný model pre kódovanie, ktorý podporuje obrazové vstupy, dostupný prostredníctvom Kilo Code Cloud.",
+			"feature": "<bold>Časovo obmedzený ZDARMA stealth model</bold> - Code Supernova: Teraz vylepšený s <bold>kontextovým oknom 1M tokenov</bold>! Všestranný agentný model pre kódovanie, ktorý podporuje obrazové vstupy, dostupný prostredníctvom Maximo Syntax Cloud.",
 			"note": "(Poznámka: prompty a dokončenia sú zaznamenávané tvorcom modelu a používané na vylepšenie modelu)",
-			"connectButton": "Pripojiť sa k Kilo Code Cloud",
-			"selectModel": "Vyber <code>kilo/code-supernova</code> z poskytovateľa Kilo Code Cloud v Nastaveniach pre začiatok.",
+			"connectButton": "Pripojiť sa k Maximo Syntax Cloud",
+			"selectModel": "Vyber <code>kilo/code-supernova</code> z poskytovateľa Maximo Syntax Cloud v Nastaveniach pre začiatok.",
 			"goToSettingsButton": "Ísť do Nastavení"
 		},
 		"release": {
@@ -393,11 +393,11 @@
 			"chutesDynamic": "Chutes teraz dynamicky načítava najnovšie modely",
 			"queuedMessagesFix": "Opravy pre stratené správy vo fronte",
 			"browserUse": "Browser Use 2.0 vylepšuje chatové prechádzanie s trvalými reláciami, jasnejšou spätnou väzbou, vyhradeným panelom prehliadača a prirodzenejšími popismi akcií",
-			"cloudPaid": "Poskytovateľ Kilo Code Cloud teraz ponúka platené modely: kúp si kredity a používaj ich ako pre cloudových agentov, tak pre inferenciu",
+			"cloudPaid": "Poskytovateľ Maximo Syntax Cloud teraz ponúka platené modely: kúp si kredity a používaj ich ako pre cloudových agentov, tak pre inferenciu",
 			"contextRewind": "Vylepšené zhusťovanie kontextu teraz umožňuje obnoviť plný predchádzajúci kontext pri vracaní ku kontrolnému bodu",
-			"rooProvider": "Poskytovateľ Kilo Code Cloud teraz zachováva obsah uvažovania a používa natívne nástroje pre lepší výkon",
+			"rooProvider": "Poskytovateľ Maximo Syntax Cloud teraz zachováva obsah uvažovania a používa natívne nástroje pre lepší výkon",
 			"openaiCodexProvider": "Pridaný poskytovateľ OpenAI - ChatGPT Plus/Pro, ktorý poskytuje predplatné založený prístup k modelom Codex bez nákladov na tokeny.",
-			"gpt52codexModel": "Pridaný nový model gpt-5.2-codex do Kilo Code Router, štandardného poskytovateľa OpenAI a ďalších.",
+			"gpt52codexModel": "Pridaný nový model gpt-5.2-codex do Maximo Syntax Router, štandardného poskytovateľa OpenAI a ďalších.",
 			"bugFixes": "Opravené úniky pamäte spôsobujúce šedé obrazovky, problémy s podpisom myšlienok Gemini a ďalšie vylepšenia stability."
 		},
 		"cloudAgents": {
@@ -424,7 +424,7 @@
 	},
 	"browser": {
 		"session": "Relácia prehliadača",
-		"rooWantsToUse": "Kilo Code chce použiť prehliadač:",
+		"rooWantsToUse": "Maximo Syntax chce použiť prehliadač:",
 		"consoleLogs": "Záznamy konzoly",
 		"noNewLogs": "(Žiadne nové záznamy)",
 		"screenshot": "Snímka obrazovky prehliadača",
@@ -471,8 +471,8 @@
 	"browserActionHover": "Prejdenie kurzorom",
 	"browserActionHoverDesc": "Prejdenie kurzorom cez prvky na stránke",
 	"rooCloudAnnouncement": {
-		"title": "☁️ Kilo Code Cloud teraz aktívny!",
-		"description": "Prístup ku cloudovým agentom a pokročilým funkciám prostredníctvom Kilo Code Cloud."
+		"title": "☁️ Maximo Syntax Cloud teraz aktívny!",
+		"description": "Prístup ku cloudovým agentom a pokročilým funkciám prostredníctvom Maximo Syntax Cloud."
 	},
 	"codeblock": {
 		"tooltips": {
@@ -487,18 +487,18 @@
 	"profileViolationWarning": "Aktuálny profil porušuje nastavenia tvojej organizácie",
 	"shellIntegration": {
 		"title": "Varovanie vykonávania príkazu",
-		"description": "Tvoj príkaz sa vykonáva bez integrácie shellu terminálu VSCode. Pre potlačenie tohto varovania môžeš vypnúť integráciu shellu v sekcii <strong>Terminal</strong> <settingsLink>nastavení Kilo Code</settingsLink> alebo vyriešiť integráciu terminálu VSCode pomocou odkazu nižšie.",
+		"description": "Tvoj príkaz sa vykonáva bez integrácie shellu terminálu VSCode. Pre potlačenie tohto varovania môžeš vypnúť integráciu shellu v sekcii <strong>Terminal</strong> <settingsLink>nastavení Maximo Syntax</settingsLink> alebo vyriešiť integráciu terminálu VSCode pomocou odkazu nižšie.",
 		"troubleshooting": "Klikni tu pre dokumentáciu integrácie shellu."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Dosiahnutý limit automaticky schválených požiadaviek",
-			"description": "Kilo Code dosiahol automaticky schválený limit {{count}} API požiadaviek. Chceš resetovať počítadlo a pokračovať v úlohe?",
+			"description": "Maximo Syntax dosiahol automaticky schválený limit {{count}} API požiadaviek. Chceš resetovať počítadlo a pokračovať v úlohe?",
 			"button": "Resetovať a pokračovať"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Dosiahnutý limit automaticky schválených nákladov",
-			"description": "Kilo Code dosiahol limit automaticky schválených nákladov ${{count}}. Chceš resetovať náklady a pokračovať v úlohe?",
+			"description": "Maximo Syntax dosiahol limit automaticky schválených nákladov ${{count}}. Chceš resetovať náklady a pokračovať v úlohe?",
 			"button": "Resetovať a pokračovať"
 		}
 	},
@@ -513,7 +513,7 @@
 		"ariaLabel": "Verzia {{version}} - Klikni pre zobrazenie poznámok k vydaniu"
 	},
 	"rooCloudCTA": {
-		"title": "Kilo Code Cloud prichádza čoskoro!",
+		"title": "Maximo Syntax Cloud prichádza čoskoro!",
 		"description": "Spúšťaj vzdialených agentov v cloude, pristupuj k svojim úlohám odkiaľkoľvek, spolupracuj s ostatnými a mnoho ďalšieho.",
 		"joinWaitlist": "Pripoj sa na čakaciu listinu pre získanie prednostného prístupu."
 	},
@@ -546,8 +546,8 @@
 	},
 	"generateCommitMessage": "Vygenerovať commit správu",
 	"slashCommand": {
-		"wantsToRun": "Kilo Code chce spustiť slash príkaz:",
-		"didRun": "Kilo Code spustil slash príkaz:"
+		"wantsToRun": "Maximo Syntax chce spustiť slash príkaz:",
+		"didRun": "Maximo Syntax spustil slash príkaz:"
 	},
 	"contextMenu": {
 		"noResults": "Žiadne výsledky",
