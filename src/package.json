@@ -249,8 +249,8 @@
 				"command": "maximo-syntax.vsc.generateCommitMessage",
 				"title": "%command.generateCommitMessage.title%",
 				"icon": {
-					"light": "assets/icons/kilo-light.svg",
-					"dark": "assets/icons/kilo-dark.svg"
+					"light": "assets/icons/maximo.png",
+					"dark": "assets/icons/maximo-dark.png"
 				},
 				"category": "%configuration.title%"
 			},

@@ -23,8 +23,8 @@ async function showMacOSNotification(options: NotificationOptions): Promise<void
 		args.push("-sound", "Tink")
 
 		// Add Maximo Syntax logo
-		const extensionUri = vscode.extensions.getExtension(`kilocode.kilo-code`)!.extensionUri
-		const iconPath = vscode.Uri.joinPath(extensionUri, "assets", "icons", "kilo.png").fsPath
+		const extensionUri = vscode.extensions.getExtension(`maximoai.maximo-syntax`)!.extensionUri
+		const iconPath = vscode.Uri.joinPath(extensionUri, "assets", "icons", "maximo.png").fsPath
 		args.push("-appIcon", iconPath)
 
 		await execa("terminal-notifier", args)

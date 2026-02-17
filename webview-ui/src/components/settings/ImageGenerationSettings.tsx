@@ -141,7 +141,7 @@ export const ImageGenerationSettings = ({
 							onChange={(e: any) => handleProviderChange(e.target.value)}
 							className="w-full">
 							<VSCodeOption value="kilocode" className="py-2 px-3">
-								Kilo Gateway
+								Maximo AI
 							</VSCodeOption>
 							<VSCodeOption value="openrouter" className="py-2 px-3">
 								OpenRouter

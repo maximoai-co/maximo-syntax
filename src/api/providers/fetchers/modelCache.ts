@@ -111,12 +111,10 @@ async function fetchModelsFromProvider(options: GetModelsOptions): Promise<Model
 			break
 		// kilocode_change start
 		case "kilocode": {
-			const backendUrl = options.kilocodeOrganizationId
-				? `https://api.kilo.ai/api/organizations/${options.kilocodeOrganizationId}`
-				: "https://api.kilo.ai/api/openrouter"
-			const openRouterBaseUrl = getKiloUrlFromToken(backendUrl, options.kilocodeToken ?? "")
+			// maximosyntax_change: Use Maximo AI API endpoint
+			const backendUrl = "https://api.maximoai.co/v1"
 			models = await getOpenRouterModels({
-				openRouterBaseUrl,
+				openRouterBaseUrl: backendUrl,
 				headers: options.kilocodeToken ? { Authorization: `Bearer ${options.kilocodeToken}` } : undefined,
 			})
 			break

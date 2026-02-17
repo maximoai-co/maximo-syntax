@@ -42,11 +42,12 @@ export class KilocodeOpenrouterHandler extends OpenRouterHandler {
 	}
 
 	constructor(options: ApiHandlerOptions) {
-		const baseApiUrl = getKiloUrlFromToken("https://api.kilo.ai/api/", options.kilocodeToken ?? "")
+		// maximosyntax_change: Use Maximo AI API endpoint
+		const baseApiUrl = "https://api.maximoai.co/"
 
 		options = {
 			...options,
-			openRouterBaseUrl: `${baseApiUrl}openrouter/`,
+			openRouterBaseUrl: `${baseApiUrl}v1/`,
 			openRouterApiKey: options.kilocodeToken,
 		}
 

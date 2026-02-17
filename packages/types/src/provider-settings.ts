@@ -985,7 +985,7 @@ export const MODELS_BY_PROVIDER: Record<
 	// kilocode_change start
 	ovhcloud: { id: "ovhcloud", label: "OVHcloud AI Endpoints", models: [] },
 	inception: { id: "inception", label: "Inception", models: [] },
-	kilocode: { id: "kilocode", label: "Kilocode", models: [] },
+	kilocode: { id: "kilocode", label: "Maximo AI", models: [] },
 	"virtual-quota-fallback": { id: "virtual-quota-fallback", label: "Virtual Quota Fallback", models: [] },
 	apertis: { id: "apertis", label: "Apertis", models: [] },
 	zenmux: { id: "zenmux", label: "ZenMux", models: [] }, // kilocode_change
