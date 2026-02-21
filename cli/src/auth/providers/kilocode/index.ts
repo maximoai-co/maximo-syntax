@@ -6,7 +6,7 @@ import { authenticateWithToken } from "./token-auth.js"
  * Kilocode provider with device authorization (recommended)
  */
 export const kilocodeDeviceAuthProvider: AuthProvider = {
-	name: "Kilo Gateway",
+	name: "Maximo AI",
 	value: "kilocode-device",
 	authenticate: authenticateWithDeviceAuth,
 }
@@ -15,7 +15,7 @@ export const kilocodeDeviceAuthProvider: AuthProvider = {
  * Kilocode provider with manual token entry (advanced)
  */
 export const kilocodeTokenAuthProvider: AuthProvider = {
-	name: "Kilo Gateway (Manual)",
+	name: "Maximo AI (Manual)",
 	value: "kilocode-token",
 	authenticate: authenticateWithToken,
 }

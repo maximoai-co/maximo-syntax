@@ -38,11 +38,11 @@ export interface FieldMetadata {
  * Contains labels, types, placeholders, and optional flags for all provider fields
  */
 export const FIELD_REGISTRY: Record<string, FieldMetadata> = {
-	// Kilocode fields
+	// Kilocode fields - maximosyntax_change: Updated labels for Maximo AI
 	kilocodeToken: {
-		label: "Kilo Code Token",
+		label: "Maximo AI Token",
 		type: "password",
-		placeholder: "Enter your Kilo Code token...",
+		placeholder: "Enter your Maximo AI token...",
 	},
 	kilocodeOrganizationId: {
 		label: "Organization ID",

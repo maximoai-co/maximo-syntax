@@ -54,7 +54,8 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "kilo.png")
+			// maximosyntax_change: Updated to use maximo.png
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "maximo.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
@@ -109,7 +110,8 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "kilo.png")
+			// maximosyntax_change: Updated to use maximo.png
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "maximo.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
@@ -130,7 +132,8 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "kilo.png")
+			// maximosyntax_change: Updated to use maximo.png
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "maximo.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",
@@ -152,7 +155,8 @@ describe("showSystemNotification", () => {
 				message: 'Message with "quotes"',
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "kilo.png")
+			// maximosyntax_change: Updated to use maximo.png
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "maximo.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				'Message with \\"quotes\\"',
@@ -269,7 +273,8 @@ describe("showSystemNotification", () => {
 				message: "Test Message",
 			})
 
-			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "kilo.png")
+			// maximosyntax_change: Updated to use maximo.png
+			const expectedIconPath = path.join(__dirname, "..", "..", "..", "assets", "icons", "maximo.png")
 			expect(mockedExeca).toHaveBeenCalledWith("terminal-notifier", [
 				"-message",
 				"Test Message",

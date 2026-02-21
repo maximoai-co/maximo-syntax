@@ -96,7 +96,7 @@
 		"modelInfo": {
 			"contextWindow": "Bağlam penceresi",
 			"providerBreakdown": "Sağlayıcı Fiyat ve Yetenek Dökümü",
-			"averageMaximo SyntaxCodeCost": "Bu, Maximo Syntax'un bu modeli kullanarak geçtiğimiz hafta boyunca yaptığı ortalama gerçek harcamadır. Prompt önbellek kullanımı nedeniyle listelenen fiyattan daha düşük olabilir.",
+			"averageMaximoSyntaxCodeCost": "Bu, Maximo Syntax'un bu modeli kullanarak geçtiğimiz hafta boyunca yaptığı ortalama gerçek harcamadır. Prompt önbellek kullanımı nedeniyle listelenen fiyattan daha düşük olabilir.",
 			"table": {
 				"provider": "Sağlayıcı",
 				"context": "Uç nokta bu sayıda token işleyebilir (giriş + çıkış).",

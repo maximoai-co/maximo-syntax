@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Janela de contexto",
 			"providerBreakdown": "Detalhamento de Preços e Capacidades do Provedor",
-			"averageMaximo SyntaxCodeCost": "Este é o valor médio realmente gasto pelo Maximo Syntax usando este modelo na última semana. Pode ser menor que o preço listado devido à utilização do cache de prompts.",
+			"averageMaximoSyntaxCodeCost": "Este é o valor médio realmente gasto pelo Maximo Syntax usando este modelo na última semana. Pode ser menor que o preço listado devido à utilização do cache de prompts.",
 			"table": {
 				"provider": "Provedor",
 				"context": "O endpoint pode processar este número de tokens (entrada + saída).",

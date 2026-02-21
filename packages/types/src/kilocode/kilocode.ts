@@ -65,13 +65,17 @@ export const fastApplyApiProviderSchema = z.enum(["current", "morph", "kilocode"
 
 export type FastApplyApiProvider = z.infer<typeof fastApplyApiProviderSchema>
 
-export const DEFAULT_KILOCODE_BACKEND_URL = "https://kilo.ai"
+// maximosyntax_change: Updated default backend URL to Maximo AI
+export const DEFAULT_KILOCODE_BACKEND_URL = "https://api.maximoai.co"
+
+// maximosyntax_change: Frontend URL for Maximo AI
+export const DEFAULT_MAXIMO_FRONTEND_URL = "https://maximoai.co"
 
 export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 	if (kilocodeToken) {
 		try {
 			const payload_string = kilocodeToken.split(".")[1]
-			if (!payload_string) return "https://api.kilo.ai"
+			if (!payload_string) return "https://api.maximoai.co" // maximosyntax_change
 
 			const payload_json =
 				typeof atob !== "undefined" ? atob(payload_string) : Buffer.from(payload_string, "base64").toString()
@@ -88,10 +92,10 @@ export function getKiloBaseUriFromToken(kilocodeToken?: string) {
 				return "http://localhost:3000"
 			}
 		} catch (_error) {
-			console.warn("Failed to get base URL from Kilo Code token")
+			console.warn("Failed to get base URL from Maximo AI token") // maximosyntax_change
 		}
 	}
-	return "https://api.kilo.ai"
+	return "https://api.maximoai.co" // maximosyntax_change
 }
 
 /**
@@ -124,17 +128,25 @@ function getGlobalKilocodeBackendUrl(): string {
 /**
  * Gets the app/web URL for the current environment.
  * In development: http://localhost:3000
- * In production: https://maximoai.co
+ * In production: https://maximoai.co (frontend)
  */
 export function getAppUrl(path: string = ""): string {
-	return new URL(path, getGlobalKilocodeBackendUrl()).toString()
+	const backend = getGlobalKilocodeBackendUrl()
+
+	// If using a custom backend (not the default production URL), use it directly
+	if (backend !== DEFAULT_KILOCODE_BACKEND_URL) {
+		return new URL(path, backend).toString()
+	}
+
+	// In production, use the frontend URL
+	return new URL(path, DEFAULT_MAXIMO_FRONTEND_URL).toString()
 }
 
 /**
  * Gets the API URL for the current environment.
  * Respects KILOCODE_BACKEND_BASE_URL environment variable for local development.
  * In development: http://localhost:3000
- * In production: https://api.kilo.ai
+ * In production: https://api.maximoai.co
  */
 export function getApiUrl(path: string = ""): string {
 	const backend = getGlobalKilocodeBackendUrl()
@@ -145,7 +157,7 @@ export function getApiUrl(path: string = ""): string {
 	}
 
 	// In production, use the api subdomain
-	return new URL(path, "https://api.maximoai.co").toString()
+	return new URL(path, DEFAULT_KILOCODE_BACKEND_URL).toString()
 }
 
 /**
@@ -163,6 +175,7 @@ export function getExtensionConfigUrl(): string {
 		}
 	} catch (error) {
 		console.warn("Failed to build extension config URL:", error)
-		return "https://api.kilo.ai/extension-config.json"
+		// maximosyntax_change: Return Maximo AI URL
+		return "https://api.maximoai.co/extension-config.json"
 	}
 }

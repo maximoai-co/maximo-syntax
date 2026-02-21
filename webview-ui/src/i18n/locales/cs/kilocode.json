@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Kontextové okno",
 			"providerBreakdown": "Rozpis cen a schopností poskytovatelů",
-			"averageMaximo SyntaxCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v Maximo Syntax za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
+			"averageMaximoSyntaxCodeCost": "Toto jsou průměrné skutečné náklady za použití tohoto modelu v Maximo Syntax za poslední týden. Může být nižší než uvedená cena díky využití cache pro prompty.",
 			"table": {
 				"provider": "Poskytovatel",
 				"context": "Endpoint může zpracovat tento počet tokenů (vstup + výstup).",

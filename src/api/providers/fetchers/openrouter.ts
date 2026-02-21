@@ -35,6 +35,8 @@ const openRouterPricingSchema = z.object({
 	completion: z.string().nullish(),
 	input_cache_write: z.string().nullish(),
 	input_cache_read: z.string().nullish(),
+	input_cache_writes: z.string().nullish(),
+	input_cache_reads: z.string().nullish(),
 })
 
 const modelRouterBaseModelSchema = z.object({
@@ -136,8 +138,11 @@ export async function getOpenRouterModels(
 		for (const model of data) {
 			const { id, architecture, top_provider, supported_parameters = [] } = model
 
-			// Skip image generation models (models that output images)
-			if (architecture?.output_modalities?.includes("image")) {
+			// Skip image generation models (models that output images but not text)
+			if (
+				architecture?.output_modalities?.includes("image") &&
+				!architecture?.output_modalities?.includes("text")
+			) {
 				continue
 			}
 
@@ -230,11 +235,15 @@ export const parseOpenRouterModel = ({
 	maxTokens: number | null | undefined
 	supportedParameters?: string[]
 }): ModelInfo => {
-	const cacheWritesPrice = model.pricing?.input_cache_write
-		? parseApiPrice(model.pricing?.input_cache_write)
-		: undefined
+	const cacheWritesPrice =
+		model.pricing?.input_cache_write || model.pricing?.input_cache_writes
+			? parseApiPrice(model.pricing?.input_cache_write || model.pricing?.input_cache_writes)
+			: undefined
 
-	const cacheReadsPrice = model.pricing?.input_cache_read ? parseApiPrice(model.pricing?.input_cache_read) : undefined
+	const cacheReadsPrice =
+		model.pricing?.input_cache_read || model.pricing?.input_cache_reads
+			? parseApiPrice(model.pricing?.input_cache_read || model.pricing?.input_cache_reads)
+			: undefined
 
 	const supportsPromptCache = typeof cacheReadsPrice !== "undefined" // some models support caching but don't charge a cacheWritesPrice, e.g. GPT-5
 

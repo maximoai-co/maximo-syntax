@@ -34,6 +34,7 @@ import { getInceptionModels } from "./inception"
 import { getSyntheticModels } from "./synthetic"
 import { getSapAiCoreModels } from "./sap-ai-core"
 import { getApertisModels } from "./apertis"
+import { getMaximoAiModels } from "./maximo-ai" // maximosyntax_change
 // kilocode_change end
 
 import { getDeepInfraModels } from "./deepinfra"
@@ -111,12 +112,8 @@ async function fetchModelsFromProvider(options: GetModelsOptions): Promise<Model
 			break
 		// kilocode_change start
 		case "kilocode": {
-			// maximosyntax_change: Use Maximo AI API endpoint
-			const backendUrl = "https://api.maximoai.co/v1"
-			models = await getOpenRouterModels({
-				openRouterBaseUrl: backendUrl,
-				headers: options.kilocodeToken ? { Authorization: `Bearer ${options.kilocodeToken}` } : undefined,
-			})
+			// maximosyntax_change: Use dedicated Maximo AI models fetcher
+			models = await getMaximoAiModels()
 			break
 		}
 		case "synthetic":

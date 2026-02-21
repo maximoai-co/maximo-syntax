@@ -581,8 +581,9 @@ export class McpOAuthService {
 
 		// 4. Fall back to Client ID Metadata Document URL
 		console.log("[McpOAuthService] Using Client ID Metadata Document URL as client_id")
+		// maximosyntax_change: Updated to Maximo AI URL
 		return {
-			clientId: "https://kilocode.ai/.well-known/oauth-client/vscode-extension.json",
+			clientId: "https://maximoai.co/.well-known/oauth-client/vscode-extension.json",
 		}
 	}
 

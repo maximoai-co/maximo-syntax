@@ -64,8 +64,9 @@ describe("URL functions", () => {
 			process.env.KILOCODE_BACKEND_BASE_URL = "http://localhost:3000"
 			expect(getExtensionConfigUrl()).toBe("http://localhost:3000/extension-config.json")
 		})
-		it("should use subdomain structure for production", () => {
-			expect(getExtensionConfigUrl()).toBe("https://api.kilo.ai/extension-config.json")
+		// maximosyntax_change: Updated to use Maximo AI backend URL
+		it("should use api subdomain for production", () => {
+			expect(getExtensionConfigUrl()).toBe("https://api.maximoai.co/extension-config.json")
 		})
 		it("should use path structure for custom backend URLs", () => {
 			process.env.KILOCODE_BACKEND_BASE_URL = "http://192.168.200.70:3000"
@@ -74,10 +75,11 @@ describe("URL functions", () => {
 	})
 
 	describe("getApiUrl", () => {
+		// maximosyntax_change: Updated to use Maximo AI backend URL
 		it("should handle production URLs with api subdomain", () => {
-			expect(getApiUrl()).toBe("https://api.kilo.ai/")
-			expect(getApiUrl("/trpc/cliSessions.get")).toBe("https://api.kilo.ai/trpc/cliSessions.get")
-			expect(getApiUrl("/api/profile")).toBe("https://api.kilo.ai/api/profile")
+			expect(getApiUrl()).toBe("https://api.maximoai.co/")
+			expect(getApiUrl("/trpc/cliSessions.get")).toBe("https://api.maximoai.co/trpc/cliSessions.get")
+			expect(getApiUrl("/api/profile")).toBe("https://api.maximoai.co/api/profile")
 		})
 
 		it("should handle localhost development URLs", () => {
@@ -98,13 +100,14 @@ describe("URL functions", () => {
 	})
 
 	describe("getAppUrl", () => {
+		// maximosyntax_change: Updated to use Maximo AI frontend URL
 		it("should handle production URLs correctly", () => {
-			expect(getAppUrl()).toBe("https://kilo.ai/")
-			expect(getAppUrl("/profile")).toBe("https://kilo.ai/profile")
-			expect(getAppUrl("/support")).toBe("https://kilo.ai/support")
-			expect(getAppUrl("/sign-in-to-editor")).toBe("https://kilo.ai/sign-in-to-editor")
+			expect(getAppUrl()).toBe("https://maximoai.co/")
+			expect(getAppUrl("/profile")).toBe("https://maximoai.co/profile")
+			expect(getAppUrl("/support")).toBe("https://maximoai.co/support")
+			expect(getAppUrl("/sign-in-to-editor")).toBe("https://maximoai.co/sign-in-to-editor")
 			expect(getAppUrl("/sign-in-to-editor?source=vscode")).toBe(
-				"https://kilo.ai/sign-in-to-editor?source=vscode",
+				"https://maximoai.co/sign-in-to-editor?source=vscode",
 			)
 		})
 
@@ -121,31 +124,33 @@ describe("URL functions", () => {
 			expect(getAppUrl("profile")).toBe("http://localhost:3000/profile")
 		})
 
+		// maximosyntax_change: Updated to use Maximo AI frontend URL
 		it("should handle empty and root paths", () => {
-			expect(getAppUrl("")).toBe("https://kilo.ai/")
-			expect(getAppUrl("/")).toBe("https://kilo.ai/")
+			expect(getAppUrl("")).toBe("https://maximoai.co/")
+			expect(getAppUrl("/")).toBe("https://maximoai.co/")
 		})
 	})
 
 	describe("getKiloUrlFromToken", () => {
+		// maximosyntax_change: Updated to use Maximo AI URL
 		it("should handle production token URLs correctly", () => {
 			const prodToken = createProdToken()
 
-			// Token-based URLs using api.kilo.ai subdomain
+			// Token-based URLs using api.maximoai.co subdomain
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/profile", prodToken)).toBe(
-				"https://api.kilo.ai/api/profile",
+				"https://api.maximoai.co/api/profile",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/profile/balance", prodToken)).toBe(
-				"https://api.kilo.ai/api/profile/balance",
+				"https://api.maximoai.co/api/profile/balance",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/organizations/123/defaults", prodToken)).toBe(
-				"https://api.kilo.ai/api/organizations/123/defaults",
+				"https://api.maximoai.co/api/organizations/123/defaults",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/openrouter/", prodToken)).toBe(
-				"https://api.kilo.ai/api/openrouter/",
+				"https://api.maximoai.co/api/openrouter/",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/users/notifications", prodToken)).toBe(
-				"https://api.kilo.ai/api/users/notifications",
+				"https://api.maximoai.co/api/users/notifications",
 			)
 		})
 
@@ -174,42 +179,47 @@ describe("URL functions", () => {
 			const consoleSpy = vi.spyOn(console, "warn").mockImplementation(() => {})
 			// Use a token that looks like JWT but has invalid JSON payload
 			const result = getKiloUrlFromToken("https://api.kilo.ai/api/test", "header.invalid-json.signature")
-			expect(result).toBe("https://api.kilo.ai/api/test")
-			expect(consoleSpy).toHaveBeenCalledWith("Failed to get base URL from Kilo Code token")
+			// maximosyntax_change: Updated to use Maximo AI URL
+			expect(result).toBe("https://api.maximoai.co/api/test")
+			// maximosyntax_change: Updated warning message
+			expect(consoleSpy).toHaveBeenCalledWith("Failed to get base URL from Maximo AI token")
 			consoleSpy.mockRestore()
 		})
 	})
 
 	describe("Real-world URL patterns from application", () => {
+		// maximosyntax_change: Updated to use Maximo AI URL
 		it("should correctly handle marketplace endpoints", () => {
 			// These are the actual endpoints used in RemoteConfigLoader
-			expect(getAppUrl("/api/marketplace/modes")).toBe("https://kilo.ai/api/marketplace/modes")
-			expect(getAppUrl("/api/marketplace/mcps")).toBe("https://kilo.ai/api/marketplace/mcps")
+			expect(getAppUrl("/api/marketplace/modes")).toBe("https://maximoai.co/api/marketplace/modes")
+			expect(getAppUrl("/api/marketplace/mcps")).toBe("https://maximoai.co/api/marketplace/mcps")
 		})
 
 		it("should correctly handle app navigation URLs", () => {
 			// These are the actual URLs used in Task.ts and webviewMessageHandler.ts
-			expect(getAppUrl("/profile")).toBe("https://kilo.ai/profile")
-			expect(getAppUrl("/support")).toBe("https://kilo.ai/support")
+			expect(getAppUrl("/profile")).toBe("https://maximoai.co/profile")
+			expect(getAppUrl("/support")).toBe("https://maximoai.co/support")
 		})
 
 		it("should correctly handle token-based API calls", () => {
 			// These are the actual API endpoints used throughout the application
 			const prodToken = createProdToken()
+			// maximosyntax_change: Updated to use Maximo AI URL
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/profile", prodToken)).toBe(
-				"https://api.kilo.ai/api/profile",
+				"https://api.maximoai.co/api/profile",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/profile/balance", prodToken)).toBe(
-				"https://api.kilo.ai/api/profile/balance",
+				"https://api.maximoai.co/api/profile/balance",
 			)
 			expect(getKiloUrlFromToken("https://api.kilo.ai/api/users/notifications", prodToken)).toBe(
-				"https://api.kilo.ai/api/users/notifications",
+				"https://api.maximoai.co/api/users/notifications",
 			)
 		})
 
+		// maximosyntax_change: Updated to use Maximo AI URL
 		it("should maintain backwards compatibility for legacy endpoints", () => {
-			expect(getExtensionConfigUrl()).toBe("https://api.kilo.ai/extension-config.json")
-			expect(getAppUrl("/api/extension-config.json")).toBe("https://kilo.ai/api/extension-config.json")
+			expect(getExtensionConfigUrl()).toBe("https://api.maximoai.co/extension-config.json")
+			expect(getAppUrl("/api/extension-config.json")).toBe("https://maximoai.co/api/extension-config.json")
 			expect(getAppUrl("/api/extension-config.json")).not.toBe(getExtensionConfigUrl())
 		})
 	})

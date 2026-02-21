@@ -98,7 +98,7 @@
 		"modelInfo": {
 			"contextWindow": "Context window",
 			"providerBreakdown": "Provider Price and Capability Breakdown",
-			"averageMaximo SyntaxCodeCost": "This is the average actual spent for Maximo Syntax using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
+			"averageMaximoSyntaxCodeCost": "This is the average actual spent for Maximo Syntax using this model over the last week. It may be lower than the listed price due to prompt cache utilization.",
 			"table": {
 				"provider": "Provider",
 				"context": "The endpoint can process this number of tokens (input + output).",

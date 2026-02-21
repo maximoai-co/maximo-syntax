@@ -91,7 +91,7 @@
 		"modelInfo": {
 			"contextWindow": "Kontextfenster",
 			"providerBreakdown": "Anbieter-Preis- und Funktionsübersicht",
-			"averageMaximo SyntaxCodeCost": "Das sind die durchschnittlichen tatsächlichen Ausgaben für Maximo Syntax mit diesem Modell in der letzten Woche. Sie können niedriger sein als der angegebene Preis aufgrund der Nutzung des Prompt-Caches.",
+			"averageMaximoSyntaxCodeCost": "Das sind die durchschnittlichen tatsächlichen Ausgaben für Maximo Syntax mit diesem Modell in der letzten Woche. Sie können niedriger sein als der angegebene Preis aufgrund der Nutzung des Prompt-Caches.",
 			"table": {
 				"provider": "Anbieter",
 				"context": "Der Endpunkt kann diese Anzahl von Token verarbeiten (Eingabe + Ausgabe).",
